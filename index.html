@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A Survey of Agents in the Era of Experience: Skills, Harness, and Self- to Meta-Evolution.">
+  <meta name="theme-color" content="#f7f5ef">
+  <title>Agents in the Era of Experience</title>
+  <link rel="icon" type="image/png" href="assets/chapters-figure.png">
+  <link rel="preload" href="assets/harness-runtime-hero.png" as="image">
+  <link rel="preload" href="assets/frontis-logo.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#papers">Skip to papers</a>
+
+  <header class="site-header" aria-label="Site navigation">
+    <a class="brand" href="#overview" aria-label="Survey home">
+      <img class="brand-logo" src="assets/frontis-logo.png" alt="Frontis">
+      <span class="brand-text" id="brand-title">Agents in the Era of Experience</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="overview" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/harness-runtime-hero.png" alt="">
+      <div class="hero-copy">
+        <h1 id="hero-title">A Survey of Agents in the Era of Experience: Skills, Harness, and Self- to Meta-Evolution</h1>
+        <p class="hero-summary" id="hero-abstract">
+          In the Era of Experience, agentic AI is no longer defined only by what a model can infer from static data, but by how a deployed system accumulates, organizes, and reuses experience from interaction. This survey studies experience-driven improvement in deployed agentic AI systems. We focus on the runtime harness as the infrastructure that captures traces, routes actions, exposes feedback, and governs mutable state. Around this infrastructure, we review how experience becomes reusable skill, persistent memory, verifiable environment feedback, trainable model behavior, and meta-level control. We then identify the remaining barriers to reliable improvement, including longitudinal evaluation, transfer, verification, and safety governance. Making agents smarter after deployment is therefore a trace-to-capability problem: the field must learn how to capture experience, assign it to the right update surface, verify its value, and preserve control as the system changes.
+        </p>
+        <div class="hero-actions" aria-label="Survey links">
+          <a class="button button-primary" href="#papers">Paper List</a>
+          <a class="button" href="#definition">Harness as Experience Infrastructure</a>
+          <a class="button" href="https://frontis.ai" target="_blank" rel="noreferrer">Draft PDF</a>
+        </div>
+      </div>
+      <dl class="hero-stats" aria-label="LaTeX manuscript summary">
+        <div>
+          <dt id="stat-papers">111</dt>
+          <dd>papers</dd>
+        </div>
+        <div>
+          <dt id="stat-parts">9</dt>
+          <dd>paper chapters</dd>
+        </div>
+        <div>
+          <dt id="stat-sections">10</dt>
+          <dd>sections</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="content-section figures-section" aria-labelledby="overview-title">
+      <div class="section-heading">
+        <h2 id="overview-title">Overview of the survey.</h2>
+      </div>
+      <figure class="single-figure">
+        <img src="assets/chapters-figure.png" alt="Overview of the survey figure rendered from the LaTeX-referenced chapters PDF.">
+        <figcaption>Overview of the survey. The figure summarizes how the paper moves from the harness-agent definition to external runtime adaptation, parameter-side consolidation, and the evaluation and safety conditions for post-deployment self-improvement.</figcaption>
+      </figure>
+    </section>
+
+    <section class="content-section definition-section" id="definition" aria-labelledby="definition-title">
+      <div class="section-heading">
+        <h2 id="definition-title">Harness as Experience Infrastructure</h2>
+      </div>
+
+      <div class="runtime-layout">
+        <figure class="runtime-figure">
+          <img src="assets/harness-figure.png" alt="Harness as experience infrastructure figure rendered from the LaTeX-referenced harness PDF.">
+          <figcaption>Harness as experience infrastructure for deployed agents. The user side \(U_t\) supplies goals, instructions, preferences, approvals, and corrections, while the environment side \(E_t\) supplies executable state, observations, tests, and verifiable feedback. The harness \(H_t\) mediates context, action routing, permissions, and trace compilation, turning interaction traces into usable experience that can update skills, memory, other external components, or model parameters.</figcaption>
+        </figure>
+        <div class="runtime-notes" aria-label="Harness as Experience Infrastructure subsections">
+          <article><span>01</span><h3>Runtime Adaptation Requires Experience Infrastructure</h3></article>
+          <article><span>02</span><h3>How Did We Get Here? From Task Loops to Runtime Systems</h3></article>
+          <article><span>03</span><h3>From Experience Destinations to Improvement Paths</h3></article>
+          <article><span>04</span><h3>Related Surveys</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section timeline-section" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-heading">
+        <h2 id="timeline-title">How Did We Get Here? From Task Loops to Runtime Systems</h2>
+      </div>
+      <figure class="timeline-figure">
+        <img src="assets/timeline-figure.png" alt="Historical progression figure rendered from the LaTeX-referenced timeline PDF.">
+        <figcaption>Historical progression from task-bounded loops to deployed runtime systems. From Gen 1 to Gen 3, the main object shifts from episodic tool use, to cross-task memory and workflow structuring, to persistent harness-centered runtimes whose adaptation surfaces can evolve after deployment.</figcaption>
+      </figure>
+    </section>
+
+    <section class="content-section taxonomy-section" id="taxonomy" aria-labelledby="taxonomy-title">
+      <div class="section-heading">
+        <h2 id="taxonomy-title">From Experience Destinations to Improvement Paths</h2>
+      </div>
+      <div class="manuscript-structure" id="manuscript-structure" aria-label="LaTeX manuscript structure"></div>
+    </section>
+
+    <section class="content-section figures-section" aria-labelledby="figures-title">
+      <div class="section-heading">
+        <h2 id="figures-title">Parameter-side learning for stronger agents after deployment.</h2>
+      </div>
+      <div class="figure-strip">
+        <figure>
+          <img src="assets/parameter-path-figure.png" alt="Parameter-side learning figure rendered from the LaTeX-referenced rl PDF.">
+          <figcaption>Parameter-side learning for stronger agents after deployment. Stable runtime priors first accumulate in harness-side artifacts and interaction traces; the parameter path consolidates selected lessons into model updates that reduce repeated context orchestration, transfer beyond context replay, and enable collective evolution. The lower panels organize current evidence into three regimes: vertical capability learning, where executable gyms, verifiers, SFT/RL, and integration recipes build agentic abilities before release; training harness functional units, where policies learn to call and coordinate sub-agents, skills, memory, tools, and experience stores; and post-deployment trace learning, where signals come from traces generated by the running model--harness--environment stack and must pass through trace selection, signal extraction, and same-harness training infrastructure.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/evaluation-figure.png" alt="SIP-Bench protocol figure rendered from the LaTeX-referenced sip PDF.">
+          <figcaption>SIP-Bench protocol. The key idea is to evaluate one evolving agent across T0/T1/T2 checkpoints rather than only report a final score after adaptation.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-section papers-section" id="papers" aria-labelledby="papers-title">
+      <div class="section-heading papers-heading">
+        <div>
+          <h2 id="papers-title">Paper List</h2>
+          <p>
+            The rows are generated from the Awesome-Self-Improving-Agents paper list and mapped onto exact LaTeX manuscript section headings for Chapter and Phase.
+          </p>
+        </div>
+        <dl class="catalog-stats">
+          <div>
+            <dt id="visible-count">0</dt>
+            <dd>shown</dd>
+          </div>
+          <div>
+            <dt id="total-count">0</dt>
+            <dd>indexed</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="paper-controls" aria-label="Paper filters">
+        <label class="search-box">
+          <span>Search</span>
+          <input id="paper-search" type="search" placeholder="title, phase, category, signal">
+        </label>
+        <label>
+          <span>Chapter</span>
+          <select id="chapter-filter">
+            <option value="all">All chapters</option>
+          </select>
+        </label>
+        <label>
+          <span>Phase</span>
+          <select id="phase-filter">
+            <option value="all">All phases</option>
+          </select>
+        </label>
+        <button class="button reset-button" id="reset-filters" type="button">Reset</button>
+      </div>
+
+      <div class="paper-table-wrap">
+        <table class="paper-table">
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Chapter</th>
+              <th scope="col">Paper</th>
+              <th scope="col">Phase</th>
+              <th scope="col">Signal</th>
+            </tr>
+          </thead>
+          <tbody id="paper-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>A Survey of Agents in the Era of Experience: Skills, Harness, and Self- to Meta-Evolution</p>
+  </footer>
+
+  <script src="data/manuscript.js"></script>
+  <script src="data/papers.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
