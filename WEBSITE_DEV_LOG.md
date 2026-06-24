@@ -78,3 +78,9 @@
 - Split the existing `docs/` website into a dedicated `gh-pages` branch with the static site files at branch root.
 - Reconfigured GitHub Pages to publish from `gh-pages` `/`, preserving the public URL `https://frontisai.github.io/Awesome-Self-Improving-Agents/`.
 - Removed `docs/` from `main` so the default branch stays focused on the Awesome list and paper assets.
+
+## 2026-06-24 Site Script Branch Split
+
+- Moved the website maintenance scripts from `main` `scripts/site/` into the `gh-pages` branch.
+- Adjusted those scripts on `gh-pages` to write generated assets and data directly to the branch root layout instead of `docs/`.
+- Kept `scripts/generate_readme.mjs` on `main` because it belongs to the Awesome README generation flow.
