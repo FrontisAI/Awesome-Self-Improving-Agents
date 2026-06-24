@@ -72,3 +72,9 @@
 ## 2026-06-24 Figure Asset Refresh
 
 - Refreshed `figs/chapters.png` and `figs/harness.png` for the repository README figure presentation.
+
+## 2026-06-24 Pages Branch Split
+
+- Split the existing `docs/` website into a dedicated `gh-pages` branch with the static site files at branch root.
+- Reconfigured GitHub Pages to publish from `gh-pages` `/`, preserving the public URL `https://frontisai.github.io/Awesome-Self-Improving-Agents/`.
+- Removed `docs/` from `main` so the default branch stays focused on the Awesome list and paper assets.
