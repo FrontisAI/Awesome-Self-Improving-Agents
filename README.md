@@ -1,5 +1,6 @@
 <div align="center">
-<img src="figs/chapters.png" style="width: 85%;"/>
+<img src="figs/chapters.png" style="width: 100%;"/>
+
 
 ## A Survey of Agents in the Era of Experience: Skills, Harness, and Self- to Meta-Evolution
 
@@ -16,22 +17,6 @@
 
 - **[2026-05-26]** Initial private repository draft released, following the category-table style of [Awesome-RL-for-LRMs](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs).
 - **[2026-05]** The survey draft is organized around harness agents, runtime adaptation, and the transition from external improvement to parameter-side consolidation.
-
-## Website
-
-The companion website lives in `docs/` and is published with GitHub Pages from the `main` branch `/docs` folder:
-
-https://frontisai.github.io/Awesome-Self-Improving-Agents/
-
-Maintain website source files directly in `docs/`. Rebuild generated site data and manuscript-derived figures from this repository with:
-
-```bash
-python3 scripts/site/build_manuscript_structure.py
-python3 scripts/site/build_papers.py
-bash scripts/site/render_latex_figures.sh
-```
-
-Website maintenance notes are tracked in `WEBSITE_DEV_LOG.md`.
 
 ## Citation
 
