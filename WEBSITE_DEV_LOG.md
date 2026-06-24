@@ -60,5 +60,10 @@
 ## 2026-06-24 FrontisAI Deployment
 
 - Updated the header logo to use the Frontis logo rendered from `RL4LRM_Survey_0907/assets/frontis-logo-horizontal-light.pdf`.
-- Changed the hero `Draft PDF` button to link to `https://frontis.ai` until the arXiv button is added.
-- Prepared the repository for deployment as `FrontisAI/frontisai.github.io`, which serves the site at `https://frontisai.github.io/`.
+- Changed the hero `Draft PDF` button to `FrontisAI Website` and kept it linked to `https://frontis.ai` until the arXiv button is added.
+- Prepared the repository for deployment as `FrontisAI/frontisai.github.io`, which serves the site at `https://frontisai.github.io/`; this root deployment was later superseded by the project Pages deployment below.
+
+## 2026-06-24 FrontisAI Project Pages Deployment
+
+- Repointed the canonical website deployment to `FrontisAI/Awesome-Self-Improving-Agents`.
+- The public website URL is `https://frontisai.github.io/Awesome-Self-Improving-Agents/`, published from the `main` branch `/docs` folder.

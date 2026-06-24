@@ -5,8 +5,8 @@
 
 [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=for-the-badge&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome)
 [![Survey](https://img.shields.io/badge/Survey-coming%20soon-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](#citation)
-[![Github](https://img.shields.io/badge/FrontisAI--Website-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FrontisAI/frontisai.github.io)
-[![Website](https://img.shields.io/badge/Website-Agents%20in%20the%20Era%20of%20Experience-147C78?style=for-the-badge)](https://frontisai.github.io/)
+[![Github](https://img.shields.io/badge/FrontisAI--Website-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FrontisAI/Awesome-Self-Improving-Agents)
+[![Website](https://img.shields.io/badge/Website-Agents%20in%20the%20Era%20of%20Experience-147C78?style=for-the-badge)](https://frontisai.github.io/Awesome-Self-Improving-Agents/)
 
 </div>
 
@@ -21,7 +21,7 @@
 
 The companion website lives in `docs/` and is published with GitHub Pages from the `main` branch `/docs` folder:
 
-https://frontisai.github.io/
+https://frontisai.github.io/Awesome-Self-Improving-Agents/
 
 Maintain website source files directly in `docs/`. Rebuild generated site data and manuscript-derived figures from this repository with:
 
