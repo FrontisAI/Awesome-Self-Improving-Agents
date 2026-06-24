@@ -68,3 +68,7 @@
 - Repointed the canonical website deployment to `FrontisAI/Awesome-Self-Improving-Agents`.
 - The public website URL is `https://frontisai.github.io/Awesome-Self-Improving-Agents/`, published from the `main` branch `/docs` folder.
 - The temporary root Pages repository `FrontisAI/frontisai.github.io` remains non-canonical; GitHub returned `422` when attempting to deactivate Pages for the organization Pages repository.
+
+## 2026-06-24 Figure Asset Refresh
+
+- Refreshed `figs/chapters.png` and `figs/harness.png` for the repository README figure presentation.
