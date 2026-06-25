@@ -719,6 +719,38 @@ h1 {
   font-weight: 700;
 }
 
+.external-figure-stack {
+  display: grid;
+  gap: 24px;
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.external-figure-card {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-strong);
+  overflow: hidden;
+}
+
+.external-figure-card img {
+  width: 100%;
+  height: clamp(520px, 58vw, 760px);
+  object-fit: contain;
+  padding: clamp(16px, 2.5vw, 28px);
+  background: #fff;
+}
+
+.external-figure-card figcaption {
+  padding: 16px 20px 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 .manuscript-structure {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -946,7 +978,7 @@ h1 {
 .paper-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 920px;
+  min-width: 760px;
   font-size: 14px;
 }
 
@@ -1259,6 +1291,7 @@ h1 {
   .claim-points,
   .figure-story,
   .figure-grid,
+  .external-figure-stack,
   .single-figure,
   .manuscript-structure,
   .paper-controls,
@@ -1281,6 +1314,7 @@ h1 {
   }
 
   .figure-grid img,
+  .external-figure-card img,
   .figure-strip img {
     height: auto;
   }

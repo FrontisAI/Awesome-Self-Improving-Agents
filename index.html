@@ -141,16 +141,16 @@
           The paper first follows deployment experience into editable runtime surfaces. This path is fast, inspectable, and reversible: experience can become reusable procedure, persistent state, and richer executable worlds before any parameter update is justified.
         </p>
       </div>
-      <div class="figure-grid figure-grid-three">
-        <figure>
+      <div class="external-figure-stack">
+        <figure class="external-figure-card">
           <img src="assets/skill-figure.png" width="2573" height="1819" alt="External skill lifecycle figure rendered from the LaTeX-referenced skill PDF.">
           <figcaption><strong>Skills: Experience Becomes Reusable Procedure.</strong> Skill creation adds procedures to the bank, skill use retrieves and executes them, and skill evolution converts deployment evidence into library updates.</figcaption>
         </figure>
-        <figure>
+        <figure class="external-figure-card">
           <img src="assets/memory-figure.png" width="2573" height="1819" alt="Context-mediated memory figure rendered from the LaTeX-referenced memory PDF.">
           <figcaption><strong>Memory: Experience Becomes Persistent State.</strong> Memory representations, operations, and evolution decide what is stored, revised, retrieved, and reintroduced into active context.</figcaption>
         </figure>
-        <figure>
+        <figure class="external-figure-card">
           <img src="assets/environment-figure.png" width="2755" height="2126" alt="Environment as runtime adaptation ceiling figure rendered from the LaTeX-referenced environment PDF.">
           <figcaption><strong>Environment: The Boundary of What Agents Can Experience.</strong> Runtime adaptation is bounded by the action diversity, feedback density, task horizon, and verification signals exposed by the environment.</figcaption>
         </figure>
@@ -184,9 +184,9 @@
     <section class="content-section measurement-section" aria-labelledby="measurement-title">
       <div class="section-heading">
         <p class="eyebrow">Measuring Self-Improvement: What Current Benchmarks Still Miss</p>
-        <h2 id="measurement-title">SIP-Bench as a Protocol Layer</h2>
+        <h2 id="measurement-title">What Self-Improvement Evaluation Must Measure</h2>
         <p>
-          A higher final score after adaptation is weak evidence. The real question is whether the same evolving agent gains capability, retains prior competence, spends reasonable cost, attributes improvement to the right update, and remains safe as it changes.
+          A higher post-adaptation score does not necessarily mean that a deployed system became better overall. The evaluation target is the measurable longitudinal effect of accumulated experience on the same evolving agent system.
         </p>
       </div>
       <div class="figure-story">
@@ -195,14 +195,15 @@
           <figcaption>SIP-Bench evaluates one evolving agent across T0/T1/T2 checkpoints rather than reporting only a final score after adaptation.</figcaption>
         </figure>
         <div class="story-copy">
-          <h3>What Self-Improvement Evaluation Must Measure</h3>
+          <h3>Evaluate experience-driven evolution</h3>
           <p>
-            The field needs protocols that measure improvement over time, not just task completion at one point. Without longitudinal evaluation, we cannot tell durable learning from one-off elicitation, overfitting, drift, or unsafe mutation.
+            The field needs protocols that ask whether an agent can use accumulated experience to improve over time. Without longitudinal evaluation, we cannot tell durable self-improvement from one-off elicitation, overfitting, drift, or unsafe mutation.
           </p>
           <ul class="story-points">
-            <li>Why Self-improvement Itself Must Be Evaluated: report gains together with retention and cost.</li>
-            <li>From Continual-Learning Metrics to SI Targets: track transfer, forgetting, and the source of improvement.</li>
-            <li>A New Evidence and Reliability Layer: keep update evidence auditable across checkpoints.</li>
+            <li>Held-out gain: does experience improve performance on tasks outside the adaptation stream?</li>
+            <li>Backward retention: does the same evolving agent keep old capabilities after updating?</li>
+            <li>Path attribution: did the gain come from skills, memory, tools, parameter updates, or their interaction?</li>
+            <li>Improvement efficiency and safety non-regression: was the gain worth its cost and risk?</li>
           </ul>
         </div>
       </div>
@@ -231,7 +232,7 @@
       <div class="paper-controls" aria-label="Paper filters">
         <label class="search-box">
           <span>Search</span>
-          <input id="paper-search" type="search" placeholder="title, phase, category, signal">
+          <input id="paper-search" type="search" placeholder="title, phase, category">
         </label>
         <label>
           <span>Chapter</span>
@@ -268,7 +269,6 @@
               <th scope="col">Chapter</th>
               <th scope="col">Paper</th>
               <th scope="col">Phase</th>
-              <th scope="col">Signal</th>
             </tr>
           </thead>
           <tbody id="paper-table-body"></tbody>

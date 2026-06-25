@@ -17,7 +17,6 @@ SOURCE_ROOT = Path(os.environ.get("AGENT_SURVEY_FRONTIS_ROOT", REPO_ROOT.parent 
 MANUSCRIPT_ROOT = Path(os.environ.get("MANUSCRIPT_ROOT", SOURCE_ROOT / "RL4LRM_Survey_0907"))
 AWESOME_README = Path(os.environ.get("AWESOME_README", REPO_ROOT / "README.md"))
 
-CJK_RE = re.compile(r"[\u3400-\u9fff]")
 HEADING_RE = re.compile(r"^\\(section|subsection|subsubsection|paragraph)\{(.+?)\}")
 URL_RE = re.compile(r"\]\(([^)]+)\)")
 
@@ -47,7 +46,7 @@ CH_HARNESS = h("Harness as Experience Infrastructure")
 CH_SKILLS = h("Skills: Experience Becomes Reusable Procedure")
 CH_MEMORY = h("Memory: Experience Becomes Persistent State")
 CH_ENVIRONMENT = h("Environment: The Boundary of What Agents Can Experience")
-CH_AGENT_RL = h("RL and Continual Learning: Experience Becomes Parameter-side Consolidation")
+CH_AGENT_RL = h("RL and Continual Learning: Consolidating Experience into Model Parameters")
 CH_META = h("Meta-Evolving Agents: Who Controls What to Evolve")
 CH_EVALUATION = h("Measuring Self-Improvement: What Current Benchmarks Still Miss")
 CH_SAFETY = h("Safety: Self-Improvement as a Moving Attack Surface")
@@ -56,7 +55,7 @@ PH_FOUNDATIONS = CH_FOUNDATIONS
 
 PH_HARNESS_RUNTIME = h("Runtime Adaptation Requires Experience Infrastructure")
 PH_HARNESS_HISTORY = h("How Did We Get Here? From Task Loops to Runtime Systems")
-PH_HARNESS_PATHS = h("From Experience Destinations to Improvement Paths")
+PH_HARNESS_PATHS = h("Experience-Centric Scope and Survey Organization")
 PH_HARNESS_RELATED = h("Related Surveys")
 
 PH_SKILL_DEFINITION = h("Skill Formal Definition")
@@ -75,7 +74,7 @@ PH_ENV_EXEC = h("Turning Software into Executable Environments")
 PH_ENV_PROTOCOL = h("Protocolizing and Standardizing the Boundary")
 PH_ENV_LEARNABLE = h("Executable and Reusable Is Still Not Learnable")
 
-PH_RL_WHY = h("Why the Parameter Path Matters")
+PH_RL_WHY = h("Why Parameter-side Consolidation Matters")
 PH_RL_VERTICAL = h("Pre-Deployment Training for Vertical Agent Capabilities")
 PH_RL_HARNESS = h("Pre-Deployment Training for Harness Functional Units")
 PH_RL_POST = h("Post-Deployment Training from Agent Traces")
@@ -141,18 +140,6 @@ def clean_table_cell(value: str) -> str:
 
 def normalize_title(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
-
-
-def has_cjk(value: str) -> bool:
-    return bool(CJK_RE.search(value))
-
-
-def is_ascii(value: str) -> bool:
-    try:
-        value.encode("ascii")
-        return True
-    except UnicodeEncodeError:
-        return False
 
 
 def markdown_url(cell: str) -> str:
@@ -308,7 +295,6 @@ def parse_awesome_readme() -> list[dict]:
         phase = infer_phase(current_category, title, name) or default_phase
         item_role = role(chapter, phase, key, order)
         item_id = name or normalize_title(title)
-        signal = f"{current_category} entry"
 
         records.append({
             "id": item_id,
@@ -321,7 +307,6 @@ def parse_awesome_readme() -> list[dict]:
             "idea": "",
             "result": "",
             "benchmark": "",
-            "signal": signal,
             "url": url,
             "paperUrl": paper_url,
             "githubUrl": github_url,
@@ -353,10 +338,6 @@ def validate_records(records: list[dict]) -> None:
         raise ValueError(f"Expected {len(CATEGORY_ORDER)} paper chapters, found {chapter_count}")
 
     for record in records:
-        signal = record.get("signal", "")
-        if has_cjk(signal) or not is_ascii(signal):
-            raise ValueError(f"Signal must be ASCII-only for {record.get('title')}: {signal}")
-
         roles = record.get("roles") or []
         if not roles:
             raise ValueError(f"Missing manuscript role for {record.get('title')}")

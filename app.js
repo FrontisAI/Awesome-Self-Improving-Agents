@@ -191,7 +191,6 @@ function textForSearch(paper) {
     rolesFor(paper).map((role) => `${role.chapter} ${role.phase}`).join(" "),
     paper.category,
     paper.family,
-    paper.signal,
     paper.benchmark,
   ]
     .join(" ")
@@ -212,10 +211,6 @@ function filteredPapers() {
     });
     return matchesQuery && matchesRole;
   });
-}
-
-function paperSignal(paper) {
-  return paper.signal || paper.benchmark || paper.category || paper.family || "Catalog entry";
 }
 
 function roleForDisplay(paper) {
@@ -270,7 +265,7 @@ function renderRows(rows) {
   if (!rows.length) {
     const tr = document.createElement("tr");
     const td = document.createElement("td");
-    td.colSpan = 5;
+    td.colSpan = 4;
     td.className = "empty-state";
     td.textContent = "No papers match the current filters.";
     tr.appendChild(td);
@@ -314,11 +309,7 @@ function renderRows(rows) {
     setCellLabel(phase, "Phase");
     phase.textContent = displayRole.phase || "Unassigned";
 
-    const signal = document.createElement("td");
-    setCellLabel(signal, "Signal");
-    signal.textContent = paperSignal(paper);
-
-    tr.append(date, chapter, title, phase, signal);
+    tr.append(date, chapter, title, phase);
     els.body.appendChild(tr);
   });
 }
