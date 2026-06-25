@@ -51,65 +51,157 @@
       </dl>
     </section>
 
-    <section class="content-section figures-section" aria-labelledby="overview-title">
+    <section class="content-section claim-section" aria-labelledby="claim-title">
       <div class="section-heading">
-        <h2 id="overview-title">Overview of the survey.</h2>
+        <p class="eyebrow">Overview of the survey</p>
+        <h2 id="claim-title">Turning deployment experience into durable capability.</h2>
+        <p>
+          The survey's central claim is that making agents smarter after deployment is a trace-to-capability problem. A deployed system must capture interaction traces, compile them into usable experience, assign that experience to the right update surface, verify its value, and preserve control as the system changes.
+        </p>
       </div>
-      <figure class="single-figure">
-        <img src="assets/chapters-figure.png" alt="Overview of the survey figure rendered from the LaTeX-referenced chapters PDF.">
-        <figcaption>Overview of the survey. The figure summarizes how the paper moves from the harness-agent definition to external runtime adaptation, parameter-side consolidation, and the evaluation and safety conditions for post-deployment self-improvement.</figcaption>
-      </figure>
+      <div class="claim-layout">
+        <figure class="single-figure">
+          <img src="assets/chapters-figure.png" width="2573" height="1819" alt="Overview of the survey figure rendered from the LaTeX-referenced chapters PDF.">
+          <figcaption>The paper moves from a harness-agent definition to external runtime adaptation, parameter-side consolidation, and the evaluation and safety requirements for turning deployment experience into durable capability.</figcaption>
+        </figure>
+        <div class="claim-points" aria-label="Survey claims">
+          <article>
+            <span>01</span>
+            <h3>Harness-agent definition</h3>
+            <p>The runtime object is the model together with a mutable harness, a user-facing side, and an environment-facing side.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>External runtime adaptation</h3>
+            <p>Skills, memory, environments, tools, and other harness surfaces can change quickly, visibly, and reversibly during deployment.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Parameter-side consolidation</h3>
+            <p>Stable deployment experience can later be promoted into model behavior, but only after the evidence is strong enough to justify a harder-to-reverse update.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Evaluation and safety conditions</h3>
+            <p>A self-improving agent must be measured as a changing system, with retention, cost, attribution, and control tracked over time.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <section class="content-section definition-section" id="definition" aria-labelledby="definition-title">
       <div class="section-heading">
-        <h2 id="definition-title">Harness as Experience Infrastructure</h2>
+        <p class="eyebrow">Harness as Experience Infrastructure</p>
+        <h2 id="definition-title">Runtime Adaptation Requires Experience Infrastructure</h2>
+        <p>
+          The first step is to name the object that can improve after deployment. The paper defines a deployed agentic AI system as a base model wrapped by a mutable harness, with user-facing and environment-facing sides that supply goals, actions, observations, tests, corrections, and operational state.
+        </p>
       </div>
-
-      <div class="runtime-layout">
+      <div class="figure-story">
         <figure class="runtime-figure">
-          <img src="assets/harness-figure.png" alt="Harness as experience infrastructure figure rendered from the LaTeX-referenced harness PDF.">
-          <figcaption>Harness as experience infrastructure for deployed agents. The user side \(U_t\) supplies goals, instructions, preferences, approvals, and corrections, while the environment side \(E_t\) supplies executable state, observations, tests, and verifiable feedback. The harness \(H_t\) mediates context, action routing, permissions, and trace compilation, turning interaction traces into usable experience that can update skills, memory, other external components, or model parameters.</figcaption>
+          <img src="assets/harness-figure.png" width="2573" height="1819" alt="Harness as experience infrastructure figure rendered from the LaTeX-referenced harness PDF.">
+          <figcaption>The harness mediates user goals and environment feedback, then compiles interaction traces into update material for skills, memory, other harness components, or model parameters.</figcaption>
         </figure>
-        <div class="runtime-notes" aria-label="Harness as Experience Infrastructure subsections">
-          <article><span>01</span><h3>Runtime Adaptation Requires Experience Infrastructure</h3></article>
-          <article><span>02</span><h3>How Did We Get Here? From Task Loops to Runtime Systems</h3></article>
-          <article><span>03</span><h3>From Experience Destinations to Improvement Paths</h3></article>
-          <article><span>04</span><h3>Related Surveys</h3></article>
+        <div class="story-copy">
+          <h3>The runtime object</h3>
+          <p>
+            Once the harness is explicit, improvement is no longer a loose collection of tricks. The core questions become precise: which component changed, what trace window produced the evidence, what update surface received it, and how the system knows the update helped.
+          </p>
+          <ul class="story-points">
+            <li>Context and memory decide what past experience can influence the next action.</li>
+            <li>Tools and permissions define what actions the agent can safely attempt.</li>
+            <li>Traces, tests, and feedback decide whether experience can become an update.</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <section class="content-section timeline-section" id="timeline" aria-labelledby="timeline-title">
       <div class="section-heading">
+        <p class="eyebrow">Harness as Experience Infrastructure</p>
         <h2 id="timeline-title">How Did We Get Here? From Task Loops to Runtime Systems</h2>
+        <p>
+          The historical shift is not simply that agents call more tools. The object of study moves from episodic tool-use loops, to cross-task reuse, to persistent harness-centered runtimes whose memory, workflows, skills, and feedback channels can themselves evolve after deployment.
+        </p>
       </div>
       <figure class="timeline-figure">
-        <img src="assets/timeline-figure.png" alt="Historical progression figure rendered from the LaTeX-referenced timeline PDF.">
-        <figcaption>Historical progression from task-bounded loops to deployed runtime systems. From Gen 1 to Gen 3, the main object shifts from episodic tool use, to cross-task memory and workflow structuring, to persistent harness-centered runtimes whose adaptation surfaces can evolve after deployment.</figcaption>
+        <img src="assets/timeline-figure.png" width="2573" height="1819" alt="Historical progression figure rendered from the LaTeX-referenced timeline PDF.">
+        <figcaption>From Gen 1 to Gen 3, the main object shifts from episodic tool-use loops, to cross-task reuse, to persistent harness-centered runtimes whose adaptation surfaces can evolve after deployment.</figcaption>
       </figure>
     </section>
 
-    <section class="content-section taxonomy-section" id="taxonomy" aria-labelledby="taxonomy-title">
+    <section class="content-section external-section" aria-labelledby="external-title">
       <div class="section-heading">
-        <h2 id="taxonomy-title">From Experience Destinations to Improvement Paths</h2>
+        <p class="eyebrow">Experience-Centric Scope and Survey Organization</p>
+        <h2 id="external-title">External runtime adaptation</h2>
+        <p>
+          The paper first follows deployment experience into editable runtime surfaces. This path is fast, inspectable, and reversible: experience can become reusable procedure, persistent state, and richer executable worlds before any parameter update is justified.
+        </p>
       </div>
-      <div class="manuscript-structure" id="manuscript-structure" aria-label="LaTeX manuscript structure"></div>
+      <div class="figure-grid figure-grid-three">
+        <figure>
+          <img src="assets/skill-figure.png" width="2573" height="1819" alt="External skill lifecycle figure rendered from the LaTeX-referenced skill PDF.">
+          <figcaption><strong>Skills: Experience Becomes Reusable Procedure.</strong> Skill creation adds procedures to the bank, skill use retrieves and executes them, and skill evolution converts deployment evidence into library updates.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/memory-figure.png" width="2573" height="1819" alt="Context-mediated memory figure rendered from the LaTeX-referenced memory PDF.">
+          <figcaption><strong>Memory: Experience Becomes Persistent State.</strong> Memory representations, operations, and evolution decide what is stored, revised, retrieved, and reintroduced into active context.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/environment-figure.png" width="2755" height="2126" alt="Environment as runtime adaptation ceiling figure rendered from the LaTeX-referenced environment PDF.">
+          <figcaption><strong>Environment: The Boundary of What Agents Can Experience.</strong> Runtime adaptation is bounded by the action diversity, feedback density, task horizon, and verification signals exposed by the environment.</figcaption>
+        </figure>
+      </div>
     </section>
 
-    <section class="content-section figures-section" aria-labelledby="figures-title">
+    <section class="content-section consolidation-section" aria-labelledby="consolidation-title">
       <div class="section-heading">
-        <h2 id="figures-title">Parameter-side learning for stronger agents after deployment.</h2>
+        <p class="eyebrow">RL and Continual Learning: Consolidating Experience into Model Parameters</p>
+        <h2 id="consolidation-title">Why Parameter-side Consolidation Matters</h2>
+        <p>
+          The parameter path is not a replacement for the harness path. It is a slower consolidation step: repeated runtime lessons are promoted into model behavior only when they are stable, general, and valuable enough to justify a harder-to-reverse update.
+        </p>
       </div>
-      <div class="figure-strip">
-        <figure>
-          <img src="assets/parameter-path-figure.png" alt="Parameter-side learning figure rendered from the LaTeX-referenced rl PDF.">
-          <figcaption>Parameter-side learning for stronger agents after deployment. Stable runtime priors first accumulate in harness-side artifacts and interaction traces; the parameter path consolidates selected lessons into model updates that reduce repeated context orchestration, transfer beyond context replay, and enable collective evolution. The lower panels organize current evidence into three regimes: vertical capability learning, where executable gyms, verifiers, SFT/RL, and integration recipes build agentic abilities before release; training harness functional units, where policies learn to call and coordinate sub-agents, skills, memory, tools, and experience stores; and post-deployment trace learning, where signals come from traces generated by the running model--harness--environment stack and must pass through trace selection, signal extraction, and same-harness training infrastructure.</figcaption>
+      <div class="figure-story figure-story-reverse">
+        <figure class="runtime-figure">
+          <img src="assets/parameter-path-figure.png" width="2573" height="1819" alt="Parameter-side learning figure rendered from the LaTeX-referenced rl PDF.">
+          <figcaption>Stable runtime priors first accumulate in harness-side artifacts and traces; parameter-side learning consolidates selected lessons into model updates that can transfer beyond context replay.</figcaption>
         </figure>
-        <figure>
-          <img src="assets/evaluation-figure.png" alt="SIP-Bench protocol figure rendered from the LaTeX-referenced sip PDF.">
-          <figcaption>SIP-Bench protocol. The key idea is to evaluate one evolving agent across T0/T1/T2 checkpoints rather than only report a final score after adaptation.</figcaption>
+        <div class="story-copy">
+          <h3>Takeaways for Practitioners</h3>
+          <ul class="story-points">
+            <li>Pre-Deployment Training for Vertical Agent Capabilities builds stronger agents before release.</li>
+            <li>Pre-Deployment Training for Harness Functional Units teaches models to use tools, memory, skills, and sub-agents better.</li>
+            <li>Post-Deployment Training from Agent Traces learns from the running model-harness-environment stack.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section measurement-section" aria-labelledby="measurement-title">
+      <div class="section-heading">
+        <p class="eyebrow">Measuring Self-Improvement: What Current Benchmarks Still Miss</p>
+        <h2 id="measurement-title">SIP-Bench as a Protocol Layer</h2>
+        <p>
+          A higher final score after adaptation is weak evidence. The real question is whether the same evolving agent gains capability, retains prior competence, spends reasonable cost, attributes improvement to the right update, and remains safe as it changes.
+        </p>
+      </div>
+      <div class="figure-story">
+        <figure class="runtime-figure">
+          <img src="assets/evaluation-figure.png" width="2573" height="1819" alt="SIP-Bench protocol figure rendered from the LaTeX-referenced sip PDF.">
+          <figcaption>SIP-Bench evaluates one evolving agent across T0/T1/T2 checkpoints rather than reporting only a final score after adaptation.</figcaption>
         </figure>
+        <div class="story-copy">
+          <h3>What Self-Improvement Evaluation Must Measure</h3>
+          <p>
+            The field needs protocols that measure improvement over time, not just task completion at one point. Without longitudinal evaluation, we cannot tell durable learning from one-off elicitation, overfitting, drift, or unsafe mutation.
+          </p>
+          <ul class="story-points">
+            <li>Why Self-improvement Itself Must Be Evaluated: report gains together with retention and cost.</li>
+            <li>From Continual-Learning Metrics to SI Targets: track transfer, forgetting, and the source of improvement.</li>
+            <li>A New Evidence and Reliability Layer: keep update evidence auditable across checkpoints.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
