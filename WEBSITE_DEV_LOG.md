@@ -103,3 +103,8 @@
 - Kept the visible section headings aligned with the current LaTeX source, including `Harness as Experience Infrastructure`, `Skills: Experience Becomes Reusable Procedure`, `Memory: Experience Becomes Persistent State`, `Environment: The Boundary of What Agents Can Experience`, `RL and Continual Learning: Consolidating Experience into Model Parameters`, and `Measuring Self-Improvement: What Current Benchmarks Still Miss`.
 - Added rendered website assets for the LaTeX-referenced skill, memory, and environment figures from `figure/skill.pdf`, `figure/memory.pdf`, and `figure/Environment_Runtime_Adaptation_perfect_editable.pdf`.
 - Updated the `gh-pages` figure rendering script so all active manuscript figures can be regenerated from the paper PDFs.
+
+## 2026-06-25 Frontis Favicon
+
+- Replaced the browser tab icon on `gh-pages` with a Frontis mark derived from the user-provided square Frontis logo image.
+- Added `favicon.ico`, 32px PNG, 512px PNG, and Apple touch icon assets for consistent browser tab and saved-page rendering.
