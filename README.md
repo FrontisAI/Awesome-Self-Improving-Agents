@@ -46,6 +46,7 @@ If you find this survey or paper list helpful, please cite our work once the pub
   - [Evaluation and Benchmarks](#evaluation-and-benchmarks)
   - [Safety and Governance](#safety-and-governance)
 - [Acknowledgment](#acknowledgment)
+- [Star History](#star-history)
 
 ## Overview
 
@@ -450,3 +451,11 @@ Every row includes a date, display name, title, and at least one public source b
 ## Acknowledgment
 
 This repository is maintained by the FrontisAI and Tsinghua University survey team. Its README structure follows the public awesome-list style of [TsinghuaC3I/Awesome-RL-for-LRMs](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs).
+
+## Star History
+
+<p align="center">
+  <a href="https://star-history.com/#FrontisAI/Awesome-Self-Improving-Agents&Date">
+    <img src="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date" alt="Star History Chart">
+  </a>
+</p>
