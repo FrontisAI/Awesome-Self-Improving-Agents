@@ -1,18 +1,6 @@
 const papers = Array.isArray(window.SURVEY_PAPERS) ? window.SURVEY_PAPERS : [];
 const manuscript = window.MANUSCRIPT || { title: "", abstract: "", parts: [] };
 const siteTitle = "Agents in the Era of Experience";
-const pageIds = ["overview", "harness", "structure", "learning", "papers"];
-const hashPageAliases = new Map([
-  ["overview", "overview"],
-  ["definition", "harness"],
-  ["harness", "harness"],
-  ["timeline", "harness"],
-  ["taxonomy", "structure"],
-  ["structure", "structure"],
-  ["figures", "learning"],
-  ["learning", "learning"],
-  ["papers", "papers"],
-]);
 
 const els = {
   brandTitle: document.querySelector("#brand-title"),
@@ -29,8 +17,6 @@ const els = {
   visible: document.querySelector("#visible-count"),
   total: document.querySelector("#total-count"),
   statPapers: document.querySelector("#stat-papers"),
-  pagePanels: [...document.querySelectorAll("[data-page]")],
-  pageTabs: [...document.querySelectorAll("[data-page-target]")],
   pageSummary: document.querySelector("#page-summary"),
   pageSize: document.querySelector("#page-size"),
   pageIndicator: document.querySelector("#page-indicator"),
@@ -41,89 +27,28 @@ const els = {
 let currentCatalogPage = 1;
 let rowsPerPage = Number(els.pageSize?.value || 50);
 
-function normalizeHash(hash) {
-  return hash.replace(/^#/, "").trim();
-}
-
-function pageForHash(hash) {
-  const id = normalizeHash(hash);
-  if (!id) return "overview";
-  if (hashPageAliases.has(id)) return hashPageAliases.get(id);
-
-  const target = document.getElementById(id);
-  const pagePanel = target?.closest("[data-page]");
-  return pagePanel?.dataset.page || "overview";
-}
-
-function scrollToPageTarget(targetId) {
-  const target = targetId ? document.getElementById(targetId) : null;
-  const destination = target || document.querySelector(`[data-page="${pageForHash(targetId || "")}"]`);
+function scrollToPageTarget(targetId, behavior = "smooth") {
+  const destination = targetId ? document.getElementById(targetId) : null;
   if (!destination) return;
 
   const headerHeight = document.querySelector(".site-header")?.offsetHeight || 0;
   const top = destination.getBoundingClientRect().top + window.scrollY - headerHeight - 12;
-  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  window.scrollTo({ top: Math.max(0, top), behavior });
 }
 
-function setActivePage(page, options = {}) {
-  const nextPage = pageIds.includes(page) ? page : "overview";
-  els.pagePanels.forEach((panel) => {
-    const active = panel.dataset.page === nextPage;
-    panel.hidden = !active;
-    panel.classList.toggle("page-hidden", !active);
-  });
-
-  els.pageTabs.forEach((tab) => {
-    const active = tab.dataset.pageTarget === nextPage;
-    tab.classList.toggle("is-active", active);
-    tab.setAttribute("aria-pressed", active ? "true" : "false");
-  });
-
-  const hash = options.hash || nextPage;
-  if (options.updateHash !== false && normalizeHash(window.location.hash) !== hash) {
-    history.pushState(null, "", `#${hash}`);
-  }
-
-  if (options.scroll) {
-    requestAnimationFrame(() => scrollToPageTarget(options.anchor || hash));
-  }
+function scrollToCurrentHash() {
+  const targetId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+  if (targetId) scrollToPageTarget(targetId, "auto");
 }
 
-function initPageNavigation() {
-  els.pageTabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      const page = tab.dataset.pageTarget || "overview";
-      setActivePage(page, { hash: page, scroll: true });
-    });
-  });
-
-  document.querySelectorAll('a[href^="#"]').forEach((link) => {
-    link.addEventListener("click", (event) => {
-      const id = normalizeHash(link.getAttribute("href") || "");
-      if (!id) return;
-      const page = pageForHash(id);
-      event.preventDefault();
-      setActivePage(page, { hash: id, anchor: id, scroll: true });
-    });
-  });
-
-  window.addEventListener("hashchange", () => {
-    const id = normalizeHash(window.location.hash);
-    setActivePage(pageForHash(id), {
-      hash: id || "overview",
-      anchor: id,
-      scroll: true,
-      updateHash: false,
-    });
-  });
-
-  const initialId = normalizeHash(window.location.hash);
-  setActivePage(pageForHash(initialId), {
-    hash: initialId || "overview",
-    anchor: initialId,
-    scroll: Boolean(initialId),
-    updateHash: false,
-  });
+function restoreHashScrollAfterLayout() {
+  if (!window.location.hash) return;
+  requestAnimationFrame(scrollToCurrentHash);
+  window.addEventListener("load", () => {
+    scrollToCurrentHash();
+    window.setTimeout(scrollToCurrentHash, 250);
+    window.setTimeout(scrollToCurrentHash, 900);
+  }, { once: true });
 }
 
 function uniqueSorted(values) {
@@ -407,12 +332,17 @@ function update() {
 }
 
 function init() {
-  initPageNavigation();
   populateManuscriptText();
   els.total.textContent = String(papers.length);
   els.statPapers.textContent = String(papers.length);
   populateFilters();
   update();
+
+  restoreHashScrollAfterLayout();
+  window.addEventListener("hashchange", () => {
+    requestAnimationFrame(scrollToCurrentHash);
+    window.setTimeout(scrollToCurrentHash, 250);
+  });
 
   els.search.addEventListener("input", () => {
     currentCatalogPage = 1;
