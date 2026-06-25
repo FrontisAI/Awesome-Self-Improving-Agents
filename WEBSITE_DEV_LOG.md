@@ -90,3 +90,9 @@
 - Added hash-aware page tabs on `gh-pages` for Overview, Harness, Structure, Learning, and Papers while preserving the public URL.
 - Added client-side pagination for the paper catalog with 25/50/100 row options and matching-count/page-summary controls.
 - Improved responsive behavior so the paper table becomes mobile cards and the layout avoids horizontal overflow on narrow viewports.
+
+## 2026-06-25 Vertical Scrolling Layout Revert
+
+- Removed the top page tabs and restored a continuous top-to-bottom scrolling layout on `gh-pages`.
+- Kept paper-table pagination for performance, but all narrative sections now remain visible in the natural document flow.
+- Adjusted viewport-height responsive spacing so the hero and major sections adapt better to browser height while preserving mobile overflow fixes.
