@@ -96,3 +96,10 @@
 - Removed the top page tabs and restored a continuous top-to-bottom scrolling layout on `gh-pages`.
 - Kept paper-table pagination for performance, but all narrative sections now remain visible in the natural document flow.
 - Adjusted viewport-height responsive spacing so the hero and major sections adapt better to browser height while preserving mobile overflow fixes.
+
+## 2026-06-25 Claim Narrative Rework
+
+- Reworked the long-page narrative between the hero and Paper List on `gh-pages` so each LaTeX-referenced paper figure is organized around the manuscript claim it supports.
+- Kept the visible section headings aligned with the current LaTeX source, including `Harness as Experience Infrastructure`, `Skills: Experience Becomes Reusable Procedure`, `Memory: Experience Becomes Persistent State`, `Environment: The Boundary of What Agents Can Experience`, `RL and Continual Learning: Consolidating Experience into Model Parameters`, and `Measuring Self-Improvement: What Current Benchmarks Still Miss`.
+- Added rendered website assets for the LaTeX-referenced skill, memory, and environment figures from `figure/skill.pdf`, `figure/memory.pdf`, and `figure/Environment_Runtime_Adaptation_perfect_editable.pdf`.
+- Updated the `gh-pages` figure rendering script so all active manuscript figures can be regenerated from the paper PDFs.
