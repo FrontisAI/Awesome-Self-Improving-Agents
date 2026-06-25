@@ -108,3 +108,10 @@
 
 - Replaced the browser tab icon on `gh-pages` with a Frontis mark derived from the user-provided square Frontis logo image.
 - Added `favicon.ico`, 32px PNG, 512px PNG, and Apple touch icon assets for consistent browser tab and saved-page rendering.
+
+## 2026-06-25 Narrative and Paper Table Polish
+
+- Changed the `External runtime adaptation` section on `gh-pages` from a three-column figure grid to a vertical stack of large figure cards so the skill, memory, and environment figures are readable.
+- Reframed the evaluation section around `What Self-Improvement Evaluation Must Measure`, emphasizing whether the same evolving agent can use accumulated experience to improve over time; SIP-Bench remains as the protocol example figure.
+- Removed the homogeneous `Signal` column from the Paper List, removed generated `signal` fields from `data/papers.*`, and updated `scripts/site/build_papers.py` so future rebuilds do not recreate that column.
+- Updated stale paper-catalog LaTeX heading mappings for the current RL/CL section titles.
