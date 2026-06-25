@@ -19,6 +19,7 @@ AWESOME_README = Path(os.environ.get("AWESOME_README", REPO_ROOT / "README.md"))
 
 HEADING_RE = re.compile(r"^\\(section|subsection|subsubsection|paragraph)\{(.+?)\}")
 URL_RE = re.compile(r"\]\(([^)]+)\)")
+BADGE_LINK_RE = re.compile(r"\[\s*!\[[^\]]*\]\([^)]+\)\s*\]\(([^)]+)\)")
 
 
 def latex_headings() -> set[str]:
@@ -142,9 +143,20 @@ def normalize_title(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
 
 
+def is_badge_url(url: str) -> bool:
+    return "img.shields.io" in url or "badgen.net" in url
+
+
 def markdown_url(cell: str) -> str:
-    match = URL_RE.search(cell)
-    return clean(match.group(1)) if match else ""
+    badge_link = BADGE_LINK_RE.search(cell)
+    if badge_link:
+        return clean(badge_link.group(1))
+
+    for url in URL_RE.findall(cell):
+        cleaned = clean(url)
+        if cleaned and not is_badge_url(cleaned):
+            return cleaned
+    return ""
 
 
 def role(chapter: str, phase: str, key: str, order: int) -> dict[str, str | int]:
