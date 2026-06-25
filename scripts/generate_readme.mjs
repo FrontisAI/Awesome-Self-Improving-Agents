@@ -4,32 +4,21 @@ import path from "node:path";
 const repoRoot = path.resolve(".");
 const surveyRoot = "/Users/mac_jc/大学2/ZBW/Agent_survey_Frontis";
 const latexRoot = path.join(surveyRoot, "RL4LRM_Survey_0907");
-const chaptersRoot = path.join(surveyRoot, "survey", "chapters");
+const latexBibPath = path.join(latexRoot, "survey.bib");
 
 const categories = [
   ["foundations", "Foundations and Surveys"],
-  ["harness", "Harness Agents and Context Engineering"],
+  ["harness", "Harness and Runtime Architecture"],
   ["skills", "Skills and Skill Libraries"],
-  ["memory", "Memory and Experience"],
-  ["environment", "Execution Environments and Benchmarks"],
+  ["memory", "Memory and Context Management"],
+  ["environment", "Environments, Tools, and Runtime Feedback"],
   ["agentrl", "Agent RL and Continual Learning"],
   ["meta", "Meta-Agents and Evolution Orchestration"],
-  ["evaluation", "Evaluation"],
+  ["evaluation", "Evaluation and Benchmarks"],
   ["safety", "Safety and Governance"],
 ];
 
 const categoryNames = new Map(categories.map(([id, name]) => [id, name]));
-
-const contextCategoryByDir = new Map([
-  ["01_agent_definition_and_paradigm", "harness"],
-  ["02_skill_lifecycle", "skills"],
-  ["03_agent_rl_and_continual_learning", "agentrl"],
-  ["04_agent_memory", "memory"],
-  ["06_evaluation", "evaluation"],
-  ["07_safety", "safety"],
-  ["08_agent_simulation_environment_and_execution_harness", "environment"],
-  ["09_conclusion_and_open_problems", "foundations"],
-]);
 
 function readText(file) {
   return fs.readFileSync(file, "utf8");
@@ -227,11 +216,6 @@ function formatDate(fields) {
   return year ? `${year}-01` : "-";
 }
 
-function yearOnlyFallback(raw) {
-  const year = cleanLatex(raw).match(/\b(19|20)\d{2}\b/)?.[0] || "";
-  return year ? `${year}-01` : "-";
-}
-
 function badge(label, color, url, logo = "") {
   const logoPart = logo ? `&logo=${logo}&logoColor=white` : "";
   return `[![${label}](https://img.shields.io/badge/${encodeURIComponent(label)}-${color}?style=for-the-badge${logoPart})](${url})`;
@@ -254,15 +238,6 @@ function githubBadge(url) {
   if (!match) return "-";
   const repo = match[1].replace(/\.git$/, "");
   return `[![GitHub Stars](https://img.shields.io/github/stars/${repo}?style=for-the-badge&logo=github&label=GitHub&color=black)](${url})`;
-}
-
-function extractUrlFromMarkdown(cell) {
-  const matches = [...cell.matchAll(/\]\(([^)]+)\)/g)].map((match) => match[1].trim());
-  const md = matches.findLast((url) => !url.includes("img.shields.io")) || matches.at(-1);
-  if (md) return md;
-  const raw = cell.match(/https?:\/\/[^\s|)]+/);
-  if (raw) return raw[0].trim();
-  return "";
 }
 
 function readBalanced(text, start) {
@@ -330,6 +305,17 @@ function parseBib(text) {
   return entries;
 }
 
+function mergeBibEntries(primaryEntries, fallbackEntries) {
+  const byKey = new Map();
+  for (const entry of fallbackEntries) {
+    byKey.set(entry.key, { ...entry, bibSource: "survey.bib" });
+  }
+  for (const entry of primaryEntries) {
+    byKey.set(entry.key, { ...entry, bibSource: "papers.bib" });
+  }
+  return [...byKey.values()];
+}
+
 function citedKeys() {
   const keys = new Set();
   const texFiles = listFiles(latexRoot, (file) => file.endsWith(".tex"));
@@ -363,6 +349,9 @@ function linkForEntry(entry) {
   if (url) return url;
   if (eprint) return `https://arxiv.org/abs/${eprint}`;
   if (doi) return `https://doi.org/${doi}`;
+  const fieldText = Object.values(fields).map(cleanLatex).join(" ");
+  const arxiv = fieldText.match(/\barXiv(?::\s*|\s+preprint\s+arXiv:?\s*)(\d{4}\.\d{4,5}(?:v\d+)?)/i);
+  if (arxiv) return `https://arxiv.org/abs/${arxiv[1]}`;
   return "";
 }
 
@@ -386,16 +375,111 @@ function hasAny(text, needles) {
 
 function inferCategory(entry) {
   const title = cleanLatex(entry.fields.title || "");
-  const hay = `${entry.key} ${title} ${cleanLatex(entry.fields.keywords || "")} ${cleanLatex(entry.fields.note || "")}`.toLowerCase();
+  const hay = `${entry.key} ${title} ${cleanLatex(entry.fields.keywords || "")} ${cleanLatex(entry.fields.note || "")} ${cleanLatex(entry.fields.url || "")}`.toLowerCase();
 
-  if (hasAny(hay, ["ch07", " safety", "security", "attack", "jailbreak", "red-team", "red team", "prompt injection", "poison", "privacy", "governance", "guardrail", "safework", "risk"])) return "safety";
-  if (hasAny(hay, ["meta-evo-agent", "meta-agent", "orchestrat", "agentfactory", "hyperagents", "autogenesis", "agentic evolution", "manager agent", "agents to optimize agents"])) return "meta";
-  if (hasAny(hay, ["ch02", "skill-lifecycle", "skill library", "skill bank", "skillsbench", "skillret", "skillrae", "skillrl", "skillclaw", "skillnet", "skillrouter", "procedural memory", "agentic skills"])) return "skills";
-  if (hasAny(hay, ["ch04", "memory", "memgpt", "long-term", "episodic", "forgetting", "retrieval", "context compression", "experience memory"])) return "memory";
-  if (hasAny(hay, ["ch03", "agent-rl", "continual-learning", "continual learning", "reinforcement learning", "rl ", " rl", "policy optimization", "parameter-path", "federated", "self-play", "computer use agents"])) return "agentrl";
-  if (hasAny(hay, ["ch06", "evaluation", "benchmark", "bench", "leaderboard", "reliability", "contamination"])) return "evaluation";
-  if (hasAny(hay, ["ch08", "execution-harness", "execution-environment", "environment", "webarena", "workarena", "browsergym", "osworld", "appworld", "terminal", "cli", "mcp", "a2a", "tool-use", "gui", "world model"])) return "environment";
-  if (hasAny(hay, ["ch01", "agent-definition", "harness", "context", "workflow", "protocol", "compound", "agent system", "autonomous agents", "survey", "era of experience"])) return "harness";
+  const manualCategory = [
+    ["welcome to the era of experience", "foundations"],
+    ["large language model based autonomous agents", "foundations"],
+    ["the rise and potential of large language model based agents", "foundations"],
+    ["ai agent systems: architectures", "foundations"],
+    ["a comprehensive survey of self-evolving ai agents", "foundations"],
+    ["a survey of self-evolving agents", "foundations"],
+    ["a survey on self-evolution of large language models", "foundations"],
+    ["from standalone llms to integrated intelligence", "foundations"],
+    ["cursor2026composer2", "harness"],
+    ["introducing codex", "harness"],
+    ["agentless: demystifying", "harness"],
+    ["retroagent", "meta"],
+    ["swe-smith", "agentrl"],
+    ["federated learning", "agentrl"],
+    ["federated optimization", "agentrl"],
+    ["communication-efficient learning", "agentrl"],
+    ["mm-react", "environment"],
+    ["the dream within huang long cave", "environment"],
+    ["deepseek-vl", "environment"],
+    ["vision-language-action models for robotic", "environment"],
+  ];
+  const override = manualCategory.find(([needle]) => hay.includes(needle));
+  if (override) return override[1];
+
+  const strongSafety = [
+    "safety", "security", "secure", "attack", "jailbreak", "red-team", "red team",
+    "prompt injection", "poison", "privacy", "governance", "guardrail", "risk",
+    "alignment", "defense", "defence", "vulnerab", "least-privilege", "permission",
+    "trustworthy", "misalignment", "integrity verification", "supply-chain",
+  ];
+  const strongMeta = [
+    "meta-evo-agent", "meta-agent", "meta agent", "metaevo", "meta-layer",
+    "agentfactory", "agent factory", "hyperagents", "autogenesis",
+    "agentic evolution", "agents design agents", "automated design of agent",
+    "multi-agent architecture search", "agentic supernet", "agent generation",
+    "workflow generation", "flowreasoner", "aflow", "graphplanner",
+    "evolving orchestration", "manager agent", "agents to optimize agents",
+    "agent0", "alphaevolve", "automated multi-agent pipeline",
+    "open-ended embodied agent", "self-evolving agent protocol",
+  ];
+  const skillTerms = [
+    "skill-lifecycle", "skill library", "skill bank", "skill graph", "skill retrieval",
+    "skillrae", "skillret", "skillrl", "skillnet", "skillrouter", "skillsbench",
+    "procedural memory", "agentic skills", "skill.md", "module repositor",
+    "toolformer",
+  ];
+  const memoryTerms = [
+    "memory", "memgpt", "long-term", "episodic", "retrieval", "context compression",
+    "working memory", "memory-augmented", "memory extraction", "memory steering",
+    "forgetting", "rag", "persistent state", "context management", "long context",
+  ];
+  const agentRlTerms = [
+    "agent-rl", "continual-learning", "continual learning", "reinforcement learning",
+    "policy optimization", "parameter-path", "parameter path", "post-training",
+    "fine-tun", "distillation", "self-play", "verifiable reward", "model parameters",
+    "rlhf", "trajectory training", "agent training", " real-time rl", "realtimerl",
+    "-rl", " r1", "reinforcing", "reward", "policy", "on-policy", "off-policy",
+    "agentless training", "rl from", "skill prior", "train any agent",
+  ];
+  const environmentTerms = [
+    "ch08", "execution-harness", "execution-environment", "environment", "webarena",
+    "visualwebarena", "workarena", "browsergym", "osworld", "appworld", "alfworld",
+    "alfred", "swe-gym", "terminal-bench", "mle-dojo", "sandmle", "cli-anything",
+    "computer use", "gui", "browser", "web agent", "web agents", "sandbox",
+    "simulat", "world model", "mcp", "a2a", "api", "protocol", "tool registry",
+    "tool use", "tool-use", "tool-using", "tools", "tool learning", "openclaw",
+    "workspace cli", "cradle", "software agent-native", "command line",
+  ];
+  const evaluationTerms = [
+    "ch06", "evaluation", "evaluating", "benchmark", "bench", "leaderboard", "assess",
+    "metric", "diagnostic", "reliability", "contamination", "evidence",
+    "minimal requirement", "longitudinal", "score interpretation", "competition",
+    "dashboard", "registry", "testable property", "agentified agent assessment",
+  ];
+  const harnessTerms = [
+    "ch01", "agent-definition", "harness", "runtime", "context engineering",
+    "workflow", "compound ai", "agent system", "agent systems", "architecture",
+    "framework", "aios", "managed agents", "agent scope", "agentic ai framework",
+    "orchestration framework", "era of experience",
+  ];
+
+  if (hasAny(hay, strongSafety)) return "safety";
+  if (hasAny(hay, strongMeta)) return "meta";
+
+  // Chapter tags from the manuscript are the strongest signal once safety/meta
+  // overrides have been handled. They keep the Awesome list aligned with the
+  // survey's object-of-improvement structure.
+  if (hasAny(hay, ["ch02", "skill-lifecycle"])) return "skills";
+  if (hasAny(hay, ["ch04"])) return "memory";
+  if (hasAny(hay, ["ch03"])) return "agentrl";
+  if (hasAny(hay, ["ch08"])) return "environment";
+  if (hasAny(hay, ["ch06"])) return "evaluation";
+  if (hasAny(hay, ["ch07"])) return "safety";
+
+  if (hasAny(hay, memoryTerms)) return "memory";
+  if (hasAny(hay, agentRlTerms)) return "agentrl";
+  if (hasAny(hay, skillTerms)) return "skills";
+  if (hasAny(hay, environmentTerms)) return "environment";
+  if (hasAny(hay, evaluationTerms)) return "evaluation";
+  if (hasAny(hay, harnessTerms)) return "harness";
+
+  if (hasAny(hay, ["survey", "foundation", "paradigm", "autonomous agents", "large language model based agents"])) return "foundations";
   return "foundations";
 }
 
@@ -414,58 +498,39 @@ function makeRow(item) {
   return `| ${item.date || "-"} | ${name} | ${title} | ${paper} | ${github} |`;
 }
 
-function parseContextLibraries(seen) {
-  const items = [];
-  for (const [dirName, category] of contextCategoryByDir) {
-    const file = path.join(chaptersRoot, dirName, "context_library.md");
-    if (!fs.existsSync(file)) continue;
-    const text = readText(file);
-    for (const line of text.split(/\n/)) {
-      if (!line.startsWith("|")) continue;
-      const cols = line.split("|").slice(1, -1).map((cell) => cell.trim());
-      if (cols.length < 5 || cols[0] === "Date" || cols[0].startsWith(":")) continue;
-      const [dateRaw, , titleRaw, paperCell, githubCell] = cols;
-      const title = cleanLatex(titleRaw);
-      if (!title || title === "-") continue;
-      const paperUrl = extractUrlFromMarkdown(paperCell);
-      const githubUrl = extractUrlFromMarkdown(githubCell);
-      if (!paperUrl && !githubUrl) continue;
-      const titleKey = normalizeTitle(title);
-      const urlKey = paperUrl.toLowerCase();
-      if (seen.title.has(titleKey) || (urlKey && seen.url.has(urlKey))) continue;
-      seen.title.add(titleKey);
-      if (urlKey) seen.url.add(urlKey);
-      items.push({
-        category,
-        date: inferYearMonthFromText(dateRaw, paperUrl, githubUrl) || yearOnlyFallback(dateRaw),
-        name: inferName(title),
-        title,
-        paperUrl,
-        githubUrl,
-        source: "context",
-      });
-    }
-  }
-  return items;
-}
-
 function buildItems() {
   const bibPath = path.join(repoRoot, "papers.bib");
-  const entries = parseBib(readText(bibPath));
+  const primaryEntries = parseBib(readText(bibPath));
+  const fallbackEntries = fs.existsSync(latexBibPath) ? parseBib(readText(latexBibPath)) : [];
+  const entries = mergeBibEntries(primaryEntries, fallbackEntries);
   const citations = citedKeys();
   const seen = { title: new Set(), url: new Set() };
   const items = [];
   const bibKeys = new Set(entries.map((entry) => entry.key));
   const missingCitations = [...citations].filter((key) => !bibKeys.has(key)).sort();
+  let skippedNoSource = 0;
+  let skippedUncited = 0;
+  let duplicateCited = 0;
 
   for (const entry of entries) {
+    if (!citations.has(entry.key)) {
+      skippedUncited++;
+      continue;
+    }
     const title = cleanLatex(entry.fields.title || entry.key);
     const titleKey = normalizeTitle(title);
     const paperUrl = linkForEntry(entry);
     const githubUrl = githubForEntry(entry);
+    if (!paperUrl && !githubUrl) {
+      skippedNoSource++;
+      continue;
+    }
     const urlKey = paperUrl.toLowerCase();
     const duplicate = seen.title.has(titleKey) || (urlKey && seen.url.has(urlKey));
-    if (duplicate) continue;
+    if (duplicate) {
+      duplicateCited++;
+      continue;
+    }
     seen.title.add(titleKey);
     if (urlKey) seen.url.add(urlKey);
     items.push({
@@ -475,18 +540,25 @@ function buildItems() {
       title,
       paperUrl,
       githubUrl,
-      source: citations.has(entry.key) ? "cited-bib" : "bib",
+      source: entry.bibSource,
       key: entry.key,
     });
   }
 
-  const beforeContext = items.length;
-  items.push(...parseContextLibraries(seen));
-  return { items, bibCount: entries.length, uniqueBibCount: beforeContext, contextAdded: items.length - beforeContext, missingCitations };
+  return {
+    items,
+    bibCount: primaryEntries.length,
+    latexBibCount: fallbackEntries.length,
+    citedCount: citations.size,
+    citedBibCount: entries.length - skippedUncited,
+    duplicateCited,
+    missingCitations,
+    skippedNoSource,
+  };
 }
 
 function renderPaperList() {
-  const { items, bibCount, uniqueBibCount, contextAdded, missingCitations } = buildItems();
+  const { items, bibCount, latexBibCount, citedCount, citedBibCount, duplicateCited, missingCitations, skippedNoSource } = buildItems();
   const grouped = new Map(categories.map(([id]) => [id, []]));
   for (const item of items) grouped.get(item.category)?.push(item);
 
@@ -501,13 +573,9 @@ function renderPaperList() {
   const lines = [];
   lines.push("## Paper List");
   lines.push("");
-  lines.push(`This section is generated from \`papers.bib\`, the LaTeX manuscript citations, and the chapter \`context_library.md\` files. It currently includes **${items.length} unique entries**: ${uniqueBibCount} unique BibTeX entries from ${bibCount} raw BibTeX records, plus ${contextAdded} additional chapter-library candidates not already covered by title or URL.`);
+  lines.push(`This section is generated from cited BibTeX entries, using \`papers.bib\` first and the LaTeX manuscript's \`survey.bib\` to fill citation-key gaps. It currently includes **${items.length} unique cited entries** from ${citedCount} unique manuscript citation keys and ${citedBibCount} cited BibTeX records.`);
   lines.push("");
-  lines.push("Rows without a Paper or Github badge are retained when the manuscript already cites the work but the public source URL still needs verification; those entries are marked with `citation-gap` in `papers.bib`.");
-  if (missingCitations.length) {
-    lines.push("");
-    lines.push(`Citation keys present in the LaTeX manuscript but not found in \`papers.bib\`: \`${missingCitations.join("`, `")}\`.`);
-  }
+  lines.push(`Every row includes a date, display name, title, and at least one public source badge. Cited entries whose public source URL still needs verification are kept in the BibTeX sources but omitted from this table until complete metadata is available (${skippedNoSource} currently omitted; ${duplicateCited} duplicate cited records collapsed; ${missingCitations.length} cited keys not found after merging ${bibCount} README records with ${latexBibCount} LaTeX records).`);
   lines.push("");
 
   for (const [id, name] of categories) {
@@ -528,9 +596,13 @@ function updateReadme() {
   const readmePath = path.join(repoRoot, "README.md");
   const readme = readText(readmePath);
   const start = readme.indexOf("## Paper List");
-  const end = readme.indexOf("## Figures");
+  const endCandidates = ["## Figures", "## Acknowledgment"]
+    .map((heading) => readme.indexOf(heading))
+    .filter((index) => index !== -1 && index > start)
+    .sort((a, b) => a - b);
+  const end = endCandidates[0] ?? -1;
   if (start === -1 || end === -1 || end <= start) {
-    throw new Error("Could not locate README Paper List/Figures section boundaries.");
+    throw new Error("Could not locate README Paper List section boundaries.");
   }
   const next = `${readme.slice(0, start)}${renderPaperList()}\n${readme.slice(end)}`;
   fs.writeFileSync(readmePath, next);
