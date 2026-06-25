@@ -67,9 +67,9 @@ We organize the survey into four parts:
 
 ## Paper List
 
-This section is generated from cited BibTeX entries, using `papers.bib` first and the LaTeX manuscript's `survey.bib` to fill citation-key gaps. It currently includes **331 unique cited entries** from 379 unique manuscript citation keys and 379 cited BibTeX records.
+This paper list follows the references cited by the LaTeX manuscript. It currently includes **331 unique cited entries** from 379 unique manuscript citation keys and 379 cited BibTeX records.
 
-Every row includes a date, display name, title, and at least one public source badge. Cited entries whose public source URL still needs verification are kept in the BibTeX sources but omitted from this table until complete metadata is available (44 currently omitted; 4 duplicate cited records collapsed; 0 cited keys not found after merging 402 README records with 434 LaTeX records).
+Every row includes a date, display name, title, and at least one public source badge. Cited entries whose public source URL still needs verification are omitted from this table until complete metadata is available (44 currently omitted; 4 duplicate cited records collapsed).
 
 ### Foundations and Surveys
 
