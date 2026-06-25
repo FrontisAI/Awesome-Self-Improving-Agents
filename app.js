@@ -1,6 +1,18 @@
 const papers = Array.isArray(window.SURVEY_PAPERS) ? window.SURVEY_PAPERS : [];
 const manuscript = window.MANUSCRIPT || { title: "", abstract: "", parts: [] };
 const siteTitle = "Agents in the Era of Experience";
+const pageIds = ["overview", "harness", "structure", "learning", "papers"];
+const hashPageAliases = new Map([
+  ["overview", "overview"],
+  ["definition", "harness"],
+  ["harness", "harness"],
+  ["timeline", "harness"],
+  ["taxonomy", "structure"],
+  ["structure", "structure"],
+  ["figures", "learning"],
+  ["learning", "learning"],
+  ["papers", "papers"],
+]);
 
 const els = {
   brandTitle: document.querySelector("#brand-title"),
@@ -17,7 +29,102 @@ const els = {
   visible: document.querySelector("#visible-count"),
   total: document.querySelector("#total-count"),
   statPapers: document.querySelector("#stat-papers"),
+  pagePanels: [...document.querySelectorAll("[data-page]")],
+  pageTabs: [...document.querySelectorAll("[data-page-target]")],
+  pageSummary: document.querySelector("#page-summary"),
+  pageSize: document.querySelector("#page-size"),
+  pageIndicator: document.querySelector("#page-indicator"),
+  prevPage: document.querySelector("#prev-page"),
+  nextPage: document.querySelector("#next-page"),
 };
+
+let currentCatalogPage = 1;
+let rowsPerPage = Number(els.pageSize?.value || 50);
+
+function normalizeHash(hash) {
+  return hash.replace(/^#/, "").trim();
+}
+
+function pageForHash(hash) {
+  const id = normalizeHash(hash);
+  if (!id) return "overview";
+  if (hashPageAliases.has(id)) return hashPageAliases.get(id);
+
+  const target = document.getElementById(id);
+  const pagePanel = target?.closest("[data-page]");
+  return pagePanel?.dataset.page || "overview";
+}
+
+function scrollToPageTarget(targetId) {
+  const target = targetId ? document.getElementById(targetId) : null;
+  const destination = target || document.querySelector(`[data-page="${pageForHash(targetId || "")}"]`);
+  if (!destination) return;
+
+  const headerHeight = document.querySelector(".site-header")?.offsetHeight || 0;
+  const top = destination.getBoundingClientRect().top + window.scrollY - headerHeight - 12;
+  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+}
+
+function setActivePage(page, options = {}) {
+  const nextPage = pageIds.includes(page) ? page : "overview";
+  els.pagePanels.forEach((panel) => {
+    const active = panel.dataset.page === nextPage;
+    panel.hidden = !active;
+    panel.classList.toggle("page-hidden", !active);
+  });
+
+  els.pageTabs.forEach((tab) => {
+    const active = tab.dataset.pageTarget === nextPage;
+    tab.classList.toggle("is-active", active);
+    tab.setAttribute("aria-pressed", active ? "true" : "false");
+  });
+
+  const hash = options.hash || nextPage;
+  if (options.updateHash !== false && normalizeHash(window.location.hash) !== hash) {
+    history.pushState(null, "", `#${hash}`);
+  }
+
+  if (options.scroll) {
+    requestAnimationFrame(() => scrollToPageTarget(options.anchor || hash));
+  }
+}
+
+function initPageNavigation() {
+  els.pageTabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const page = tab.dataset.pageTarget || "overview";
+      setActivePage(page, { hash: page, scroll: true });
+    });
+  });
+
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    link.addEventListener("click", (event) => {
+      const id = normalizeHash(link.getAttribute("href") || "");
+      if (!id) return;
+      const page = pageForHash(id);
+      event.preventDefault();
+      setActivePage(page, { hash: id, anchor: id, scroll: true });
+    });
+  });
+
+  window.addEventListener("hashchange", () => {
+    const id = normalizeHash(window.location.hash);
+    setActivePage(pageForHash(id), {
+      hash: id || "overview",
+      anchor: id,
+      scroll: true,
+      updateHash: false,
+    });
+  });
+
+  const initialId = normalizeHash(window.location.hash);
+  setActivePage(pageForHash(initialId), {
+    hash: initialId || "overview",
+    anchor: initialId,
+    scroll: Boolean(initialId),
+    updateHash: false,
+  });
+}
 
 function uniqueSorted(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b));
@@ -197,6 +304,41 @@ function roleForDisplay(paper) {
   )) || roles[0];
 }
 
+function setCellLabel(cell, label) {
+  cell.dataset.label = label;
+  return cell;
+}
+
+function pageCountFor(total) {
+  return Math.max(1, Math.ceil(total / rowsPerPage));
+}
+
+function paginatedRows(rows) {
+  const pageCount = pageCountFor(rows.length);
+  currentCatalogPage = Math.min(Math.max(1, currentCatalogPage), pageCount);
+  const start = (currentCatalogPage - 1) * rowsPerPage;
+  return rows.slice(start, start + rowsPerPage);
+}
+
+function updatePagination(total) {
+  const pageCount = pageCountFor(total);
+  const start = total ? (currentCatalogPage - 1) * rowsPerPage + 1 : 0;
+  const end = total ? Math.min(total, currentCatalogPage * rowsPerPage) : 0;
+
+  if (els.pageSummary) {
+    els.pageSummary.textContent = `Showing ${start}-${end} of ${total} papers`;
+  }
+  if (els.pageIndicator) {
+    els.pageIndicator.textContent = `Page ${currentCatalogPage} of ${pageCount}`;
+  }
+  if (els.prevPage) {
+    els.prevPage.disabled = currentCatalogPage <= 1;
+  }
+  if (els.nextPage) {
+    els.nextPage.disabled = currentCatalogPage >= pageCount;
+  }
+}
+
 function renderRows(rows) {
   els.body.replaceChildren();
 
@@ -217,12 +359,18 @@ function renderRows(rows) {
 
     const date = document.createElement("td");
     date.className = "paper-date";
+    setCellLabel(date, "Date");
     date.textContent = paper.date || "n.d.";
 
     const chapter = document.createElement("td");
-    chapter.innerHTML = `<span class="chapter-pill">${displayRole.chapter}</span>`;
+    setCellLabel(chapter, "Chapter");
+    const chapterPill = document.createElement("span");
+    chapterPill.className = "chapter-pill";
+    chapterPill.textContent = displayRole.chapter;
+    chapter.appendChild(chapterPill);
 
     const title = document.createElement("td");
+    setCellLabel(title, "Paper");
     const titleWrap = document.createElement("div");
     titleWrap.className = "paper-title-wrap";
     const titleLink = document.createElement(paper.url ? "a" : "span");
@@ -238,9 +386,11 @@ function renderRows(rows) {
     title.appendChild(titleWrap);
 
     const phase = document.createElement("td");
+    setCellLabel(phase, "Phase");
     phase.textContent = displayRole.phase || "Unassigned";
 
     const signal = document.createElement("td");
+    setCellLabel(signal, "Signal");
     signal.textContent = paperSignal(paper);
 
     tr.append(date, chapter, title, phase, signal);
@@ -250,27 +400,56 @@ function renderRows(rows) {
 
 function update() {
   const rows = filteredPapers();
-  renderRows(rows);
+  const pageRows = paginatedRows(rows);
+  renderRows(pageRows);
+  updatePagination(rows.length);
   els.visible.textContent = String(rows.length);
 }
 
 function init() {
+  initPageNavigation();
   populateManuscriptText();
   els.total.textContent = String(papers.length);
   els.statPapers.textContent = String(papers.length);
   populateFilters();
   update();
 
-  els.search.addEventListener("input", update);
-  els.phase.addEventListener("change", update);
+  els.search.addEventListener("input", () => {
+    currentCatalogPage = 1;
+    update();
+  });
+  els.phase.addEventListener("change", () => {
+    currentCatalogPage = 1;
+    update();
+  });
   els.chapter.addEventListener("change", () => {
+    currentCatalogPage = 1;
     populatePhaseFilter();
     update();
+  });
+
+  els.pageSize.addEventListener("change", () => {
+    rowsPerPage = Number(els.pageSize.value || 50);
+    currentCatalogPage = 1;
+    update();
+  });
+
+  els.prevPage.addEventListener("click", () => {
+    currentCatalogPage -= 1;
+    update();
+    scrollToPageTarget("papers");
+  });
+
+  els.nextPage.addEventListener("click", () => {
+    currentCatalogPage += 1;
+    update();
+    scrollToPageTarget("papers");
   });
 
   els.reset.addEventListener("click", () => {
     els.search.value = "";
     els.chapter.value = "all";
+    currentCatalogPage = 1;
     populatePhaseFilter();
     update();
   });
