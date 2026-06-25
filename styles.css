@@ -254,9 +254,9 @@ h1 {
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0;
-  width: min(760px, calc(100vw - 36px));
+  width: min(560px, calc(100vw - 36px));
   margin: clamp(36px, 7dvh, 82px) 0 0;
   border-top: 1px solid var(--line-strong);
   border-bottom: 1px solid var(--line-strong);

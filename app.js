@@ -7,7 +7,6 @@ const els = {
   heroTitle: document.querySelector("#hero-title"),
   heroAbstract: document.querySelector("#hero-abstract"),
   statParts: document.querySelector("#stat-parts"),
-  statSections: document.querySelector("#stat-sections"),
   structure: document.querySelector("#manuscript-structure"),
   body: document.querySelector("#paper-table-body"),
   search: document.querySelector("#paper-search"),
@@ -157,7 +156,6 @@ function populateManuscriptText() {
     els.heroAbstract.textContent = manuscript.abstract;
   }
   if (els.statParts) els.statParts.textContent = String(paperChapterCount());
-  if (els.statSections) els.statSections.textContent = String(countSections());
   renderManuscriptStructure();
 }
 
