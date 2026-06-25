@@ -100,25 +100,25 @@ PH_SAFETY_CONTROL = h("Runtime Control for Self-Improving Agents")
 
 CATEGORY_ORDER = [
     "Foundations and Surveys",
-    "Harness Agents and Context Engineering",
+    "Harness and Runtime Architecture",
     "Skills and Skill Libraries",
-    "Memory and Experience",
-    "Execution Environments and Benchmarks",
+    "Memory and Context Management",
+    "Environments, Tools, and Runtime Feedback",
     "Agent RL and Continual Learning",
     "Meta-Agents and Evolution Orchestration",
-    "Evaluation",
+    "Evaluation and Benchmarks",
     "Safety and Governance",
 ]
 
 CATEGORY_DEFAULTS = {
     "Foundations and Surveys": (CH_FOUNDATIONS, PH_FOUNDATIONS, "foundations"),
-    "Harness Agents and Context Engineering": (CH_HARNESS, PH_HARNESS_RUNTIME, "harness"),
+    "Harness and Runtime Architecture": (CH_HARNESS, PH_HARNESS_RUNTIME, "harness"),
     "Skills and Skill Libraries": (CH_SKILLS, PH_SKILL_LIFECYCLE, "skills"),
-    "Memory and Experience": (CH_MEMORY, PH_MEMORY_CONTEXT, "memory"),
-    "Execution Environments and Benchmarks": (CH_ENVIRONMENT, PH_ENV_INFRA, "environment"),
+    "Memory and Context Management": (CH_MEMORY, PH_MEMORY_CONTEXT, "memory"),
+    "Environments, Tools, and Runtime Feedback": (CH_ENVIRONMENT, PH_ENV_INFRA, "environment"),
     "Agent RL and Continual Learning": (CH_AGENT_RL, PH_RL_WHY, "agentrl"),
     "Meta-Agents and Evolution Orchestration": (CH_META, PH_META_REGIMES, "meta"),
-    "Evaluation": (CH_EVALUATION, PH_EVAL_LANDSCAPE, "evaluation"),
+    "Evaluation and Benchmarks": (CH_EVALUATION, PH_EVAL_LANDSCAPE, "evaluation"),
     "Safety and Governance": (CH_SAFETY, PH_SAFETY_THREATS, "safety"),
 }
 
@@ -159,7 +159,7 @@ def role(chapter: str, phase: str, key: str, order: int) -> dict[str, str | int]
 def infer_phase(category: str, title: str, name: str) -> str:
     text = f"{title} {name}".lower()
 
-    if category == "Harness Agents and Context Engineering":
+    if category == "Harness and Runtime Architecture":
         if "survey" in text or "sok" in text:
             return PH_HARNESS_RELATED
         if "workflow" in text or "runtime graph" in text:
@@ -179,7 +179,7 @@ def infer_phase(category: str, title: str, name: str) -> str:
             return PH_SKILL_DEFINITION
         return PH_SKILL_LIFECYCLE
 
-    if category == "Memory and Experience":
+    if category == "Memory and Context Management":
         if "graph" in text or "organization" in text or "organizing" in text or "representation" in text:
             return PH_MEMORY_REPRESENTATION
         if "retriev" in text or "compress" in text or "admission" in text or "write" in text or "manage" in text:
@@ -188,7 +188,7 @@ def infer_phase(category: str, title: str, name: str) -> str:
             return PH_MEMORY_EVOLUTION
         return PH_MEMORY_CONTEXT
 
-    if category == "Execution Environments and Benchmarks":
+    if category == "Environments, Tools, and Runtime Feedback":
         if "protocol" in text or "mcp" in text or "a2a" in text or "ag-ui" in text:
             return PH_ENV_PROTOCOL
         if "bench" in text or "gym" in text or "arena" in text or "environment" in text:
@@ -217,7 +217,7 @@ def infer_phase(category: str, title: str, name: str) -> str:
             return PH_META_SELF
         return PH_META_REGIMES
 
-    if category == "Evaluation":
+    if category == "Evaluation and Benchmarks":
         if "sip" in text:
             return PH_EVAL_SIP
         if "target" in text or "measure" in text or "metric" in text:
