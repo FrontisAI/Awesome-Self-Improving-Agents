@@ -84,3 +84,9 @@
 - Moved the website maintenance scripts from `main` `scripts/site/` into the `gh-pages` branch.
 - Adjusted those scripts on `gh-pages` to write generated assets and data directly to the branch root layout instead of `docs/`.
 - Kept `scripts/generate_readme.mjs` on `main` because it belongs to the Awesome README generation flow.
+
+## 2026-06-25 Responsive Pagination Polish
+
+- Added hash-aware page tabs on `gh-pages` for Overview, Harness, Structure, Learning, and Papers while preserving the public URL.
+- Added client-side pagination for the paper catalog with 25/50/100 row options and matching-count/page-summary controls.
+- Improved responsive behavior so the paper table becomes mobile cards and the layout avoids horizontal overflow on narrow viewports.
