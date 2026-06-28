@@ -16,19 +16,19 @@
 
 ## News
 
-- **[2026-05-26]** Initial private repository draft released, following the category-table style of [Awesome-RL-for-LRMs](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs).
-- **[2026-05]** The survey draft is organized around harness agents, runtime adaptation, and the transition from external improvement to parameter-side consolidation.
+- **[2026-06-25] 🎉 Release:** Our survey is now available on [OpenReview](https://openreview.net/pdf?id=IUltZSgLMm).
 
 ## Citation
 
-If you find this survey or paper list helpful, please cite our work once the public preprint is available:
+If you find this survey or paper list helpful, please cite our work:
 
 ```bibtex
-@article{frontis2026experienceagents,
-  title={A Survey of Agents in the Era of Experience: Skills, Harness, and Self- to Meta-Evolution},
-  author={FrontisAI and Tsinghua University},
-  journal={Preprint},
-  year={2026}
+@article{jiang2026selfimprovingagents,
+  title={Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution},
+  author={Che Jiang and Jincheng Zhong and Yu Fu and Kai Tian and Junlin Yang and Kaikai Zhao and Yuchong Wang and Tianwei Luo and Weizhi Wang and Yuxin Zuo and Guoli Jia and Xingtai Lv and Dianqiao Lei and Sihang Zeng and Yuru Wang and Zhenzhao Yuan and Xinwei Long and Ermo Hua and Can Ren and Xin Jiang and Shulei Xie and Yuanchun Zheng and Youbang Sun and Biqing Qi and Ning Ding and Kaiyan Zhang and Bowen Zhou},
+  journal={OpenReview Archive},
+  year={2026},
+  url={https://openreview.net/pdf?id=IUltZSgLMm}
 }
 ```
 
