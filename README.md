@@ -455,7 +455,11 @@ This repository is maintained by the FrontisAI and Tsinghua University survey te
 ## Star History
 
 <p align="center">
-  <a href="https://star-history.com/#FrontisAI/Awesome-Self-Improving-Agents&Date">
-    <img src="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date" alt="Star History Chart">
+  <a href="https://www.star-history.com/#FrontisAI/Awesome-Self-Improving-Agents&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date" />
+      <img src="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date" alt="Star History Chart" />
+    </picture>
   </a>
 </p>
