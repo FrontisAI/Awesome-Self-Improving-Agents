@@ -289,6 +289,7 @@ Every row includes a date, display name, title, and at least one public source b
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
+| 2026-06 | `Agon` | Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.24177) | - |
 | 2026-05 | `Ace-Skill` | Ace-Skill: Bootstrapping Multimodal Agents with Prioritized and Clustered Evolution | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.08887) | - |
 | 2026-05 | `Continual Harness` | Continual Harness: Online Adaptation for Self-Improving Foundation Agents | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.09998) | - |
 | 2026-05 | `Skill1` | Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.06130) | - |
