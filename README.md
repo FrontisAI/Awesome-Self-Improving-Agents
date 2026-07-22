@@ -458,11 +458,11 @@ This repository is maintained by the FrontisAI and Tsinghua University survey te
 ## Star History
 
 <p align="center">
-  <a href="https://www.star-history.com/#FrontisAI/Awesome-Self-Improving-Agents&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date" />
-      <img src="https://api.star-history.com/svg?repos=FrontisAI/Awesome-Self-Improving-Agents&type=Date" alt="Star History Chart" />
-    </picture>
-  </a>
+<a href="https://www.star-history.com/?type=date&repos=FrontisAI%2FAwesome-Self-Improving-Agents">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=FrontisAI/Awesome-Self-Improving-Agents&type=date&theme=dark&legend=top-left&sealed_token=vu1SlYbGLJkGVL_9nMHM0hG3O8yzhLz62ujoq9BulHNj7bbNUVfyptQ6_VS-Jb9_1Z_FpmWXTZScvTra2LMxpZYOSrWZwl4LB3BeGD7cMyLFjAg2VIOxY16DHCpFL6O_cYsDzva1SyYWT2MFAIXYP-vItXhDOKiUoW2Rif_eq2sJE425WqUSQZFs6euh" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=FrontisAI/Awesome-Self-Improving-Agents&type=date&legend=top-left&sealed_token=vu1SlYbGLJkGVL_9nMHM0hG3O8yzhLz62ujoq9BulHNj7bbNUVfyptQ6_VS-Jb9_1Z_FpmWXTZScvTra2LMxpZYOSrWZwl4LB3BeGD7cMyLFjAg2VIOxY16DHCpFL6O_cYsDzva1SyYWT2MFAIXYP-vItXhDOKiUoW2Rif_eq2sJE425WqUSQZFs6euh" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=FrontisAI/Awesome-Self-Improving-Agents&type=date&legend=top-left&sealed_token=vu1SlYbGLJkGVL_9nMHM0hG3O8yzhLz62ujoq9BulHNj7bbNUVfyptQ6_VS-Jb9_1Z_FpmWXTZScvTra2LMxpZYOSrWZwl4LB3BeGD7cMyLFjAg2VIOxY16DHCpFL6O_cYsDzva1SyYWT2MFAIXYP-vItXhDOKiUoW2Rif_eq2sJE425WqUSQZFs6euh" />
+ </picture>
+</a>
 </p>
