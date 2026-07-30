@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preload" href="assets/harness-runtime-hero.png" as="image">
   <link rel="preload" href="assets/frontis-logo.png" as="image">
-  <link rel="stylesheet" href="styles.css?v=figure-scale">
+  <link rel="stylesheet" href="styles.css?v=claim-visual">
 </head>
 <body>
   <div id="scrollbar" aria-hidden="true"></div>
@@ -73,10 +73,46 @@
         </p>
       </div>
       <div class="claim-layout">
-        <figure class="single-figure">
-          <img src="assets/chapters-figure.png" width="2483" height="1322" alt="Overview of the survey figure rendered from the LaTeX-referenced chapters PDF.">
-          <figcaption>The paper moves from a harness-agent definition to external runtime adaptation, parameter-side consolidation, and the evaluation and safety requirements for turning deployment experience into durable capability.</figcaption>
-        </figure>
+        <div class="claim-logic" role="img" aria-label="Trace-to-capability logic: deployment traces are compiled into experience, routed to mutable harness surfaces or model parameters, checked by evaluation and safety gates, then retained as durable capability.">
+          <div class="logic-head">
+            <span>Core Claim</span>
+            <strong>Self-improvement is a trace-to-capability loop.</strong>
+          </div>
+          <div class="logic-edge" aria-hidden="true"></div>
+          <div class="logic-flow" aria-hidden="true">
+            <article class="logic-node logic-node-dark">
+              <span>01</span>
+              <h3>Deployment Traces</h3>
+              <p>Goals, actions, observations, feedback, corrections, tests.</p>
+            </article>
+            <div class="logic-arrow"></div>
+            <article class="logic-node">
+              <span>02</span>
+              <h3>Experience Compiler</h3>
+              <p>Selects evidence, abstracts reusable lessons, assigns provenance.</p>
+            </article>
+          </div>
+          <div class="logic-split" aria-hidden="true">
+            <article>
+              <span>Fast / Reversible</span>
+              <h3>Harness-Side Adaptation</h3>
+              <p>Skills, memory, tools, environments, workflows.</p>
+            </article>
+            <article>
+              <span>Slow / Durable</span>
+              <h3>Parameter Consolidation</h3>
+              <p>RL and continual learning absorb stable runtime priors.</p>
+            </article>
+          </div>
+          <div class="logic-gate" aria-hidden="true">
+            <span>Evaluation + Safety Gate</span>
+            <p>Measure longitudinal gain, retention, attribution, efficiency, and non-regression before treating change as improvement.</p>
+          </div>
+          <div class="logic-output" aria-hidden="true">
+            <span>Claim Outcome</span>
+            <strong>Durable capability under control</strong>
+          </div>
+        </div>
         <div class="claim-points" aria-label="Survey claims">
           <article>
             <span>01</span>
@@ -160,7 +196,7 @@
           <img src="assets/memory-figure.png" width="2208" height="1244" alt="Context-mediated memory figure rendered from the LaTeX-referenced memory PDF.">
           <figcaption><strong>Memory: Experience Becomes Persistent State.</strong> Memory representations, operations, and evolution decide what is stored, revised, retrieved, and reintroduced into active context.</figcaption>
         </figure>
-        <figure class="external-figure-card">
+        <figure class="external-figure-card environment-figure-card">
           <img src="assets/environment-figure.png" width="2362" height="2084" alt="Environment as runtime adaptation ceiling figure rendered from the LaTeX-referenced environment PDF.">
           <figcaption><strong>Environment: The Boundary of What Agents Can Experience.</strong> Runtime adaptation is bounded by the action diversity, feedback density, task horizon, and verification signals exposed by the environment.</figcaption>
         </figure>
