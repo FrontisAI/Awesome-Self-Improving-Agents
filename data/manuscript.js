@@ -1,5 +1,5 @@
 window.MANUSCRIPT = {
-  "title": "A Survey of Agents in the Era of Experience: Skills, Harness, and Self- to Meta-Evolution",
+  "title": "Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution",
   "abstract": "In the Era of Experience, agentic AI is no longer defined only by what a model can infer from static data, but by how a deployed system accumulates, organizes, and reuses experience from interaction. This survey studies experience-driven improvement in deployed agentic AI systems. We focus on the runtime harness as the infrastructure that captures traces, routes actions, exposes feedback, and governs mutable state. Around this infrastructure, we review how experience becomes reusable skill, persistent memory, verifiable environment feedback, trainable model behavior, and meta-level control. We then identify the remaining barriers to reliable improvement, including longitudinal evaluation, transfer, verification, and safety governance. Making agents smarter after deployment is therefore a trace-to-capability problem: the field must learn how to capture experience, assign it to the right update surface, verify its value, and preserve control as the system changes.",
   "parts": [
     {

@@ -1,6 +1,6 @@
 const papers = Array.isArray(window.SURVEY_PAPERS) ? window.SURVEY_PAPERS : [];
 const manuscript = window.MANUSCRIPT || { title: "", abstract: "", parts: [] };
-const siteTitle = "Agents in the Era of Experience";
+const siteTitle = "Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution";
 
 const els = {
   brandTitle: document.querySelector("#brand-title"),

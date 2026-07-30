@@ -1,20 +1,27 @@
 :root {
-  --paper: #f7f5ef;
-  --paper-warm: #efe9dd;
-  --surface: #fffdfa;
-  --surface-strong: #ffffff;
-  --ink: #162126;
-  --muted: #667173;
-  --line: rgba(22, 33, 38, 0.14);
-  --line-strong: rgba(22, 33, 38, 0.24);
-  --teal: #147c78;
-  --teal-dark: #0e5553;
-  --amber: #b7791f;
-  --rust: #954f43;
-  --blue: #3e6482;
-  --plum: #6e5772;
-  --shadow: 0 18px 60px rgba(31, 35, 37, 0.12);
-  --radius: 8px;
+  --black: #000000;
+  --cyan: #00C1D4;
+  --white: #FFFFFF;
+  --gray1: #3D4145;
+  --gray2: #F0F2F4;
+  --orange: #FA5F26;
+  --mid-gray: #8C8C8C;
+  --border-gray: #D0D3D8;
+  --paper: var(--white);
+  --paper-warm: var(--gray2);
+  --surface: var(--white);
+  --surface-strong: var(--white);
+  --ink: var(--black);
+  --muted: var(--gray1);
+  --line: var(--border-gray);
+  --line-strong: var(--gray1);
+  --teal: var(--cyan);
+  --teal-dark: var(--black);
+  --amber: var(--orange);
+  --rust: var(--gray1);
+  --blue: var(--gray1);
+  --plum: var(--gray1);
+  --radius: 0;
   --container: 1180px;
   --header-height: 64px;
 }
@@ -32,7 +39,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Martian Grotesk", "Space Grotesk", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.55;
   letter-spacing: 0;
   overflow-x: hidden;
@@ -62,9 +69,9 @@ select {
   z-index: 30;
   transform: translateY(calc(-100% - 8px));
   background: var(--ink);
-  color: #fff;
+  color: var(--white);
   padding: 8px 12px;
-  border-radius: 6px;
+  border-radius: 0;
 }
 
 .skip-link:focus {
@@ -81,9 +88,8 @@ select {
   justify-content: flex-start;
   gap: 24px;
   padding: 10px clamp(18px, 4vw, 44px);
-  background: rgba(247, 245, 239, 0.92);
+  background: var(--white);
   border-bottom: 1px solid var(--line);
-  backdrop-filter: blur(14px);
 }
 
 .brand {
@@ -92,7 +98,7 @@ select {
   gap: 10px;
   min-width: 0;
   max-width: min(920px, calc(100vw - 36px));
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .brand-logo {
@@ -133,17 +139,29 @@ select {
   min-height: calc(100dvh - var(--header-height));
   padding: clamp(70px, 10dvh, 136px) clamp(18px, 5vw, 72px) clamp(38px, 7dvh, 72px);
   overflow: hidden;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--black);
+  background: var(--black);
+  color: var(--white);
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(90deg, rgba(247, 245, 239, 0.98) 0%, rgba(247, 245, 239, 0.88) 40%, rgba(247, 245, 239, 0.28) 100%),
-    linear-gradient(0deg, rgba(247, 245, 239, 0.96) 0%, rgba(247, 245, 239, 0.18) 44%);
+  background: var(--black);
+  opacity: 0.76;
   z-index: 1;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  height: 4px;
+  background: var(--cyan);
 }
 
 .hero-image {
@@ -165,7 +183,7 @@ select {
 .eyebrow,
 .mini-label {
   margin: 0 0 10px;
-  color: var(--teal-dark);
+  color: var(--muted);
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.13em;
@@ -182,9 +200,8 @@ p {
 h1 {
   max-width: 800px;
   margin-bottom: 18px;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(42px, 4.8vw, 72px);
-  font-weight: 500;
+  font-weight: 900;
   line-height: 1.04;
   overflow-wrap: break-word;
 }
@@ -192,7 +209,7 @@ h1 {
 .hero-subtitle {
   max-width: 670px;
   margin-bottom: 18px;
-  color: #2f3c40;
+  color: var(--gray2);
   font-size: clamp(21px, 3vw, 32px);
   line-height: 1.2;
 }
@@ -200,7 +217,7 @@ h1 {
 .hero-summary {
   max-width: 720px;
   margin-bottom: 30px;
-  color: var(--muted);
+  color: var(--gray2);
   font-size: 17px;
 }
 
@@ -219,8 +236,8 @@ h1 {
   min-height: 42px;
   padding: 10px 16px;
   border: 1px solid var(--line-strong);
-  border-radius: 6px;
-  background: rgba(255, 253, 250, 0.72);
+  border-radius: 0;
+  background: var(--white);
   color: var(--ink);
   font-weight: 700;
   line-height: 1;
@@ -229,20 +246,46 @@ h1 {
 
 .button:hover,
 .button:focus-visible {
-  border-color: var(--ink);
-  background: var(--surface-strong);
+  border-color: var(--cyan);
+  background: var(--gray2);
 }
 
 .button-primary {
-  border-color: var(--ink);
-  background: var(--ink);
-  color: #fff;
+  border-color: var(--white);
+  background: var(--white);
+  color: var(--black);
 }
 
 .button-primary:hover,
 .button-primary:focus-visible {
-  background: var(--teal-dark);
-  border-color: var(--teal-dark);
+  background: var(--gray2);
+  border-color: var(--cyan);
+}
+
+.hero .button {
+  border-color: var(--white);
+  background: transparent;
+  color: var(--white);
+}
+
+.hero .button:hover,
+.hero .button:focus-visible {
+  border-color: var(--cyan);
+  background: var(--white);
+  color: var(--black);
+}
+
+.hero .button-primary {
+  border-color: var(--white);
+  background: var(--white);
+  color: var(--black);
+}
+
+.button-repo {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  text-align: center;
 }
 
 .button:disabled {
@@ -258,13 +301,13 @@ h1 {
   gap: 0;
   width: min(560px, calc(100vw - 36px));
   margin: clamp(36px, 7dvh, 82px) 0 0;
-  border-top: 1px solid var(--line-strong);
-  border-bottom: 1px solid var(--line-strong);
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
 }
 
 .hero-stats div {
   padding: 18px 18px 16px 0;
-  border-right: 1px solid var(--line);
+  border-right: 1px solid var(--gray1);
 }
 
 .hero-stats div:last-child {
@@ -279,7 +322,7 @@ h1 {
 
 .hero-stats dd {
   margin: 6px 0 0;
-  color: var(--muted);
+  color: var(--gray2);
   font-size: 13px;
 }
 
@@ -305,9 +348,8 @@ h1 {
 .section-heading h2 {
   max-width: 860px;
   margin-bottom: 14px;
-  font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(34px, 5vw, 58px);
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.04;
 }
 
@@ -335,14 +377,13 @@ h1 {
   padding: clamp(18px, 4vw, 34px);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: #fbfaf7;
-  box-shadow: var(--shadow);
+  background: var(--white);
 }
 
 .runtime-figure img {
   width: 100%;
-  border-radius: 4px;
-  background: #fff;
+  border-radius: 0;
+  background: var(--white);
 }
 
 .runtime-figure figcaption {
@@ -359,7 +400,8 @@ h1 {
 
 .runtime-notes article {
   padding: 18px;
-  border: 1px solid var(--line);
+  border: 0;
+  border-left: 2px solid var(--cyan);
   border-radius: var(--radius);
   background: var(--surface-strong);
 }
@@ -431,11 +473,11 @@ h1 {
 }
 
 .path-parameter {
-  border-top: 4px solid var(--amber);
+  border-top: 4px solid var(--gray1);
 }
 
 .path-meta {
-  border-top: 4px solid var(--plum);
+  border-top: 4px solid var(--black);
 }
 
 .timeline-section {
@@ -462,7 +504,7 @@ h1 {
 .timeline-figure img {
   width: 100%;
   padding: 18px;
-  background: #fff;
+  background: var(--white);
 }
 
 .timeline-figure figcaption {
@@ -489,11 +531,11 @@ h1 {
 }
 
 .timeline-item:nth-child(2)::before {
-  background: var(--blue);
+  background: var(--gray1);
 }
 
 .timeline-item:nth-child(3)::before {
-  background: var(--rust);
+  background: var(--black);
 }
 
 .timeline-item time {
@@ -536,7 +578,7 @@ h1 {
 }
 
 .surface-card:nth-child(3n) span {
-  color: var(--rust);
+  color: var(--gray1);
 }
 
 .figures-section {
@@ -564,7 +606,7 @@ h1 {
 .single-figure img {
   width: 100%;
   padding: 18px;
-  background: #fff;
+  background: var(--white);
 }
 
 .single-figure figcaption {
@@ -582,7 +624,7 @@ h1 {
   margin: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: #fff;
+  background: var(--white);
   overflow: hidden;
 }
 
@@ -591,7 +633,7 @@ h1 {
   height: 280px;
   object-fit: contain;
   padding: 18px;
-  background: #f8f8f6;
+  background: var(--gray2);
 }
 
 .figure-strip figcaption {
@@ -630,7 +672,8 @@ h1 {
 
 .claim-points article,
 .story-copy {
-  border: 1px solid var(--line);
+  border: 0;
+  border-left: 2px solid var(--cyan);
   border-radius: var(--radius);
   background: var(--surface-strong);
 }
@@ -707,7 +750,7 @@ h1 {
   height: clamp(240px, 24vw, 330px);
   object-fit: contain;
   padding: 16px;
-  background: #fff;
+  background: var(--white);
 }
 
 .figure-grid figcaption {
@@ -739,7 +782,7 @@ h1 {
   height: clamp(520px, 58vw, 760px);
   object-fit: contain;
   padding: clamp(16px, 2.5vw, 28px);
-  background: #fff;
+  background: var(--white);
 }
 
 .external-figure-card figcaption {
@@ -770,7 +813,7 @@ h1 {
   margin: 0;
   padding: 18px 20px;
   border-bottom: 1px solid var(--line);
-  background: #eef8f5;
+  background: var(--gray2);
   font-size: 19px;
   line-height: 1.22;
 }
@@ -828,7 +871,7 @@ h1 {
 }
 
 .papers-section {
-  background: #f2f6f4;
+  background: var(--gray2);
   min-height: auto;
 }
 
@@ -900,8 +943,8 @@ h1 {
   width: 100%;
   min-height: 42px;
   border: 1px solid var(--line-strong);
-  border-radius: 6px;
-  background: #fff;
+  border-radius: 0;
+  background: var(--white);
   color: var(--ink);
   padding: 9px 11px;
   font-size: 14px;
@@ -950,8 +993,8 @@ h1 {
 .page-size-control select {
   min-height: 36px;
   border: 1px solid var(--line-strong);
-  border-radius: 6px;
-  background: #fff;
+  border-radius: 0;
+  background: var(--white);
   color: var(--ink);
   padding: 7px 9px;
   font-size: 14px;
@@ -994,8 +1037,8 @@ h1 {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: #e7efeb;
-  color: #314245;
+  background: var(--black);
+  color: var(--white);
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.08em;
@@ -1016,10 +1059,10 @@ h1 {
   display: inline-flex;
   max-width: 170px;
   padding: 4px 8px;
-  border: 1px solid rgba(20, 124, 120, 0.22);
-  border-radius: 6px;
-  background: #edf8f5;
-  color: var(--teal-dark);
+  border: 1px solid var(--cyan);
+  border-radius: 0;
+  background: var(--white);
+  color: var(--black);
   font-size: 12px;
   font-weight: 800;
 }
@@ -1039,9 +1082,10 @@ h1 {
 
 .paper-title-wrap a:hover,
 .paper-title-wrap a:focus-visible {
-  color: var(--teal-dark);
+  color: var(--black);
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-color: var(--cyan);
 }
 
 .paper-title-wrap span:last-child {
@@ -1073,7 +1117,7 @@ h1 {
   gap: 18px;
   padding: 28px clamp(18px, 5vw, 72px);
   background: var(--ink);
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--gray2);
   font-size: 14px;
 }
 
@@ -1089,10 +1133,6 @@ h1 {
   .hero {
     min-height: auto;
     padding-top: 86px;
-  }
-
-  .hero::before {
-    background: rgba(247, 245, 239, 0.88);
   }
 
   .hero-copy {
