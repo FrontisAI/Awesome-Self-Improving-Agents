@@ -383,16 +383,15 @@ h2 .or {
 .hero-stage {
   position: relative;
   z-index: 2;
-  max-width: 1160px;
-  margin: 64px auto 0;
+  max-width: min(1280px, calc(100vw - 48px));
+  margin: 54px auto 0;
   padding: 0;
 }
 
 .hero-stage img {
   width: 100%;
-  height: min(58vh, 540px);
-  object-fit: contain;
-  padding: clamp(18px, 3vw, 34px);
+  height: auto;
+  padding: clamp(6px, 1.1vw, 14px);
   border: 1px solid var(--hair);
   border-radius: 6px;
   background:
@@ -510,7 +509,7 @@ h2 .or {
 
 .runtime-figure {
   margin: 0;
-  padding: clamp(18px, 4vw, 34px);
+  padding: clamp(8px, 1.6vw, 18px);
   border: 1px solid var(--hair);
   border-radius: var(--radius);
   background: var(--white);
@@ -768,7 +767,7 @@ h2 .or {
 
 .single-figure img {
   width: 100%;
-  padding: 18px;
+  padding: clamp(6px, 1.2vw, 12px);
   background: var(--white);
 }
 
@@ -793,9 +792,8 @@ h2 .or {
 
 .figure-strip img {
   width: 100%;
-  height: 280px;
-  object-fit: contain;
-  padding: 18px;
+  height: auto;
+  padding: clamp(6px, 1.2vw, 12px);
   background: var(--surface);
 }
 
@@ -820,7 +818,7 @@ h2 .or {
 .claim-layout,
 .figure-story {
   display: grid;
-  grid-template-columns: minmax(0, 1.18fr) minmax(280px, 0.82fr);
+  grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
   gap: 20px;
   max-width: var(--container);
   margin: 0 auto;
@@ -918,9 +916,8 @@ h2 .or {
 
 .figure-grid img {
   width: 100%;
-  height: clamp(240px, 24vw, 330px);
-  object-fit: contain;
-  padding: 16px;
+  height: auto;
+  padding: clamp(6px, 1.2vw, 12px);
   background: var(--white);
 }
 
@@ -951,9 +948,8 @@ h2 .or {
 
 .external-figure-card img {
   width: 100%;
-  height: clamp(520px, 58vw, 760px);
-  object-fit: contain;
-  padding: clamp(16px, 2.5vw, 28px);
+  height: auto;
+  padding: clamp(6px, 1.2vw, 14px);
   background: var(--white);
 }
 
