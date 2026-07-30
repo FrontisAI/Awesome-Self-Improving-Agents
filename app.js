@@ -1,6 +1,7 @@
 const papers = Array.isArray(window.SURVEY_PAPERS) ? window.SURVEY_PAPERS : [];
 const manuscript = window.MANUSCRIPT || { title: "", abstract: "", parts: [] };
 const siteTitle = "Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution";
+const heroTitleHtml = 'Self-Improving Agents in the <span class="cy">Era of Experience</span>: A Survey of <span class="or">Self- to Meta-Evolution</span>';
 
 const els = {
   brandTitle: document.querySelector("#brand-title"),
@@ -21,6 +22,7 @@ const els = {
   pageIndicator: document.querySelector("#page-indicator"),
   prevPage: document.querySelector("#prev-page"),
   nextPage: document.querySelector("#next-page"),
+  scrollbar: document.querySelector("#scrollbar"),
 };
 
 let currentCatalogPage = 1;
@@ -149,14 +151,19 @@ function renderManuscriptStructure() {
 function populateManuscriptText() {
   document.title = siteTitle;
   if (els.brandTitle) els.brandTitle.textContent = siteTitle;
-  if (manuscript.title) {
-    if (els.heroTitle) els.heroTitle.textContent = manuscript.title;
-  }
+  if (els.heroTitle) els.heroTitle.innerHTML = heroTitleHtml;
   if (manuscript.abstract && els.heroAbstract) {
     els.heroAbstract.textContent = manuscript.abstract;
   }
   if (els.statParts) els.statParts.textContent = String(paperChapterCount());
   renderManuscriptStructure();
+}
+
+function updateScrollBar() {
+  if (!els.scrollbar) return;
+  const max = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = max > 0 ? window.scrollY / max : 0;
+  els.scrollbar.style.transform = `scaleX(${Math.min(1, Math.max(0, progress))})`;
 }
 
 function phasesForSelectedChapter() {
@@ -326,6 +333,10 @@ function init() {
   els.statPapers.textContent = String(papers.length);
   populateFilters();
   update();
+  updateScrollBar();
+
+  window.addEventListener("scroll", updateScrollBar, { passive: true });
+  window.addEventListener("resize", updateScrollBar);
 
   restoreHashScrollAfterLayout();
   window.addEventListener("hashchange", () => {

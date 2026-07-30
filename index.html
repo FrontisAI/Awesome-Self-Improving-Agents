@@ -12,9 +12,10 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preload" href="assets/harness-runtime-hero.png" as="image">
   <link rel="preload" href="assets/frontis-logo.png" as="image">
-  <link rel="stylesheet" href="styles.css?v=frontis-brand">
+  <link rel="stylesheet" href="styles.css?v=openrsi-style">
 </head>
 <body>
+  <div id="scrollbar" aria-hidden="true"></div>
   <a class="skip-link" href="#papers">Skip to papers</a>
 
   <header class="site-header" aria-label="Site navigation">
@@ -22,13 +23,20 @@
       <img class="brand-logo" src="assets/frontis-logo.png" alt="Frontis">
       <span class="brand-text" id="brand-title">Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution</span>
     </a>
+    <nav class="top-nav" aria-label="Page sections">
+      <a href="#overview">Overview</a>
+      <a href="#definition">Runtime</a>
+      <a href="#papers">Papers</a>
+      <a class="nav-pill" href="https://openreview.net/pdf?id=IUltZSgLMm" target="_blank" rel="noreferrer">PDF</a>
+    </nav>
   </header>
 
   <main>
     <section class="hero" id="overview" aria-labelledby="hero-title">
       <img class="hero-image" src="assets/harness-runtime-hero.png" alt="">
       <div class="hero-copy">
-        <h1 id="hero-title">Self-Improving Agents in the Era of Experience: A Survey of Self- to Meta-Evolution</h1>
+        <p class="conf">Survey Companion</p>
+        <h1 id="hero-title">Self-Improving Agents in the <span class="cy">Era of Experience</span>: A Survey of <span class="or">Self- to Meta-Evolution</span></h1>
         <p class="hero-summary" id="hero-abstract">
           In the Era of Experience, agentic AI is no longer defined only by what a model can infer from static data, but by how a deployed system accumulates, organizes, and reuses experience from interaction. This survey studies experience-driven improvement in deployed agentic AI systems. We focus on the runtime harness as the infrastructure that captures traces, routes actions, exposes feedback, and governs mutable state. Around this infrastructure, we review how experience becomes reusable skill, persistent memory, verifiable environment feedback, trainable model behavior, and meta-level control. We then identify the remaining barriers to reliable improvement, including longitudinal evaluation, transfer, verification, and safety governance. Making agents smarter after deployment is therefore a trace-to-capability problem: the field must learn how to capture experience, assign it to the right update surface, verify its value, and preserve control as the system changes.
         </p>
@@ -40,6 +48,10 @@
           <a class="button" href="https://frontis.ai" target="_blank" rel="noreferrer">FrontisAI Website</a>
         </div>
       </div>
+      <figure class="hero-stage">
+        <img src="assets/chapters-figure.png" width="2573" height="1819" alt="Survey chapter map rendered from the LaTeX-referenced chapters PDF.">
+        <figcaption><span class="lbl">SURVEY MAP</span> Harness, skills, memory, environments, RL, meta-evolution, evaluation, and safety are organized as experience destinations and update surfaces.</figcaption>
+      </figure>
       <dl class="hero-stats" aria-label="LaTeX manuscript summary">
         <div>
           <dt id="stat-papers">111</dt>
@@ -287,6 +299,6 @@
 
   <script src="data/manuscript.js?v=frontis-brand"></script>
   <script src="data/papers.js?v=links-331"></script>
-  <script src="app.js?v=frontis-brand"></script>
+  <script src="app.js?v=openrsi-style"></script>
 </body>
 </html>
