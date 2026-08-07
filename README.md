@@ -123,6 +123,7 @@ Every row includes a date, display name, title, and at least one public source b
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
+| 2026-07 | `Skill-SP` | Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.22529) | [![GitHub Stars](https://img.shields.io/github/stars/Qwen-Applications/skill-self-play?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Qwen-Applications/skill-self-play) |
 | 2026-06 | `li2026agenticenvironmentengineering` | Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.12191) | - |
 | 2026-05 | `zhou2026cta` | Counterfactual Trace Auditing of LLM Agent Skills | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.11946) | - |
 | 2026-05 | `Group of Skills` | Group of Skills: Group-Structured Skill Retrieval for Agent Skill Libraries | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.06978) | - |
