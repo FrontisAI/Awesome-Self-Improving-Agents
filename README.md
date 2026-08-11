@@ -99,6 +99,7 @@ Every row includes a date, display name, title, and at least one public source b
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
+| 2026-08 | `Ouroboros` | Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.08311) | [![GitHub Stars](https://img.shields.io/github/stars/razzant/ouroboros?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/razzant/ouroboros) |
 | 2026-06 | `recursive2026automatedresearch` | First Steps Toward Automated AI Research | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://www.recursive.com/articles/first-steps-toward-automated-ai-research) | - |
 | 2026-06 | `osmani2026loopengineering` | Loop Engineering | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://addyo.substack.com/p/loop-engineering) | - |
 | 2026-06 | `Traj-Evolve` | Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection | [![Paper](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.02812) | - |
