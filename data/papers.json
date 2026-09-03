@@ -1,0 +1,5442 @@
+[
+  {
+    "id": "arxiv:2606.06741",
+    "name": "OpenSkill",
+    "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
+    "authors": [],
+    "published_at": "2026-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2606.06741",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2606.06741"
+  },
+  {
+    "id": "arxiv:2605.23899",
+    "name": "huang2026rawexperience",
+    "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2605.23899",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.23899"
+  },
+  {
+    "id": "arxiv:2605.23904",
+    "name": "SkillOpt",
+    "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2605.23904",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.23904"
+  },
+  {
+    "id": "cursor2026cursor3",
+    "name": "cursor2026cursor3",
+    "title": "Meet the New Cursor",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://cursor.com/blog/cursor-3",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2604.06425",
+    "name": "neuralcomputers2026_paper",
+    "title": "Neural Computers",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2604.06425",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.06425"
+  },
+  {
+    "id": "arxiv:2604.20779",
+    "name": "SWE-chat",
+    "title": "SWE-chat: Coding Agent Interactions From Real Users in the Wild",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2604.20779",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.20779"
+  },
+  {
+    "id": "arxiv:2601.01743",
+    "name": "AI Agent Systems",
+    "title": "AI Agent Systems: Architectures, Applications, and Evaluation",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2601.01743",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.01743"
+  },
+  {
+    "id": "arxiv:2508.07407",
+    "name": "fang2025selfevolvingagents",
+    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "authors": [],
+    "published_at": "2025-08",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2508.07407",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2508.07407"
+  },
+  {
+    "id": "arxiv:2507.21046",
+    "name": "A Survey of Self-Evolving Agents",
+    "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
+    "authors": [],
+    "published_at": "2025-07",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2507.21046",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2507.21046"
+  },
+  {
+    "id": "arxiv:2506.04565",
+    "name": "chen2025compoundaisystems",
+    "title": "From Standalone LLMs to Integrated Intelligence: A Survey of Compound AI Systems",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2506.04565",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.04565"
+  },
+  {
+    "id": "anthropic2025claudecode",
+    "name": "anthropic2025claudecode",
+    "title": "Claude 3.7 Sonnet and Claude Code",
+    "authors": [],
+    "published_at": "2025-02",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "silver2025eraexperience",
+    "name": "silver2025eraexperience",
+    "title": "Welcome to the Era of Experience",
+    "authors": [],
+    "published_at": "2025-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2405.01470",
+    "name": "WildChat",
+    "title": "WildChat: 1M ChatGPT Interaction Logs in the Wild",
+    "authors": [],
+    "published_at": "2024-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2405.01470",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2405.01470"
+  },
+  {
+    "id": "arxiv:2404.14387",
+    "name": "tao2024selfevolutionsurvey",
+    "title": "A Survey on Self-Evolution of Large Language Models",
+    "authors": [],
+    "published_at": "2024-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2404.14387",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2404.14387"
+  },
+  {
+    "id": "langchain2024langgraph",
+    "name": "langchain2024langgraph",
+    "title": "LangGraph",
+    "authors": [],
+    "published_at": "2024-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://www.langchain.com/blog/langgraph",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2309.07864",
+    "name": "xi2023riseagentsurvey",
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "authors": [],
+    "published_at": "2023-09",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2309.07864",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2309.07864"
+  },
+  {
+    "id": "arxiv:2308.11432",
+    "name": "wang2023llmagentsurvey",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "authors": [],
+    "published_at": "2023-08",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2308.11432",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2308.11432"
+  },
+  {
+    "id": "arxiv:2204.01691",
+    "name": "ahn2022can",
+    "title": "Do as i can, not as i say: Grounding language in robotic affordances",
+    "authors": [],
+    "published_at": "2022-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2204.01691",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2204.01691"
+  },
+  {
+    "id": "arxiv:2608.08311",
+    "name": "Ouroboros",
+    "title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-08-11",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2608.08311",
+    "code_url": "https://github.com/razzant/ouroboros",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.08311"
+  },
+  {
+    "id": "recursive2026automatedresearch",
+    "name": "recursive2026automatedresearch",
+    "title": "First Steps Toward Automated AI Research",
+    "authors": [],
+    "published_at": "2026-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://www.recursive.com/articles/first-steps-toward-automated-ai-research",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "osmani2026loopengineering",
+    "name": "osmani2026loopengineering",
+    "title": "Loop Engineering",
+    "authors": [],
+    "published_at": "2026-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://addyo.substack.com/p/loop-engineering",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2606.02812",
+    "name": "Traj-Evolve",
+    "title": "Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection",
+    "authors": [],
+    "published_at": "2026-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2606.02812",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2606.02812"
+  },
+  {
+    "id": "agent-harness-engineering",
+    "name": "Agent Harness Engineering",
+    "title": "Agent Harness Engineering: A Survey",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://openreview.net/forum?id=eONq7FdiHa",
+    "code_url": "",
+    "sources": [
+      "openreview"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "meng2026agentharness",
+    "name": "meng2026agentharness",
+    "title": "Agent Harness for Large Language Model Agents: A Survey",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://www.preprints.org/manuscript/202604.0428/v2",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "boeckeler2026harnessengineering",
+    "name": "boeckeler2026harnessengineering",
+    "title": "Harness Engineering for Coding Agent Users",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://martinfowler.com/articles/harness-engineering.html",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "martin2026harnessfailures",
+    "name": "martin2026harnessfailures",
+    "title": "Most AI Agent Failures Are Harness Failures",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://www.martintechlabs.com/blog/most-ai-agent-failures-are-harness-failures",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "scaling-managed-agents",
+    "name": "Scaling Managed Agents",
+    "title": "Scaling Managed Agents: Decoupling the Brain from the Hands",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://www.anthropic.com/engineering/managed-agents",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "xu2026futureagentsopensource",
+    "name": "xu2026futureagentsopensource",
+    "title": "The Future of Agents is Open Source (part 1 of 2)",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://www.basisset.com/insights/the-future-of-agents-is-open-source-part-1-of-2",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2603.24477",
+    "name": "cursor2026composer2",
+    "title": "Composer 2 Technical Report",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2603.24477",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.24477"
+  },
+  {
+    "id": "arxiv:2603.22386",
+    "name": "yue2026workflowsurvey",
+    "title": "From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2603.22386",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.22386"
+  },
+  {
+    "id": "unlocking-the-codex-harness",
+    "name": "Unlocking the Codex harness",
+    "title": "Unlocking the Codex harness: how we built the App Server",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://openai.com/index/unlocking-the-codex-harness/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "openharness2026-repo",
+    "name": "openharness2026_repo",
+    "title": "OpenHarness",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://github.com/HKUDS/OpenHarness",
+    "code_url": "https://github.com/HKUDS/OpenHarness",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "young2025effectiveharnesses",
+    "name": "young2025effectiveharnesses",
+    "title": "Effective Harnesses for Long-Running Agents",
+    "authors": [],
+    "published_at": "2025-11",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2507.13334",
+    "name": "mei2025contextengineering",
+    "title": "A Survey of Context Engineering for Large Language Models",
+    "authors": [],
+    "published_at": "2025-07",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2507.13334",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2507.13334"
+  },
+  {
+    "id": "arxiv:2505.22954",
+    "name": "Darwin Godel Machine",
+    "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2505.22954",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.22954"
+  },
+  {
+    "id": "openai2025codex",
+    "name": "openai2025codex",
+    "title": "Introducing Codex",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://openai.com/index/introducing-codex/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "authors": [],
+    "published_at": "2020-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://aima.cs.berkeley.edu/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:cs",
+    "name": "Goedel Machines",
+    "title": "Goedel Machines: Self-Referential Universal Problem Solvers Making Provably Optimal Self-Improvements",
+    "authors": [],
+    "published_at": "2003-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/cs/0309048",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "cs"
+  },
+  {
+    "id": "arxiv:2607.22529",
+    "name": "Skill-SP",
+    "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-08-08",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2607.22529",
+    "code_url": "https://github.com/Qwen-Applications/skill-self-play",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.22529"
+  },
+  {
+    "id": "arxiv:2606.12191",
+    "name": "li2026agenticenvironmentengineering",
+    "title": "Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application",
+    "authors": [],
+    "published_at": "2026-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2606.12191",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2606.12191"
+  },
+  {
+    "id": "arxiv:2605.08703",
+    "name": "RewardHarness",
+    "title": "RewardHarness: Self-Evolving Agentic Post-Training",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-08-15",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.08703",
+    "code_url": "https://github.com/TIGER-AI-Lab/RewardHarness",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.08703"
+  },
+  {
+    "id": "arxiv:2605.11946",
+    "name": "zhou2026cta",
+    "title": "Counterfactual Trace Auditing of LLM Agent Skills",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.11946",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11946"
+  },
+  {
+    "id": "arxiv:2605.06978",
+    "name": "Group of Skills",
+    "title": "Group of Skills: Group-Structured Skill Retrieval for Agent Skill Libraries",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.06978",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.06978"
+  },
+  {
+    "id": "arxiv:2605.08670",
+    "name": "MIND-Skill",
+    "title": "MIND-Skill: Quality-Guaranteed Skill Generation via Multi-Agent Induction and Deduction",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.08670",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.08670"
+  },
+  {
+    "id": "arxiv:2605.27366",
+    "name": "MUSE-Autoskill",
+    "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.27366",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.27366"
+  },
+  {
+    "id": "openclaw-research",
+    "name": "OpenClaw Research",
+    "title": "OpenClaw Research: A Systematic Survey of Large Language Model Agents in Open Deployment",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "skills",
+    "paper_url": "https://ykc1.github.io/OpenClaw_Survey_Web/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2605.10500",
+    "name": "SkillEvolver",
+    "title": "SkillEvolver: Skill Learning as a Meta-Skill",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.10500",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10500"
+  },
+  {
+    "id": "arxiv:2605.10114",
+    "name": "SkillRAE",
+    "title": "SkillRAE: Agent Skill-Based Context Compilation for Retrieval-Augmented Execution",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.10114",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10114"
+  },
+  {
+    "id": "arxiv:2605.05726",
+    "name": "SkillRet",
+    "title": "SkillRet: A Large-Scale Benchmark for Skill Retrieval in LLM Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2605.05726",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.05726"
+  },
+  {
+    "id": "arxiv:2604.01687",
+    "name": "CoEvoSkills",
+    "title": "CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2604.01687",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.01687"
+  },
+  {
+    "id": "arxiv:2604.14572",
+    "name": "Corpus2Skill",
+    "title": "Corpus2Skill: Distilling Document Corpora into Hierarchical Skill Directories for Agent Navigation",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2604.14572",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.14572"
+  },
+  {
+    "id": "arxiv:2604.08224",
+    "name": "Externalization in LLM Agents",
+    "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2604.08224",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.08224"
+  },
+  {
+    "id": "hivemind2026-repo",
+    "name": "hivemind2026_repo",
+    "title": "Hivemind: Continual Learning Layer that Distills Coding-Agent Session Trajectories into Reusable Skills",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-07-17",
+    "chapter": "skills",
+    "paper_url": "https://github.com/activeloopai/hivemind",
+    "code_url": "https://github.com/activeloopai/hivemind",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2604.04323",
+    "name": "skillswild2026realistic",
+    "title": "How Well Do Agentic Skills Work in the Wild: Benchmarking LLM Skill Usage in Realistic Settings",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2604.04323",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.04323"
+  },
+  {
+    "id": "arxiv:2604.02268",
+    "name": "SKILL0",
+    "title": "SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2604.02268",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.02268"
+  },
+  {
+    "id": "arxiv:2604.04804",
+    "name": "SkillX",
+    "title": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2604.04804",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.04804"
+  },
+  {
+    "id": "arxiv:2603.11808",
+    "name": "bi2026repositorymining",
+    "title": "Automating Skill Acquisition through Large-Scale Mining of Open-Source Agentic Repositories: A Framework for Multi-Agent Procedural Knowledge Extraction",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.11808",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.11808"
+  },
+  {
+    "id": "arxiv:2603.01145",
+    "name": "AutoSkill",
+    "title": "AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.01145",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.01145"
+  },
+  {
+    "id": "arxiv:2603.28716",
+    "name": "d2skill2026dynamic",
+    "title": "Dynamic Dual-Granularity Skill Bank for Agentic RL",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.28716",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.28716"
+  },
+  {
+    "id": "arxiv:2603.02766",
+    "name": "EvoSkill",
+    "title": "EvoSkill: Automated Skill Discovery for Multi-Agent Systems",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.02766",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.02766"
+  },
+  {
+    "id": "from-model-to-agent",
+    "name": "From Model to Agent",
+    "title": "From Model to Agent: Equipping the Responses API with a Computer Environment",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://openai.com/index/equip-responses-api-computer-environment",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2603.17187",
+    "name": "MetaClaw",
+    "title": "MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.17187",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.17187"
+  },
+  {
+    "id": "arxiv:2603.04448",
+    "name": "SkillNet",
+    "title": "SkillNet: Create, Evaluate, and Connect AI Skills",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.04448",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.04448"
+  },
+  {
+    "id": "arxiv:2603.22455",
+    "name": "SkillRouter",
+    "title": "SkillRouter: Retrieve-and-Rerank Skill Selection for LLM Agents at Scale",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.22455",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.22455"
+  },
+  {
+    "id": "arxiv:2603.15401",
+    "name": "SWE-Skills-Bench",
+    "title": "SWE-Skills-Bench: Do Agent Skills Actually Help in Real-World Software Engineering?",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.15401",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.15401"
+  },
+  {
+    "id": "arxiv:2603.25158",
+    "name": "Trace2Skill",
+    "title": "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.25158",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.25158"
+  },
+  {
+    "id": "arxiv:2603.12056",
+    "name": "XSkill",
+    "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2603.12056",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.12056"
+  },
+  {
+    "id": "arxiv:2602.01869",
+    "name": "Skill-Pro",
+    "title": "Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2602.01869",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.01869"
+  },
+  {
+    "id": "arxiv:2602.08234",
+    "name": "SkillRL",
+    "title": "SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2602.08234",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.08234"
+  },
+  {
+    "id": "arxiv:2602.12670",
+    "name": "SkillsBench",
+    "title": "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2602.12670",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.12670"
+  },
+  {
+    "id": "arxiv:2601.22758",
+    "name": "AutoRefine",
+    "title": "AutoRefine: From Trajectories to Reusable Expertise for Continual LLM Agent Refinement",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2601.22758",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.22758"
+  },
+  {
+    "id": "hermesagent2026-repo",
+    "name": "hermesagent2026_repo",
+    "title": "Hermes Agent",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://github.com/NousResearch/hermes-agent",
+    "code_url": "https://github.com/NousResearch/hermes-agent",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2601.04748",
+    "name": "li2026singleagentskills",
+    "title": "When Single-Agent with Skills Replace Multi-Agent Systems and When They Fail",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2601.04748",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.04748"
+  },
+  {
+    "id": "arxiv:2512.17102",
+    "name": "sage2025selfimproving",
+    "title": "Reinforcement Learning for Self-Improving Agent with Skill Library",
+    "authors": [],
+    "published_at": "2025-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2512.17102",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2512.17102"
+  },
+  {
+    "id": "arxiv:2510.22993",
+    "name": "composeincontext2025skills",
+    "title": "Can Language Models Compose Skills In-Context?",
+    "authors": [],
+    "published_at": "2025-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2510.22993",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2510.22993"
+  },
+  {
+    "id": "arxiv:2605.20616",
+    "name": "Auto-Dreamer",
+    "title": "Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2605.20616",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.20616"
+  },
+  {
+    "id": "arxiv:2605.01386",
+    "name": "MemORAI",
+    "title": "MemORAI: Memory Organization and Retrieval via Adaptive Graph Intelligence for LLM Conversational Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2605.01386",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.01386"
+  },
+  {
+    "id": "arxiv:2605.07242",
+    "name": "MEMOREPAIR",
+    "title": "MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2605.07242",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.07242"
+  },
+  {
+    "id": "arxiv:2605.10870",
+    "name": "zou2026demem",
+    "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2605.10870",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10870"
+  },
+  {
+    "id": "arxiv:2605.12061",
+    "name": "SAGE",
+    "title": "SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2605.12061",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.12061"
+  },
+  {
+    "id": "arxiv:2604.14362",
+    "name": "APEX-MEM",
+    "title": "APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning for Long-Term Conversational AI",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2604.14362",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.14362"
+  },
+  {
+    "id": "arxiv:2604.19771",
+    "name": "Cognis",
+    "title": "Cognis: Context-Aware Memory for Conversational AI Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2604.19771",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.19771"
+  },
+  {
+    "id": "arxiv:2604.01560",
+    "name": "DeltaMem",
+    "title": "DeltaMem: Towards Agentic Memory Management via Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2604.01560",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.01560"
+  },
+  {
+    "id": "arxiv:2604.07798",
+    "name": "zhang2026lightmem",
+    "title": "Lightweight LLM Agent Memory with Small Language Models",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2604.07798",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.07798"
+  },
+  {
+    "id": "tricog",
+    "name": "Tricog",
+    "title": "Experience is the Best Teacher: Augmenting LLM Reasoning with Knowledge Learned from the Past",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-09-02",
+    "chapter": "memory",
+    "paper_url": "https://dl.acm.org/doi/abs/10.1145/3774904.3792630",
+    "code_url": "",
+    "sources": [
+      "publisher"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2603.04549",
+    "name": "zhang2026amac",
+    "title": "Adaptive Memory Admission Control for LLM Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.04549",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.04549"
+  },
+  {
+    "id": "arxiv:2603.03290",
+    "name": "AriadneMem",
+    "title": "AriadneMem: Threading the Maze of Lifelong Memory for LLM Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.03290",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.03290"
+  },
+  {
+    "id": "arxiv:2603.16862",
+    "name": "Chronos",
+    "title": "Chronos: Temporal-Aware Conversational Agents with Structured Event Retrieval for Long-Term Memory",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.16862",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.16862"
+  },
+  {
+    "id": "arxiv:2603.15421",
+    "name": "CLAG",
+    "title": "CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.15421",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.15421"
+  },
+  {
+    "id": "arxiv:2603.27910",
+    "name": "GAAMA",
+    "title": "GAAMA: Graph Augmented Associative Memory for Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.27910",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.27910"
+  },
+  {
+    "id": "arxiv:2603.19935",
+    "name": "Memori",
+    "title": "Memori: A Persistent Memory Layer for Efficient, Context-Aware LLM Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.19935",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.19935"
+  },
+  {
+    "id": "arxiv:2603.07670",
+    "name": "Memory for Autonomous LLM Agents",
+    "title": "Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.07670",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.07670"
+  },
+  {
+    "id": "arxiv:2603.03296",
+    "name": "PlugMem",
+    "title": "PlugMem: A Task-Agnostic Plugin Memory Module for LLM Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2603.03296",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.03296"
+  },
+  {
+    "id": "arxiv:2602.06051",
+    "name": "CAST",
+    "title": "CAST: Character-and-Scene Episodic Memory for Agents",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2602.06051",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.06051"
+  },
+  {
+    "id": "arxiv:2602.17913",
+    "name": "From Lossy to Verified",
+    "title": "From Lossy to Verified: A Provenance-Aware Tiered Memory for Agents",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2602.17913",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.17913"
+  },
+  {
+    "id": "arxiv:2602.02369",
+    "name": "Live-Evo",
+    "title": "Live-Evo: Online Evolution of Agentic Memory from Continuous Feedback",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2602.02369",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.02369"
+  },
+  {
+    "id": "arxiv:2602.16313",
+    "name": "MemoryArena",
+    "title": "MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2602.16313",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.16313"
+  },
+  {
+    "id": "arxiv:2602.22406",
+    "name": "xinlewu2026umem",
+    "title": "Towards Autonomous Memory Agents",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2602.22406",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.22406"
+  },
+  {
+    "id": "arxiv:2602.05832",
+    "name": "UI-Mem",
+    "title": "UI-Mem: Self-Evolving Experience Memory for Online Reinforcement Learning in Mobile GUI Agents",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2602.05832",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.05832"
+  },
+  {
+    "id": "arxiv:2602.02007",
+    "name": "xMemory",
+    "title": "xMemory: Beyond RAG for Agent Memory -- Retrieval by Decoupling and Aggregation",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2602.02007",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.02007"
+  },
+  {
+    "id": "arxiv:2601.07190",
+    "name": "Active Context Compression",
+    "title": "Active Context Compression: Autonomous Memory Management in LLM Agents",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2601.07190",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.07190"
+  },
+  {
+    "id": "arxiv:2601.01885",
+    "name": "Agentic Memory",
+    "title": "Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2601.01885",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.01885"
+  },
+  {
+    "id": "arxiv:2601.16690",
+    "name": "EMemBench",
+    "title": "EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2601.16690",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.16690"
+  },
+  {
+    "id": "arxiv:2605.15701",
+    "name": "H-Mem",
+    "title": "H-Mem: A Novel Memory Mechanism for Evolving and Retrieving Agent Memory via a Hybrid Structure",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2605.15701",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.15701"
+  },
+  {
+    "id": "arxiv:2601.06973",
+    "name": "baldelli2026hangman",
+    "title": "LLMs Can't Play Hangman: On the Necessity of a Private Working Memory for Language Agents",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2601.06973",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.06973"
+  },
+  {
+    "id": "arxiv:2601.19935",
+    "name": "Mem2ActBench",
+    "title": "Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2601.19935",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.19935"
+  },
+  {
+    "id": "arxiv:2601.03192",
+    "name": "MemRL",
+    "title": "MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2601.03192",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.03192"
+  },
+  {
+    "id": "arxiv:2601.02553",
+    "name": "SimpleMem",
+    "title": "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2601.02553",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.02553"
+  },
+  {
+    "id": "arxiv:2511.12997",
+    "name": "WebCoach",
+    "title": "WebCoach: Self-Evolving Web Agents with Cross-Session Memory Guidance",
+    "authors": [],
+    "published_at": "2025-11",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2511.12997",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2511.12997"
+  },
+  {
+    "id": "arxiv:2508.03341",
+    "name": "Nemori",
+    "title": "Nemori: Self-Organizing Agent Memory Inspired by Cognitive Science",
+    "authors": [],
+    "published_at": "2025-08",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2508.03341",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2508.03341"
+  },
+  {
+    "id": "arxiv:2503.09516",
+    "name": "Search-R1",
+    "title": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning",
+    "authors": [],
+    "published_at": "2025-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2503.09516",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2503.09516"
+  },
+  {
+    "id": "arxiv:2410.10813",
+    "name": "LongMemEval",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "authors": [],
+    "published_at": "2024-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2410.10813",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2410.10813"
+  },
+  {
+    "id": "arxiv:2404.13501",
+    "name": "zhang2024memorymechanism",
+    "title": "A Survey on the Memory Mechanism of Large Language Model Based Agents",
+    "authors": [],
+    "published_at": "2024-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2404.13501",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2404.13501"
+  },
+  {
+    "id": "arxiv:2312.17259",
+    "name": "empoweringworkingmemory2023",
+    "title": "Empowering Working Memory for Large Language Model Agents",
+    "authors": [],
+    "published_at": "2023-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2312.17259",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2312.17259"
+  },
+  {
+    "id": "arxiv:2310.08560",
+    "name": "MemGPT",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "authors": [],
+    "published_at": "2023-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2310.08560",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2310.08560"
+  },
+  {
+    "id": "arxiv:2303.11366",
+    "name": "Reflexion",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "authors": [],
+    "published_at": "2023-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2303.11366",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2303.11366"
+  },
+  {
+    "id": "arxiv:2005.11401",
+    "name": "lewis2020rag",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "authors": [],
+    "published_at": "2020-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2005.11401",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2005.11401"
+  },
+  {
+    "id": "arxiv:1612.00796",
+    "name": "kirkpatrick2017ewc",
+    "title": "Overcoming catastrophic forgetting in neural networks",
+    "authors": [],
+    "published_at": "2016-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/1612.00796",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "1612.00796"
+  },
+  {
+    "id": "arxiv:2605.11030",
+    "name": "zhong2026executablebenchmark",
+    "title": "An Executable Benchmarking Suite for Tool-Using Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.11030",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11030"
+  },
+  {
+    "id": "arxiv:2605.07251",
+    "name": "wu2026chemcost",
+    "title": "Can Agents Price a Reaction? Evaluating LLMs on Chemical Cost Reasoning",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.07251",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.07251"
+  },
+  {
+    "id": "arxiv:2605.25624",
+    "name": "CUA-Gym",
+    "title": "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.25624",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.25624"
+  },
+  {
+    "id": "arxiv:2605.06334",
+    "name": "MANTRA",
+    "title": "MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.06334",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.06334"
+  },
+  {
+    "id": "arxiv:2605.02240",
+    "name": "PhysicianBench",
+    "title": "PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.02240",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.02240"
+  },
+  {
+    "id": "arxiv:2605.15215",
+    "name": "SkillSmith",
+    "title": "SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.15215",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.15215"
+  },
+  {
+    "id": "arxiv:2605.11928",
+    "name": "When Simulation Lies",
+    "title": "When Simulation Lies: A Sim-to-Real Benchmark and Domain-Randomized RL Recipe for Tool-Use Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.11928",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11928"
+  },
+  {
+    "id": "arxiv:2604.18292",
+    "name": "Agent-World",
+    "title": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2604.18292",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.18292"
+  },
+  {
+    "id": "arxiv:2604.22748",
+    "name": "Agentic World Modeling",
+    "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2604.22748",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.22748"
+  },
+  {
+    "id": "arxiv:2604.06126",
+    "name": "Gym-Anything",
+    "title": "Gym-Anything: Turn any Software into an Agent Environment",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2604.06126",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.06126"
+  },
+  {
+    "id": "arxiv:2604.04872",
+    "name": "zhou2026sandmle",
+    "title": "Synthetic Sandbox for Training Machine Learning Engineering Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2604.04872",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.04872"
+  },
+  {
+    "id": "arxiv:2604.01508",
+    "name": "ToolMisuseBench",
+    "title": "ToolMisuseBench: An Offline Deterministic Benchmark for Tool Misuse and Recovery in Agentic Systems",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2604.01508",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.01508"
+  },
+  {
+    "id": "arxiv:2602.10999",
+    "name": "CLI-Gym",
+    "title": "CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2602.10999",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.10999"
+  },
+  {
+    "id": "arxiv:2602.15384",
+    "name": "shen2026wac",
+    "title": "World-Model-Augmented Web Agents with Action Correction",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2602.15384",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.15384"
+  },
+  {
+    "id": "xiang2026selfevolvingcoevolution",
+    "name": "xiang2026selfevolvingcoevolution",
+    "title": "A Systematic Survey of Self-Evolving Agents: From Model-Centric to Environment-Driven Co-Evolution",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6626878",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "ag-ui",
+    "name": "AG-UI",
+    "title": "AG-UI: The Agent-User Interaction Protocol",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://github.com/ag-ui-protocol/ag-ui",
+    "code_url": "https://github.com/ag-ui-protocol/ag-ui",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "a2a-spec-2026",
+    "name": "a2a_spec_2026",
+    "title": "Agent2Agent (A2A) Protocol",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://github.com/a2aproject/A2A",
+    "code_url": "https://github.com/a2aproject/A2A",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "cli-anything",
+    "name": "CLI-Anything",
+    "title": "CLI-Anything: Making ALL Software Agent-Native",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://github.com/HKUDS/CLI-Anything",
+    "code_url": "https://github.com/HKUDS/CLI-Anything",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "harbor",
+    "name": "Harbor",
+    "title": "Harbor: A Framework for Running Agent Evaluations and Creating and Using RL Environments",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://github.com/harbor-framework/harbor",
+    "code_url": "https://github.com/harbor-framework/harbor",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2605.29559",
+    "name": "LiteCoder-Terminal",
+    "title": "LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2605.29559",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.29559"
+  },
+  {
+    "id": "arxiv:2601.22859",
+    "name": "MEnvAgent",
+    "title": "MEnvAgent: Scalable Polyglot Environment Construction for Verifiable Software Engineering",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2601.22859",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.22859"
+  },
+  {
+    "id": "openclaw2026-repo",
+    "name": "openclaw2026_repo",
+    "title": "OpenClaw",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://github.com/openclaw/openclaw",
+    "code_url": "https://github.com/openclaw/openclaw",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2601.14615",
+    "name": "SearchGym",
+    "title": "SearchGym: Bootstrapping Real-World Search Agents via Cost-Effective and High-Fidelity Environment Simulation",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2601.14615",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.14615"
+  },
+  {
+    "id": "arxiv:2601.11868",
+    "name": "Terminal-Bench",
+    "title": "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2601.11868",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.11868"
+  },
+  {
+    "id": "arxiv:2601.02439",
+    "name": "WebGym",
+    "title": "WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2601.02439",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.02439"
+  },
+  {
+    "id": "arxiv:2508.04700",
+    "name": "SEAgent",
+    "title": "SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience",
+    "authors": [],
+    "published_at": "2025-08",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2508.04700",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2508.04700"
+  },
+  {
+    "id": "arxiv:2506.11045",
+    "name": "proceduraltooluse2025_paper",
+    "title": "Procedural Environment Generation for Tool-Use Agents",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2506.11045",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.11045"
+  },
+  {
+    "id": "arxiv:2505.19253",
+    "name": "DeepResearchGym",
+    "title": "DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2505.19253",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.19253"
+  },
+  {
+    "id": "arxiv:2505.07782",
+    "name": "MLE-Dojo",
+    "title": "MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2505.07782",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.07782"
+  },
+  {
+    "id": "chezelles2025browsergym",
+    "name": "chezelles2025browsergym",
+    "title": "The BrowserGym Ecosystem for Web Agent Research",
+    "authors": [],
+    "published_at": "2025-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://openreview.net/forum?id=5298fKGmv3",
+    "code_url": "",
+    "sources": [
+      "openreview"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "mcp-spec-2025",
+    "name": "mcp_spec_2025",
+    "title": "Model Context Protocol Specification",
+    "authors": [],
+    "published_at": "2025-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "code_url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2412.21139",
+    "name": "pan2024swegym",
+    "title": "Training Software Engineering Agents and Verifiers with SWE-Gym",
+    "authors": [],
+    "published_at": "2024-12",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2412.21139",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2412.21139"
+  },
+  {
+    "id": "arxiv:2405.14573",
+    "name": "AndroidWorld",
+    "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
+    "authors": [],
+    "published_at": "2024-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2405.14573",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2405.14573"
+  },
+  {
+    "id": "arxiv:2404.07972",
+    "name": "OSWorld",
+    "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+    "authors": [],
+    "published_at": "2024-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2404.07972",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2404.07972"
+  },
+  {
+    "id": "arxiv:2403.03186",
+    "name": "CRADLE",
+    "title": "CRADLE: General Computer Agents with Tool Creation and Knowledge Discovery",
+    "authors": [],
+    "published_at": "2024-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2403.03186",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2403.03186"
+  },
+  {
+    "id": "arxiv:2403.05525",
+    "name": "DeepSeek-VL",
+    "title": "DeepSeek-VL: Towards Real-World Vision-Language Understanding",
+    "authors": [],
+    "published_at": "2024-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2403.05525",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2403.05525"
+  },
+  {
+    "id": "arxiv:2402.12275",
+    "name": "tang2024worldcoder",
+    "title": "WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment",
+    "authors": [],
+    "published_at": "2024-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2402.12275",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2402.12275"
+  },
+  {
+    "id": "appworld",
+    "name": "AppWorld",
+    "title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+    "authors": [],
+    "published_at": "2024-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://aclanthology.org/2024.acl-long.850/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "workarena",
+    "name": "WorkArena",
+    "title": "WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?",
+    "authors": [],
+    "published_at": "2024-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://proceedings.mlr.press/v235/drouin24a.html",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2310.06770",
+    "name": "SWE-bench",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "authors": [],
+    "published_at": "2023-10",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2310.06770",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2310.06770"
+  },
+  {
+    "id": "arxiv:2307.13854",
+    "name": "WebArena",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "authors": [],
+    "published_at": "2023-07",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2307.13854",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2307.13854"
+  },
+  {
+    "id": "arxiv:2304.03442",
+    "name": "Generative Agents",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "authors": [],
+    "published_at": "2023-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2304.03442",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2304.03442"
+  },
+  {
+    "id": "arxiv:2303.11381",
+    "name": "MM-ReAct",
+    "title": "MM-ReAct: Prompting ChatGPT for Multimodal Reasoning and Action",
+    "authors": [],
+    "published_at": "2023-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2303.11381",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2303.11381"
+  },
+  {
+    "id": "arxiv:2210.03629",
+    "name": "ReAct",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "authors": [],
+    "published_at": "2022-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2210.03629",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2210.03629"
+  },
+  {
+    "id": "arxiv:2010.03768",
+    "name": "ALFWorld",
+    "title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+    "authors": [],
+    "published_at": "2020-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2010.03768",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2010.03768"
+  },
+  {
+    "id": "arxiv:2604.10674",
+    "name": "Skill-SD",
+    "title": "Skill-SD: Skill-Conditioned Self-Distillation for Multi-turn LLM Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2604.10674",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.10674"
+  },
+  {
+    "id": "cursor2026realtimerl",
+    "name": "cursor2026realtimerl",
+    "title": "Improving Composer through real-time RL",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://cursor.com/blog/real-time-rl-for-composer",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2603.10165",
+    "name": "OpenClaw-RL",
+    "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2603.10165",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.10165"
+  },
+  {
+    "id": "arxiv:2602.10356",
+    "name": "xue2026acurl",
+    "title": "Autonomous Continual Learning of Computer-Use Agents for Environment Adaptation",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2602.10356",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.10356"
+  },
+  {
+    "id": "arxiv:2602.23008",
+    "name": "liu2026empo2",
+    "title": "Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2602.23008",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.23008"
+  },
+  {
+    "id": "arxiv:2602.12275",
+    "name": "ye2026opcd",
+    "title": "On-Policy Context Distillation for Language Models",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2602.12275",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.12275"
+  },
+  {
+    "id": "arxiv:2512.18552",
+    "name": "wei2025selfplayswerl",
+    "title": "Toward Training Superintelligent Software Agents through Self-Play SWE-RL",
+    "authors": [],
+    "published_at": "2025-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2512.18552",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2512.18552"
+  },
+  {
+    "id": "arxiv:2511.02805",
+    "name": "MemSearcher",
+    "title": "MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning",
+    "authors": [],
+    "published_at": "2025-11",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2511.02805",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2511.02805"
+  },
+  {
+    "id": "arxiv:2510.01132",
+    "name": "wang2025agenticrlguide",
+    "title": "A Practitioner's Guide to Multi-turn Agentic Reinforcement Learning",
+    "authors": [],
+    "published_at": "2025-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2510.01132",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2510.01132"
+  },
+  {
+    "id": "arxiv:2509.23045",
+    "name": "Kimi-Dev",
+    "title": "Kimi-Dev: Agentless Training as Skill Prior for SWE-Agents",
+    "authors": [],
+    "published_at": "2025-09",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2509.23045",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2509.23045"
+  },
+  {
+    "id": "arxiv:2509.25137",
+    "name": "jin2025rluserconversations",
+    "title": "The Era of Real-World Human Interaction: RL from User Conversations",
+    "authors": [],
+    "published_at": "2025-09",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2509.25137",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2509.25137"
+  },
+  {
+    "id": "arxiv:2509.02547",
+    "name": "zhang2026agenticrlsurvey",
+    "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+    "authors": [],
+    "published_at": "2025-09",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2509.02547",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2509.02547"
+  },
+  {
+    "id": "arxiv:2508.03680",
+    "name": "Agent Lightning",
+    "title": "Agent Lightning: Train ANY AI Agents with Reinforcement Learning",
+    "authors": [],
+    "published_at": "2025-08",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2508.03680",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2508.03680"
+  },
+  {
+    "id": "arxiv:2508.14040",
+    "name": "ComputerRL",
+    "title": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+    "authors": [],
+    "published_at": "2025-08",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2508.14040",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2508.14040"
+  },
+  {
+    "id": "arxiv:2505.03335",
+    "name": "Absolute Zero",
+    "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2505.03335",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.03335"
+  },
+  {
+    "id": "arxiv:2504.11536",
+    "name": "ReTool",
+    "title": "ReTool: Reinforcement Learning for Strategic Tool Use in LLMs",
+    "authors": [],
+    "published_at": "2025-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2504.11536",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2504.11536"
+  },
+  {
+    "id": "arxiv:2504.21798",
+    "name": "SWE-smith",
+    "title": "SWE-smith: Scaling Data for Software Engineering Agents",
+    "authors": [],
+    "published_at": "2025-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2504.21798",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2504.21798"
+  },
+  {
+    "id": "arxiv:2504.13958",
+    "name": "ToolRL",
+    "title": "ToolRL: Reward is All Tool Learning Needs",
+    "authors": [],
+    "published_at": "2025-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2504.13958",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2504.13958"
+  },
+  {
+    "id": "arxiv:2502.18449",
+    "name": "SWE-RL",
+    "title": "SWE-RL: Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution",
+    "authors": [],
+    "published_at": "2025-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2502.18449",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2502.18449"
+  },
+  {
+    "id": "arxiv:2112.09332",
+    "name": "WebGPT",
+    "title": "WebGPT: Browser-Assisted Question-Answering with Human Feedback",
+    "authors": [],
+    "published_at": "2021-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2112.09332",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2112.09332"
+  },
+  {
+    "id": "kairouz2021advances",
+    "name": "kairouz2021advances",
+    "title": "Advances and Open Problems in Federated Learning",
+    "authors": [],
+    "published_at": "2021-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://doi.org/10.1561/2200000083",
+    "code_url": "",
+    "sources": [
+      "publisher"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "li2020federated",
+    "name": "li2020federated",
+    "title": "Federated Optimization in Heterogeneous Networks",
+    "authors": [],
+    "published_at": "2020-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2020/file/1f5fe83998a09396ebe6477d9475ba0c-Paper.pdf",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "towards-federated-learning-at-scale",
+    "name": "Towards Federated Learning at Scale",
+    "title": "Towards Federated Learning at Scale: System Design",
+    "authors": [],
+    "published_at": "2019-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "agent-rl",
+    "paper_url": "https://proceedings.mlsys.org/paper_files/paper/2019/file/7b770da633baf74895be22a8807f1a8f-Paper.pdf",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:1706.08840",
+    "name": "lopezpaz2017gem",
+    "title": "Gradient Episodic Memory for Continual Learning",
+    "authors": [],
+    "published_at": "2017-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/1706.08840",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "1706.08840"
+  },
+  {
+    "id": "mcmahan2017communication",
+    "name": "mcmahan2017communication",
+    "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+    "authors": [],
+    "published_at": "2017-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "agent-rl",
+    "paper_url": "https://proceedings.mlr.press/v54/mcmahan17a.html",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2606.24177",
+    "name": "Agon",
+    "title": "Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy",
+    "authors": [],
+    "published_at": "2026-06",
+    "updated_at": null,
+    "added_at": "2026-07-02",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2606.24177",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2606.24177"
+  },
+  {
+    "id": "arxiv:2605.08887",
+    "name": "Ace-Skill",
+    "title": "Ace-Skill: Bootstrapping Multimodal Agents with Prioritized and Clustered Evolution",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2605.08887",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.08887"
+  },
+  {
+    "id": "arxiv:2605.09998",
+    "name": "Continual Harness",
+    "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2605.09998",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.09998"
+  },
+  {
+    "id": "arxiv:2605.06130",
+    "name": "Skill1",
+    "title": "Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2605.06130",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.06130"
+  },
+  {
+    "id": "arxiv:2605.06614",
+    "name": "SkillOS",
+    "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2605.06614",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.06614"
+  },
+  {
+    "id": "arxiv:2604.25850",
+    "name": "Agentic Harness Engineering",
+    "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.25850",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.25850"
+  },
+  {
+    "id": "arxiv:2604.15034",
+    "name": "Autogenesis",
+    "title": "Autogenesis: A Self-Evolving Agent Protocol",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.15034",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.15034"
+  },
+  {
+    "id": "arxiv:2604.01658",
+    "name": "CORAL",
+    "title": "CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-08-13",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.01658",
+    "code_url": "https://github.com/Human-Agent-Society/CORAL",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.01658"
+  },
+  {
+    "id": "arxiv:2604.00901",
+    "name": "Experience as a Compass",
+    "title": "Experience as a Compass: Multi-agent RAG with Evolving Orchestration and Agent Prompts",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.00901",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.00901"
+  },
+  {
+    "id": "arxiv:2604.00830",
+    "name": "Meta-TTL",
+    "title": "Learning to Learn-at-Test-Time: Language Agents with Learnable Adaptation Policies",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-07-17",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.00830v3",
+    "code_url": "https://github.com/zzzlou/meta-ttl",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.00830"
+  },
+  {
+    "id": "arxiv:2604.11811",
+    "name": "pan2026mstar",
+    "title": "M^: Every Task Deserves Its Own Memory Harness",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.11811",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.11811"
+  },
+  {
+    "id": "arxiv:2604.10923",
+    "name": "cheng2026mem2evolve",
+    "title": "Mem^2Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.10923",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.10923"
+  },
+  {
+    "id": "arxiv:2604.04503",
+    "name": "qiao2026mia",
+    "title": "Memory Intelligence Agent",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.04503",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.04503"
+  },
+  {
+    "id": "arxiv:2604.07645",
+    "name": "PRIME",
+    "title": "PRIME: Training Free Proactive Reasoning via Iterative Memory Evolution for User-Centric Agent",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.07645",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.07645"
+  },
+  {
+    "id": "arxiv:2604.04347",
+    "name": "RoboPhD",
+    "title": "RoboPhD: Evolving Diverse Complex Agents Under Tight Evaluation Budgets",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.04347",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.04347"
+  },
+  {
+    "id": "arxiv:2604.11610",
+    "name": "yang2026memoryextraction",
+    "title": "Self-Evolving LLM Memory Extraction Across Heterogeneous Tasks",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.11610",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.11610"
+  },
+  {
+    "id": "arxiv:2604.15719",
+    "name": "The World Leaks the Future",
+    "title": "The World Leaks the Future: Harness Evolution for Future Prediction Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2604.15719",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.15719"
+  },
+  {
+    "id": "arxiv:2603.18000",
+    "name": "AgentFactory",
+    "title": "AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.18000",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.18000"
+  },
+  {
+    "id": "arxiv:2603.24402",
+    "name": "AI-Supervisor",
+    "title": "AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.24402",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.24402"
+  },
+  {
+    "id": "arxiv:2603.16060",
+    "name": "ARISE",
+    "title": "ARISE: Agent Reasoning with Intrinsic Skill Evolution in Hierarchical Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.16060",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.16060"
+  },
+  {
+    "id": "arxiv:2603.09716",
+    "name": "AutoAgent",
+    "title": "AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.09716",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.09716"
+  },
+  {
+    "id": "arxiv:2603.19461",
+    "name": "zhang2026hyperagents",
+    "title": "Hyperagents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.19461",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.19461"
+  },
+  {
+    "id": "arxiv:2603.18743",
+    "name": "Memento-Skills",
+    "title": "Memento-Skills: Let Agents Design Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.18743",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.18743"
+  },
+  {
+    "id": "arxiv:2603.28052",
+    "name": "Meta-Harness",
+    "title": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.28052",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.28052"
+  },
+  {
+    "id": "arxiv:2603.28986",
+    "name": "Mimosa Framework",
+    "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.28986",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.28986"
+  },
+  {
+    "id": "arxiv:2603.10808",
+    "name": "Nurture-First Agent Development",
+    "title": "Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge Crystallization",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.10808",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.10808"
+  },
+  {
+    "id": "arxiv:2603.08561",
+    "name": "RetroAgent",
+    "title": "RetroAgent: From Solving to Evolving via Retrospective Dual Intrinsic Feedback",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.08561",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.08561"
+  },
+  {
+    "id": "arxiv:2603.15255",
+    "name": "SAGE",
+    "title": "SAGE: Multi-Agent Self-Evolution for LLM Reasoning",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2603.15255",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.15255"
+  },
+  {
+    "id": "arxiv:2602.03786",
+    "name": "AOrchestra",
+    "title": "AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.03786",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.03786"
+  },
+  {
+    "id": "arxiv:2602.04837",
+    "name": "Group-Evolving Agents",
+    "title": "Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.04837",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.04837"
+  },
+  {
+    "id": "arxiv:2602.14293",
+    "name": "KernelBlaster",
+    "title": "KernelBlaster: Continual Cross-Task CUDA Optimization via Memory-Augmented In-Context Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.14293",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.14293"
+  },
+  {
+    "id": "arxiv:2602.07755",
+    "name": "xiong2026alma",
+    "title": "Learning to Continually Learn via Meta-learning Agentic Memory Designs",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.07755",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.07755"
+  },
+  {
+    "id": "arxiv:2602.02474",
+    "name": "MemSkill",
+    "title": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.02474",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.02474"
+  },
+  {
+    "id": "arxiv:2602.11182",
+    "name": "MetaMem",
+    "title": "MetaMem: Evolving Meta-Memory for Knowledge Utilization through Self-Reflective Symbolic Optimization",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.11182",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.11182"
+  },
+  {
+    "id": "arxiv:2602.00359",
+    "name": "Position",
+    "title": "Position: Agentic Evolution is the Path to Evolving LLMs",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.00359",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.00359"
+  },
+  {
+    "id": "arxiv:2602.01848",
+    "name": "ROMA",
+    "title": "ROMA: Recursive Open Meta-Agent Framework for Long-Horizon Multi-Agent Systems",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.01848",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.01848"
+  },
+  {
+    "id": "arxiv:2602.19672",
+    "name": "SkillOrchestra",
+    "title": "SkillOrchestra: Learning to Route Agents via Skill Transfer",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.19672",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.19672"
+  },
+  {
+    "id": "arxiv:2602.21320",
+    "name": "Tool-R0",
+    "title": "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2602.21320",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.21320"
+  },
+  {
+    "id": "graphplanner",
+    "name": "GraphPlanner",
+    "title": "GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://openreview.net/forum?id=ZdGB7MNQDT",
+    "code_url": "https://github.com/ulab-uiuc/GraphPlanner",
+    "sources": [
+      "openreview"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2601.21557",
+    "name": "ye2026mce",
+    "title": "Meta Context Engineering via Agentic Skill Evolution",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2601.21557",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.21557"
+  },
+  {
+    "id": "arxiv:2601.19290",
+    "name": "MetaGen",
+    "title": "MetaGen: Self-Evolving Roles and Topologies for Multi-Agent LLM Reasoning",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2601.19290",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.19290"
+  },
+  {
+    "id": "arxiv:2511.16043",
+    "name": "Agent0",
+    "title": "Agent0: Unleashing Self-Evolving Agents from Zero Data via Tool-Integrated Reasoning",
+    "authors": [],
+    "published_at": "2025-11",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2511.16043",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2511.16043"
+  },
+  {
+    "id": "arxiv:2510.07307",
+    "name": "MLE-Smith",
+    "title": "MLE-Smith: Scaling MLE Tasks with Automated Multi-Agent Pipeline",
+    "authors": [],
+    "published_at": "2025-10",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2510.07307",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2510.07307"
+  },
+  {
+    "id": "metaevo",
+    "name": "MetaEvo",
+    "title": "MetaEvo: A Meta-Optimization Framework for Experience-Driven Agent Evolution",
+    "authors": [],
+    "published_at": "2025-09",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://openreview.net/forum?id=1YcMHVY9cl",
+    "code_url": "",
+    "sources": [
+      "openreview"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2508.00271",
+    "name": "MetaAgent",
+    "title": "MetaAgent: Toward Self-Evolving Agent via Tool Meta-Learning",
+    "authors": [],
+    "published_at": "2025-08",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2508.00271",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2508.00271"
+  },
+  {
+    "id": "alphaevolve",
+    "name": "AlphaEvolve",
+    "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2505.19591",
+    "name": "dang2025evolvingorchestration",
+    "title": "Multi-Agent Collaboration via Evolving Orchestration",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2505.19591",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.19591"
+  },
+  {
+    "id": "arxiv:2504.15257",
+    "name": "FlowReasoner",
+    "title": "FlowReasoner: Reinforcing Query-Level Meta-Agents",
+    "authors": [],
+    "published_at": "2025-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2504.15257",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2504.15257"
+  },
+  {
+    "id": "arxiv:2504.16084",
+    "name": "TTRL",
+    "title": "TTRL: Test-Time Reinforcement Learning",
+    "authors": [],
+    "published_at": "2025-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2504.16084",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2504.16084"
+  },
+  {
+    "id": "arxiv:2502.12110",
+    "name": "A-MEM",
+    "title": "A-MEM: Agentic Memory for LLM Agents",
+    "authors": [],
+    "published_at": "2025-02",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2502.12110",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2502.12110"
+  },
+  {
+    "id": "arxiv:2502.04180",
+    "name": "zhang2025maas",
+    "title": "Multi-agent Architecture Search via Agentic Supernet",
+    "authors": [],
+    "published_at": "2025-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2502.04180",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2502.04180"
+  },
+  {
+    "id": "arxiv:2410.10762",
+    "name": "AFlow",
+    "title": "AFlow: Automating Agentic Workflow Generation",
+    "authors": [],
+    "published_at": "2024-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2410.10762",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2410.10762"
+  },
+  {
+    "id": "arxiv:2410.06153",
+    "name": "AgentSquare",
+    "title": "AgentSquare: Automatic LLM Agent Search in Modular Design Space",
+    "authors": [],
+    "published_at": "2024-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2410.06153",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2410.06153"
+  },
+  {
+    "id": "arxiv:2408.08435",
+    "name": "hu2024adas",
+    "title": "Automated Design of Agentic Systems",
+    "authors": [],
+    "published_at": "2024-08",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2408.08435",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2408.08435"
+  },
+  {
+    "id": "arxiv:2305.16291",
+    "name": "Voyager",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "authors": [],
+    "published_at": "2023-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2305.16291",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2305.16291"
+  },
+  {
+    "id": "arxiv:2605.11224",
+    "name": "ABRA",
+    "title": "ABRA: Agent Benchmark for Radiology Applications",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.11224",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11224"
+  },
+  {
+    "id": "arxiv:2605.11436",
+    "name": "Agent-BRACE",
+    "title": "Agent-BRACE: Decoupling Beliefs from Actions in Long-Horizon Tasks via Verbalized State Uncertainty",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.11436",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11436"
+  },
+  {
+    "id": "arxiv:2605.11633",
+    "name": "wang2026dora",
+    "title": "Can LLM Agents Respond to Disasters? Benchmarking Heterogeneous Geospatial Reasoning in Emergency Operations",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.11633",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11633"
+  },
+  {
+    "id": "arxiv:2605.10516",
+    "name": "raj2026consistency",
+    "title": "Consistency as a Testable Property",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.10516",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10516"
+  },
+  {
+    "id": "arxiv:2605.11504",
+    "name": "lee2026ctfusion",
+    "title": "CTFusion",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.11504",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11504"
+  },
+  {
+    "id": "arxiv:2605.02503",
+    "name": "DataClaw",
+    "title": "DataClaw: A Process-Oriented Agent Benchmark for Exploratory Real-World Data Analysis",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.02503",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.02503"
+  },
+  {
+    "id": "arxiv:2605.10448",
+    "name": "gao2026evidencesupportedbounds",
+    "title": "Evidence-Supported Score Bounds",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.10448",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10448"
+  },
+  {
+    "id": "arxiv:2605.10663",
+    "name": "Evolving-RL",
+    "title": "Evolving-RL: End-to-End Optimization of Experience-Driven Self-Evolving Capability within Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.10663",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10663"
+  },
+  {
+    "id": "arxiv:2605.02913",
+    "name": "surana2026gfcr",
+    "title": "Generate, Filter, Control, Replay: A Comprehensive Survey of Rollout Strategies for LLM Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.02913",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.02913"
+  },
+  {
+    "id": "arxiv:2605.12493",
+    "name": "wu2026longmemevalv2",
+    "title": "LongMemEval-V2",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.12493",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.12493"
+  },
+  {
+    "id": "arxiv:2605.10966",
+    "name": "MMTB",
+    "title": "MMTB: Evaluating Terminal Agents on Multimedia-File Tasks",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.10966",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10966"
+  },
+  {
+    "id": "arxiv:2605.07164",
+    "name": "zhao2026rethinkingexperience",
+    "title": "Rethinking Experience Utilization in Self-Evolving Language Model Agents",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2605.07164",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.07164"
+  },
+  {
+    "id": "agentbeats-registry2026",
+    "name": "agentbeats_registry2026",
+    "title": "AgentBeats Dashboard / Agent Registry",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://agentbeats.dev/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "agentbeats-docs-aaa2026",
+    "name": "agentbeats_docs_aaa2026",
+    "title": "Agentified Agent Assessment (AAA) & AgentBeats",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://docs.agentbeats.dev/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2604.16706",
+    "name": "gurram2026agentpropbench",
+    "title": "AgentProp-Bench",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2604.16706",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.16706"
+  },
+  {
+    "id": "arxiv:2604.04202",
+    "name": "ClawArena",
+    "title": "ClawArena: Benchmarking AI Agents in Evolving Information Environments",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2604.04202",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.04202"
+  },
+  {
+    "id": "arxiv:2604.08523",
+    "name": "ClawBench",
+    "title": "ClawBench: Can AI Agents Complete Everyday Online Tasks?",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-07-27",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2604.08523",
+    "code_url": "https://github.com/TIGER-AI-Lab/ClawBench",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.08523"
+  },
+  {
+    "id": "evoagentbench",
+    "name": "EvoAgentBench",
+    "title": "EvoAgentBench: A Multi-Domain Benchmark for Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://evermind-ai.github.io/EvoAgentBench/",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2604.12290",
+    "name": "chi2026frontiereng",
+    "title": "Frontier-Eng",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2604.12290",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.12290"
+  },
+  {
+    "id": "arxiv:2604.07791",
+    "name": "SEARL",
+    "title": "SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2604.07791",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.07791"
+  },
+  {
+    "id": "arxiv:2604.20087",
+    "name": "SkillLearnBench",
+    "title": "SkillLearnBench: Benchmarking Continual Learning Methods for Agent Skill Generation on Real-World Tasks",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2604.20087",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.20087"
+  },
+  {
+    "id": "agentmemorybench2026",
+    "name": "agentmemorybench2026",
+    "title": "Benchmarking Continual Agent Memory for Online Learning, Transfer, and Forgetting",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://openreview.net/forum?id=MSXbrNExax",
+    "code_url": "",
+    "sources": [
+      "openreview"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2603.15798",
+    "name": "CUBE",
+    "title": "CUBE: A Standard for Unifying Agent Benchmarks",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2603.15798",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.15798"
+  },
+  {
+    "id": "domusmind",
+    "name": "DomusMind",
+    "title": "DomusMind: A Benchmark for Evaluating Lifelong Smart Home Agents Under Drift",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://openreview.net/forum?id=dCBF23RZYJ",
+    "code_url": "",
+    "sources": [
+      "openreview"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2602.10090",
+    "name": "Agent World Model",
+    "title": "Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2602.10090",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.10090"
+  },
+  {
+    "id": "arxiv:2602.15112",
+    "name": "ResearchGym",
+    "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2602.15112",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.15112"
+  },
+  {
+    "id": "arxiv:2602.04811",
+    "name": "SE-Bench",
+    "title": "SE-Bench: Benchmarking Self-Evolution with Knowledge Internalization",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2602.04811",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.04811"
+  },
+  {
+    "id": "arxiv:2602.16763",
+    "name": "When AI Benchmarks Plateau",
+    "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2602.16763",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.16763"
+  },
+  {
+    "id": "arxiv:2601.20882",
+    "name": "DevOps-Gym",
+    "title": "DevOps-Gym: Benchmarking AI Agents in Software DevOps Cycle",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2601.20882",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2601.20882"
+  },
+  {
+    "id": "sip-bench",
+    "name": "SIP-Bench",
+    "title": "SIP-Bench: An Open Protocol for Longitudinal Self-Improvement Evaluation",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://github.com/Yuchong-W/SIP_Bench",
+    "code_url": "https://github.com/Yuchong-W/SIP_Bench",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2507.21504",
+    "name": "mohammadi2025agentbenchmarking",
+    "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+    "authors": [],
+    "published_at": "2025-07",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2507.21504",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2507.21504"
+  },
+  {
+    "id": "arxiv:2507.11059",
+    "name": "SWE-MERA",
+    "title": "SWE-MERA: A Dynamic Benchmark for Agenticly Evaluating Large Language Models on Software Engineering Tasks",
+    "authors": [],
+    "published_at": "2025-07",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2507.11059",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2507.11059"
+  },
+  {
+    "id": "arxiv:2506.06698",
+    "name": "liu2025cer",
+    "title": "Contextual Experience Replay for Self-Improvement of Language Agents",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2506.06698",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.06698"
+  },
+  {
+    "id": "arxiv:2505.11942",
+    "name": "LifelongAgentBench",
+    "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2505.11942",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.11942"
+  },
+  {
+    "id": "arxiv:2505.23419",
+    "name": "zhang2025swebenchlive",
+    "title": "SWE-bench Goes Live!",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2505.23419",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.23419"
+  },
+  {
+    "id": "arxiv:2505.20411",
+    "name": "SWE-rebench",
+    "title": "SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents",
+    "authors": [],
+    "published_at": "2025-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2505.20411",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2505.20411"
+  },
+  {
+    "id": "arxiv:2503.16416",
+    "name": "yehudai2025agentevaluation",
+    "title": "Survey on Evaluation of LLM-based Agents",
+    "authors": [],
+    "published_at": "2025-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2503.16416",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2503.16416"
+  },
+  {
+    "id": "arxiv:2508.19005",
+    "name": "cai2025building",
+    "title": "Building self-evolving agents via experience-driven lifelong learning: A framework and benchmark",
+    "authors": [],
+    "published_at": "2025-01",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2508.19005",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2508.19005"
+  },
+  {
+    "id": "arxiv:2412.14161",
+    "name": "TheAgentCompany",
+    "title": "TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks",
+    "authors": [],
+    "published_at": "2024-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2412.14161",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2412.14161"
+  },
+  {
+    "id": "arxiv:2410.07095",
+    "name": "MLE-bench",
+    "title": "MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering",
+    "authors": [],
+    "published_at": "2024-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2410.07095",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2410.07095"
+  },
+  {
+    "id": "arxiv:2409.07429",
+    "name": "wang2025awm",
+    "title": "Agent Workflow Memory",
+    "authors": [],
+    "published_at": "2024-09",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2409.07429",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2409.07429"
+  },
+  {
+    "id": "arxiv:2406.12045",
+    "name": "tau-bench",
+    "title": "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "authors": [],
+    "published_at": "2024-06",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2406.12045",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2406.12045"
+  },
+  {
+    "id": "arxiv:2403.07974",
+    "name": "LiveCodeBench",
+    "title": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+    "authors": [],
+    "published_at": "2024-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2403.07974",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2403.07974"
+  },
+  {
+    "id": "arxiv:2402.17753",
+    "name": "maharana2024locomo",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "authors": [],
+    "published_at": "2024-02",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2402.17753",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2402.17753"
+  },
+  {
+    "id": "arxiv:2308.03688",
+    "name": "AgentBench",
+    "title": "AgentBench: Evaluating LLMs as Agents",
+    "authors": [],
+    "published_at": "2023-08",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2308.03688",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2308.03688"
+  },
+  {
+    "id": "arxiv:2307.16789",
+    "name": "ToolLLM",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "authors": [],
+    "published_at": "2023-07",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2307.16789",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2307.16789"
+  },
+  {
+    "id": "arxiv:1904.07734",
+    "name": "vandeven2019threescenarios",
+    "title": "Three Scenarios for Continual Learning",
+    "authors": [],
+    "published_at": "2019-04",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/1904.07734",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "1904.07734"
+  },
+  {
+    "id": "arxiv:2605.11770",
+    "name": "wu2026biv",
+    "title": "Behavioral Integrity Verification for AI Agent Skills",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.11770",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11770"
+  },
+  {
+    "id": "arxiv:2605.11442",
+    "name": "liang2026mobius",
+    "title": "Can a Single Message Paralyze the AI Infrastructure? The Rise of AbO-DDoS Attacks through Targeted Mobius Injection",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.11442",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11442"
+  },
+  {
+    "id": "arxiv:2605.10779",
+    "name": "LITMUS",
+    "title": "LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.10779",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.10779"
+  },
+  {
+    "id": "arxiv:2605.11882",
+    "name": "yin2026fate",
+    "title": "On-Policy Self-Evolution via Failure Trajectories for Agentic Safety Alignment",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.11882",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11882"
+  },
+  {
+    "id": "arxiv:2605.11891",
+    "name": "Proteus",
+    "title": "Proteus: A Self-Evolving Red Team for Agent Skill Ecosystems",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.11891",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11891"
+  },
+  {
+    "id": "arxiv:2605.07728",
+    "name": "SARC",
+    "title": "SARC: A Governance-by-Architecture Framework for Agentic AI Systems",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.07728",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.07728"
+  },
+  {
+    "id": "arxiv:2605.09033",
+    "name": "ShadowMerge",
+    "title": "ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.09033",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.09033"
+  },
+  {
+    "id": "arxiv:2605.05868",
+    "name": "SkillScope",
+    "title": "SkillScope: Toward Fine-Grained Least-Privilege Enforcement for Agent Skills",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.05868",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.05868"
+  },
+  {
+    "id": "arxiv:2605.18401",
+    "name": "SkillsVote",
+    "title": "SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-25",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.18401",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.18401"
+  },
+  {
+    "id": "arxiv:2605.06527",
+    "name": "STALE",
+    "title": "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.06527",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.06527"
+  },
+  {
+    "id": "arxiv:2605.11418",
+    "name": "Under the Hood of SKILL.md",
+    "title": "Under the Hood of SKILL.md: Semantic Supply-chain Attacks on AI Agent Skill Registry",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2605.11418",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2605.11418"
+  },
+  {
+    "id": "arxiv:2604.01194",
+    "name": "AgentWatcher",
+    "title": "AgentWatcher: A Rule-Based Prompt Injection Monitor",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.01194",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.01194"
+  },
+  {
+    "id": "arxiv:2604.02022",
+    "name": "ATBench",
+    "title": "ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.02022",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.02022"
+  },
+  {
+    "id": "arxiv:2604.06132",
+    "name": "Claw-Eval",
+    "title": "Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.06132",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.06132"
+  },
+  {
+    "id": "arxiv:2604.19844",
+    "name": "chang2026visualinjections",
+    "title": "If You're Waiting for a Sign... That Might Not Be It! Mitigating Trust Boundary Confusion from Visual Injections on Vision-Language Agentic Systems",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.19844",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.19844"
+  },
+  {
+    "id": "arxiv:2604.15774",
+    "name": "MemEvoBench",
+    "title": "MemEvoBench: Benchmarking Memory MisEvolution in LLM Agents",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.15774",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.15774"
+  },
+  {
+    "id": "arxiv:2604.17562",
+    "name": "SafeAgent",
+    "title": "SafeAgent: A Runtime Protection Architecture for Agentic Systems",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.17562",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.17562"
+  },
+  {
+    "id": "arxiv:2604.08377",
+    "name": "SkillClaw",
+    "title": "SkillClaw: Let Skills Evolve Collectively with Agentic Evolver",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.08377",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.08377"
+  },
+  {
+    "id": "arxiv:2604.08618",
+    "name": "SkillForge",
+    "title": "SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.08618",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.08618"
+  },
+  {
+    "id": "arxiv:2604.22136",
+    "name": "Sovereign Agentic Loops",
+    "title": "Sovereign Agentic Loops: Decoupling AI Reasoning from Execution in Real-World Systems",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.22136",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.22136"
+  },
+  {
+    "id": "arxiv:2604.23711",
+    "name": "Spore",
+    "title": "Spore: Efficient and Training-Free Privacy Extraction Attack on LLMs via Inference-Time Hybrid Probing",
+    "authors": [],
+    "published_at": "2026-04",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2604.23711",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2604.23711"
+  },
+  {
+    "id": "arxiv:2603.15125",
+    "name": "From Storage to Steering",
+    "title": "From Storage to Steering: Memory Control Flow Attacks on LLM Agents",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2603.15125",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.15125"
+  },
+  {
+    "id": "arxiv:2603.11768",
+    "name": "lam2026ssgm",
+    "title": "Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2603.11768",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.11768"
+  },
+  {
+    "id": "arxiv:2603.21019",
+    "name": "SkillProbe",
+    "title": "SkillProbe: Security Auditing for Emerging Agent Skill Marketplaces via Multi-Agent Collaboration",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2603.21019",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.21019"
+  },
+  {
+    "id": "arxiv:2603.28815",
+    "name": "SkillTester",
+    "title": "SkillTester: Benchmarking Utility and Security of Agent Skills",
+    "authors": [],
+    "published_at": "2026-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2603.28815",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2603.28815"
+  },
+  {
+    "id": "arxiv:2602.12430",
+    "name": "agentskills2026architecture",
+    "title": "Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2602.12430",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.12430"
+  },
+  {
+    "id": "arxiv:2602.07398",
+    "name": "AgentSys",
+    "title": "AgentSys: Secure and Dynamic LLM Agents Through Explicit Hierarchical Memory Management",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2602.07398",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.07398"
+  },
+  {
+    "id": "clawhavoc",
+    "name": "ClawHavoc",
+    "title": "ClawHavoc: 341 Malicious Clawed Skills Found by the Bot They Were Targeting",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2602.20867",
+    "name": "SoK",
+    "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
+    "authors": [],
+    "published_at": "2026-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2602.20867",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2602.20867"
+  },
+  {
+    "id": "wildclawbench",
+    "name": "WildClawBench",
+    "title": "WildClawBench: An In-the-Wild Benchmark for AI Agents in the OpenClaw Environment",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://github.com/InternLM/WildClawBench",
+    "code_url": "https://github.com/InternLM/WildClawBench",
+    "sources": [
+      "github"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2512.16962",
+    "name": "MemoryGraft",
+    "title": "MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
+    "authors": [],
+    "published_at": "2025-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2512.16962",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2512.16962"
+  },
+  {
+    "id": "arxiv:2510.02373",
+    "name": "A-MemGuard",
+    "title": "A-MemGuard: A Proactive Defense Framework for LLM-Based Agent Memory",
+    "authors": [],
+    "published_at": "2025-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2510.02373",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2510.02373"
+  },
+  {
+    "id": "injecmem",
+    "name": "InjecMEM",
+    "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+    "authors": [],
+    "published_at": "2025-09",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://openreview.net/forum?id=QVX6hcJ2um",
+    "code_url": "",
+    "sources": [
+      "openreview"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2507.16534",
+    "name": "shanghai2025frontierrisk",
+    "title": "Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report",
+    "authors": [],
+    "published_at": "2025-07",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2507.16534",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2507.16534"
+  },
+  {
+    "id": "arxiv:2507.18576",
+    "name": "SafeWork-R1",
+    "title": "SafeWork-R1: Coevolving Safety and Intelligence under the AI-45^ Law",
+    "authors": [],
+    "published_at": "2025-07",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2507.18576",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2507.18576"
+  },
+  {
+    "id": "arxiv:2506.23844",
+    "name": "su2025autonomyrisk",
+    "title": "A Survey on Autonomy-Induced Security Risks in Large Model-Based Agents",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2506.23844",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.23844"
+  },
+  {
+    "id": "arxiv:2506.17318",
+    "name": "Context Manipulation Attacks",
+    "title": "Context Manipulation Attacks: Web Agents Are Susceptible to Corrupted Memory",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2506.17318",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.17318"
+  },
+  {
+    "id": "arxiv:2506.12104",
+    "name": "DRIFT",
+    "title": "DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2506.12104",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.12104"
+  },
+  {
+    "id": "arxiv:2506.23260",
+    "name": "ferrag2025promptprotocol",
+    "title": "From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI Agents Workflows",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2506.23260",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.23260"
+  },
+  {
+    "id": "arxiv:2506.11083",
+    "name": "RedDebate",
+    "title": "RedDebate: Safer Responses through Multi-Agent Red Teaming Debates",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2506.11083",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.11083"
+  },
+  {
+    "id": "arxiv:2506.13666",
+    "name": "fang2025safemcp",
+    "title": "We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems",
+    "authors": [],
+    "published_at": "2025-06",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2506.13666",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2506.13666"
+  },
+  {
+    "id": "arxiv:2503.15754",
+    "name": "AutoRedTeamer",
+    "title": "AutoRedTeamer: Autonomous Red Teaming with Lifelong Attack Integration",
+    "authors": [],
+    "published_at": "2025-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2503.15754",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2503.15754"
+  },
+  {
+    "id": "arxiv:2412.14470",
+    "name": "Agent-SafetyBench",
+    "title": "Agent-SafetyBench: Evaluating the Safety of LLM Agents",
+    "authors": [],
+    "published_at": "2024-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2412.14470",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2412.14470"
+  },
+  {
+    "id": "arxiv:2412.14186",
+    "name": "yang2024ai45law",
+    "title": "Towards AI-45^ Law: A Roadmap to Trustworthy AGI",
+    "authors": [],
+    "published_at": "2024-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2412.14186",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2412.14186"
+  },
+  {
+    "id": "arxiv:2410.02644",
+    "name": "zhang2025asb",
+    "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-Based Agents",
+    "authors": [],
+    "published_at": "2024-10",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2410.02644",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2410.02644"
+  },
+  {
+    "id": "arxiv:2403.04960",
+    "name": "IsolateGPT",
+    "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems",
+    "authors": [],
+    "published_at": "2024-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2403.04960",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2403.04960"
+  },
+  {
+    "id": "arxiv:2402.08567",
+    "name": "Agent Smith",
+    "title": "Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast",
+    "authors": [],
+    "published_at": "2024-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2402.08567",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2402.08567"
+  },
+  {
+    "id": "arxiv:2402.09283",
+    "name": "dong2024conversationsafety",
+    "title": "Attacks, Defenses and Evaluations for LLM Conversation Safety: A Survey",
+    "authors": [],
+    "published_at": "2024-02",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2402.09283",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2402.09283"
+  },
+  {
+    "id": "arxiv:2212.08073",
+    "name": "Constitutional AI",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "authors": [],
+    "published_at": "2022-12",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2212.08073",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2212.08073"
+  },
+  {
+    "id": "arxiv:2203.02155",
+    "name": "ouyang2022instructgpt",
+    "title": "Training Language Models to Follow Instructions with Human Feedback",
+    "authors": [],
+    "published_at": "2022-03",
+    "updated_at": null,
+    "added_at": "2026-06-24",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2203.02155",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2203.02155"
+  }
+]

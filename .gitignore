@@ -7,5 +7,6 @@
 *.toc
 *.synctex.gz
 __pycache__/
+dist/
 .idea/
 .vscode/
