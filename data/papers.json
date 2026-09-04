@@ -5438,5 +5438,789 @@
       "arxiv"
     ],
     "arxiv_id": "2203.02155"
+  },
+  {
+    "id": "arxiv:2607.01120",
+    "name": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+    "title": "Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2607.01120",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.01120"
+  },
+  {
+    "id": "arxiv:2607.00871",
+    "name": "Self-Evolving Agents with Anytime-Valid Certificates",
+    "title": "Self-Evolving Agents with Anytime-Valid Certificates",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2607.00871",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.00871"
+  },
+  {
+    "id": "arxiv:2607.03726",
+    "name": "SelfMem",
+    "title": "SelfMem: Self-Optimizing Memory for AI Agents",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2607.03726",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.03726"
+  },
+  {
+    "id": "arxiv:2607.03935",
+    "name": "Harness-Aware Self-Evolving",
+    "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2607.03935",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.03935"
+  },
+  {
+    "id": "arxiv:2607.05297",
+    "name": "MetaSkill-Evolve",
+    "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2607.05297",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.05297"
+  },
+  {
+    "id": "arxiv:2607.07321",
+    "name": "From Atomic Actions to Standard Operating Procedures",
+    "title": "From Atomic Actions to Standard Operating Procedures: Iterative Tool Optimization for Self-Evolving LLM Agents",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2607.07321",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.07321"
+  },
+  {
+    "id": "arxiv:2607.08124",
+    "name": "TTHE",
+    "title": "TTHE: Test-Time Harness Evolution",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2607.08124",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.08124"
+  },
+  {
+    "id": "arxiv:2607.12227",
+    "name": "Rethinking the Evaluation of Harness Evolution for Agents",
+    "title": "Rethinking the Evaluation of Harness Evolution for Agents",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2607.12227",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.12227"
+  },
+  {
+    "id": "arxiv:2607.13070",
+    "name": "Falsifiable Release Gates for Self-Improving Systems",
+    "title": "Falsifiable Release Gates for Self-Improving Systems",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2607.13070",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.13070"
+  },
+  {
+    "id": "arxiv:2607.13083",
+    "name": "Phantom Guardrails",
+    "title": "Phantom Guardrails: When Self-Improving Agent Harnesses Fix Failures That Never Happened",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2607.13083",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.13083"
+  },
+  {
+    "id": "arxiv:2607.13104",
+    "name": "Self-Improvements in Modern Agentic Systems",
+    "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2607.13104",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.13104"
+  },
+  {
+    "id": "arxiv:2607.13285",
+    "name": "Harness Handbook",
+    "title": "Harness Handbook: Making Evolving Agent Harnesses Readable, Navigable, and Editable",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2607.13285",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.13285"
+  },
+  {
+    "id": "arxiv:2607.13683",
+    "name": "Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity",
+    "title": "Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2607.13683",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.13683"
+  },
+  {
+    "id": "arxiv:2607.14777",
+    "name": "SEED",
+    "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2607.14777",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.14777"
+  },
+  {
+    "id": "arxiv:2607.17621",
+    "name": "Mechanistic Attention Guidance for Agent Memory Refinement",
+    "title": "Mechanistic Attention Guidance for Agent Memory Refinement",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2607.17621",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.17621"
+  },
+  {
+    "id": "arxiv:2607.21461",
+    "name": "AREX",
+    "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2607.21461",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.21461"
+  },
+  {
+    "id": "arxiv:2607.24300",
+    "name": "Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents",
+    "title": "Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2607.24300",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.24300"
+  },
+  {
+    "id": "arxiv:2607.26598",
+    "name": "Living-Harness Is an Interactive-Agent Evolver",
+    "title": "Living-Harness Is an Interactive-Agent Evolver",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2607.26598",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.26598"
+  },
+  {
+    "id": "arxiv:2607.26784",
+    "name": "SkillRise",
+    "title": "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2607.26784",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.26784"
+  },
+  {
+    "id": "arxiv:2607.29468",
+    "name": "Self-Play Meets Skill Evolution",
+    "title": "Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember",
+    "authors": [],
+    "published_at": "2026-07",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2607.29468",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2607.29468"
+  },
+  {
+    "id": "arxiv:2608.00155",
+    "name": "AgentStream",
+    "title": "AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2608.00155",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.00155"
+  },
+  {
+    "id": "arxiv:2608.02508",
+    "name": "RoMeRL",
+    "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2608.02508",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.02508"
+  },
+  {
+    "id": "arxiv:2608.02636",
+    "name": "Rethinking Self-Evolving Agent Skills",
+    "title": "Rethinking Self-Evolving Agent Skills: Feedback Dynamics over Multiple Rounds",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2608.02636",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.02636"
+  },
+  {
+    "id": "arxiv:2608.03392",
+    "name": "Self-Evolving Coding Agents",
+    "title": "Self-Evolving Coding Agents",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2608.03392",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.03392"
+  },
+  {
+    "id": "arxiv:2608.03509",
+    "name": "SkillJack",
+    "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2608.03509",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.03509"
+  },
+  {
+    "id": "arxiv:2608.05446",
+    "name": "EvoHarness-RL",
+    "title": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2608.05446",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.05446"
+  },
+  {
+    "id": "arxiv:2608.05628",
+    "name": "SkillHEX",
+    "title": "SkillHEX: Improving Agent Skills via Hypothesis-Driven Autonomous Exploration and Exploitation",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2608.05628",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.05628"
+  },
+  {
+    "id": "arxiv:2608.06153",
+    "name": "Learning Globally Reusable Skills for Coding Agents",
+    "title": "Learning Globally Reusable Skills for Coding Agents",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2608.06153",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.06153"
+  },
+  {
+    "id": "arxiv:2608.07545",
+    "name": "DarwinX",
+    "title": "DarwinX: Evolving Agent Harnesses Through Natural Selection",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2608.07545",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.07545"
+  },
+  {
+    "id": "arxiv:2608.08466",
+    "name": "Hierarchical Self-Improvement",
+    "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2608.08466",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.08466"
+  },
+  {
+    "id": "arxiv:2608.09096",
+    "name": "Evo-Bench",
+    "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2608.09096",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.09096"
+  },
+  {
+    "id": "arxiv:2608.09885",
+    "name": "SHE",
+    "title": "SHE: Trajectory-driven Safety Harness Evolution for LLM Agents",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2608.09885",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.09885"
+  },
+  {
+    "id": "arxiv:2608.11079",
+    "name": "SkillZip",
+    "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2608.11079",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.11079"
+  },
+  {
+    "id": "arxiv:2608.11224",
+    "name": "Harnessing agent memory to build lifelong AI partners for materials scientists",
+    "title": "Harnessing agent memory to build lifelong AI partners for materials scientists",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2608.11224",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.11224"
+  },
+  {
+    "id": "arxiv:2608.11350",
+    "name": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+    "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2608.11350",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.11350"
+  },
+  {
+    "id": "arxiv:2608.12307",
+    "name": "AI4AI at Test-Time",
+    "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2608.12307",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.12307"
+  },
+  {
+    "id": "arxiv:2608.13120",
+    "name": "SkillEvo",
+    "title": "SkillEvo: Self-Renewing Evolution Gradients from Multi-Turn Interaction Feedback",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2608.13120",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.13120"
+  },
+  {
+    "id": "arxiv:2608.14036",
+    "name": "Demystifying Agent Skills",
+    "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2608.14036",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.14036"
+  },
+  {
+    "id": "arxiv:2608.14441",
+    "name": "PACE-Bench",
+    "title": "PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2608.14441",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.14441"
+  },
+  {
+    "id": "arxiv:2608.15071",
+    "name": "Evo-Harness",
+    "title": "Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2608.15071",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.15071"
+  },
+  {
+    "id": "arxiv:2608.15165",
+    "name": "SkillCommit",
+    "title": "SkillCommit: Evolving Agent Skills through Behaviorally Validated Scope Expansion",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2608.15165",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.15165"
+  },
+  {
+    "id": "arxiv:2608.15763",
+    "name": "Training Agents to Evolve with Their Harness",
+    "title": "Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2608.15763",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.15763"
+  },
+  {
+    "id": "arxiv:2608.24794",
+    "name": "CAFE",
+    "title": "CAFE: Self-Improving Search Agents Need Co-Evolving Feedback",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2608.24794",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.24794"
+  },
+  {
+    "id": "arxiv:2608.24876",
+    "name": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+    "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2608.24876",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.24876"
+  },
+  {
+    "id": "arxiv:2608.25593",
+    "name": "JIT-Agent",
+    "title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2608.25593",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.25593"
+  },
+  {
+    "id": "arxiv:2608.27454",
+    "name": "WikiSkill",
+    "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2608.27454",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.27454"
+  },
+  {
+    "id": "arxiv:2608.31111",
+    "name": "Aspire",
+    "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2608.31111",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.31111"
+  },
+  {
+    "id": "arxiv:2609.00069",
+    "name": "Auditing Harness Tampering in Self-Improving Agents",
+    "title": "Auditing Harness Tampering in Self-Improving Agents",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2609.00069",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.00069"
+  },
+  {
+    "id": "arxiv:2609.02786",
+    "name": "SafeEvolve",
+    "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-04",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2609.02786",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.02786"
   }
 ]
