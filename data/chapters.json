@@ -1,0 +1,56 @@
+[
+  {
+    "key": "foundations",
+    "source_category": "Foundations and Surveys",
+    "title": "Introduction",
+    "description": "Foundations, definitions, and surveys that frame self-improving agents."
+  },
+  {
+    "key": "harness",
+    "source_category": "Harness and Runtime Architecture",
+    "title": "Harness as Experience Infrastructure",
+    "description": "Runtime architectures that capture experience and expose mutable agent surfaces."
+  },
+  {
+    "key": "skills",
+    "source_category": "Skills and Skill Libraries",
+    "title": "Skills: Experience Becomes Reusable Procedure",
+    "description": "Skill creation, retrieval, composition, execution, and evolution."
+  },
+  {
+    "key": "memory",
+    "source_category": "Memory and Context Management",
+    "title": "Memory: Experience Becomes Persistent State",
+    "description": "Representing, retrieving, consolidating, and evolving agent memory."
+  },
+  {
+    "key": "environment",
+    "source_category": "Environments, Tools, and Runtime Feedback",
+    "title": "Environment: The Boundary of What Agents Can Experience",
+    "description": "Tools, executable environments, protocols, and verifiable runtime feedback."
+  },
+  {
+    "key": "agent-rl",
+    "source_category": "Agent RL and Continual Learning",
+    "title": "RL and Continual Learning",
+    "description": "Consolidating stable experience into model parameters and durable behavior."
+  },
+  {
+    "key": "meta-agents",
+    "source_category": "Meta-Agents and Evolution Orchestration",
+    "title": "Meta-Evolving Agents",
+    "description": "Systems that decide what, when, and how an agent should evolve."
+  },
+  {
+    "key": "evaluation",
+    "source_category": "Evaluation and Benchmarks",
+    "title": "Measuring Self-Improvement",
+    "description": "Benchmarks and protocols for gain, retention, attribution, and efficiency."
+  },
+  {
+    "key": "safety",
+    "source_category": "Safety and Governance",
+    "title": "Safety: Self-Improvement as a Moving Attack Surface",
+    "description": "Threats, controls, and governance for agents that change after deployment."
+  }
+]

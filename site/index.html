@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A living catalog for Self-Improving Agents in the Era of Experience.">
+  <meta name="theme-color" content="#000000">
+  <title>Self-Improving Agents · Survey Companion</title>
+  <style>/* __INLINE_CSS__ */</style>
+</head>
+<body>
+  <a class="skip-link" href="#papers">Skip to paper catalog</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Survey companion home">
+      <svg class="brand-mark" viewBox="0 0 180 52" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Frontis">
+        <text x="0" y="24" font-size="22" font-weight="800" letter-spacing="5">FRONTIS</text>
+        <line x1="0" y1="32" x2="180" y2="32"></line>
+        <text x="0" y="48" font-size="12" letter-spacing="3">衔远科技</text>
+      </svg>
+      <span>Survey Companion</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#recent">Recent</a>
+      <a href="#chapters">Chapters</a>
+      <a href="#papers">Papers</a>
+      <a href="https://openreview.net/pdf?id=IUltZSgLMm" target="_blank" rel="noreferrer">PDF</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero dark-zone" aria-labelledby="hero-title">
+      <div class="strata" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A living research index</p>
+        <h1 id="hero-title">Self-Improving Agents in the Era of Experience</h1>
+        <p class="hero-lede">A survey companion for tracing how deployed agents turn interaction into skills, memory, runtime adaptation, parameter learning, and governed evolution.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#papers">Browse all papers</a>
+          <a class="button" href="https://github.com/FrontisAI/Awesome-Self-Improving-Agents" target="_blank" rel="noreferrer">View repository</a>
+        </div>
+      </div>
+      <dl class="hero-stats" aria-label="Catalog statistics">
+        <div><dt id="hero-paper-count">0</dt><dd>indexed papers</dd></div>
+        <div><dt id="hero-recent-count">0</dt><dd>added this week</dd></div>
+        <div><dt id="hero-chapter-count">9</dt><dd>survey chapters</dd></div>
+      </dl>
+      <div class="the-edge" aria-hidden="true"></div>
+    </section>
+
+    <section class="section recent-section" id="recent" aria-labelledby="recent-title">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">New signal</p>
+          <h2 id="recent-title">Added in the past <span id="recent-days">7</span> days</h2>
+        </div>
+        <p class="section-note">Based on when a paper entered this collection, not when the paper was first published. Snapshot <strong id="snapshot-date">—</strong>.</p>
+      </div>
+      <div class="recent-list" id="recent-list" aria-live="polite"></div>
+      <a class="text-link" href="#papers" id="recent-filter-link">View this window in the full catalog →</a>
+    </section>
+
+    <section class="section chapter-section dark-zone" id="chapters" aria-labelledby="chapters-title">
+      <div class="the-edge" aria-hidden="true"></div>
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Survey map</p>
+          <h2 id="chapters-title">Nine destinations for experience</h2>
+        </div>
+        <p class="section-note">The complete collection follows the article's chapter structure. Choose a chapter to open its papers below.</p>
+      </div>
+      <div class="chapter-layout">
+        <figure class="chapter-figure">
+          <img src="__CHAPTER_FIGURE_DATA_URI__" alt="Survey map connecting the nine chapters of self-improving agents.">
+        </figure>
+        <div class="chapter-list" id="chapter-list"></div>
+      </div>
+    </section>
+
+    <section class="section catalog-section" id="papers" aria-labelledby="papers-title">
+      <div class="section-heading split-heading">
+        <div>
+          <p class="eyebrow">Full collection</p>
+          <h2 id="papers-title">Paper catalog</h2>
+        </div>
+        <dl class="catalog-stats">
+          <div><dt id="matched-count">0</dt><dd>matched</dd></div>
+          <div><dt id="total-count">0</dt><dd>indexed</dd></div>
+        </dl>
+      </div>
+
+      <form class="filters" id="filters">
+        <label class="search-field"><span>Search</span><input id="search" name="q" type="search" placeholder="Title or project name"></label>
+        <label><span>Chapter</span><select id="chapter-filter" name="chapter"><option value="all">All chapters</option></select></label>
+        <label><span>Added</span><select id="window-filter" name="window"><option value="all">Any time</option><option value="7">Past 7 days</option><option value="30">Past 30 days</option></select></label>
+        <label><span>Source</span><select id="source-filter" name="source"><option value="all">All sources</option><option value="arxiv">arXiv</option><option value="huggingface">Hugging Face</option><option value="openreview">OpenReview</option><option value="publisher">Publisher</option><option value="github">GitHub</option><option value="other">Other</option></select></label>
+        <label><span>Sort</span><select id="sort-filter" name="sort"><option value="added">Recently added</option><option value="published">Newest publication</option><option value="title">Title A–Z</option></select></label>
+        <label class="check-field"><input id="code-filter" name="code" type="checkbox"><span>Has code</span></label>
+        <button class="button button-dark" id="reset-filters" type="reset">Reset</button>
+      </form>
+
+      <div class="table-summary">
+        <p id="page-summary">Showing 0 papers</p>
+        <label><span>Rows</span><select id="page-size"><option value="25">25</option><option value="50">50</option><option value="100">100</option></select></label>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Published</th><th scope="col">Survey chapter</th><th scope="col">Paper</th><th scope="col">Added</th><th scope="col">Links</th></tr></thead>
+          <tbody id="paper-rows"></tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <button class="button button-dark" id="previous-page" type="button">Previous</button>
+        <span id="page-indicator">Page 1 of 1</span>
+        <button class="button button-dark" id="next-page" type="button">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer dark-zone">
+    <div class="footer-copy">
+      <p class="eyebrow">Keep the index current</p>
+      <h2>Found a missing paper?</h2>
+      <p>Open a pull request with a public paper link and the most relevant survey chapter.</p>
+      <a class="button button-light" href="https://github.com/FrontisAI/Awesome-Self-Improving-Agents/pulls" target="_blank" rel="noreferrer">Contribute on GitHub</a>
+    </div>
+    <div class="state-divider" aria-hidden="true"></div>
+    <p class="footer-meta">Self-Improving Agents in the Era of Experience · FrontisAI</p>
+    <div class="the-edge" aria-hidden="true"></div>
+  </footer>
+
+  <script>/* __INLINE_DATA__ */</script>
+  <script>/* __INLINE_APP__ */</script>
+</body>
+</html>

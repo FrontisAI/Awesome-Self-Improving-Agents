@@ -1,0 +1,19 @@
+name: Catalog check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Validate catalog and generated views
+        run: python3 scripts/catalog.py check
+      - name: Build self-contained website
+        run: python3 scripts/catalog.py build-site
