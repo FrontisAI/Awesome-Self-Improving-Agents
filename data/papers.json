@@ -6222,5 +6222,389 @@
       "arxiv"
     ],
     "arxiv_id": "2609.02786"
+  },
+  {
+    "id": "arxiv:2609.11873",
+    "name": "The Last AI Built by Humans",
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "foundations",
+    "paper_url": "https://arxiv.org/abs/2609.11873",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.11873"
+  },
+  {
+    "id": "arxiv:2609.11677",
+    "name": "Ecdysis",
+    "title": "Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2609.11677",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.11677"
+  },
+  {
+    "id": "arxiv:2609.10922",
+    "name": "Auto-RecSys",
+    "title": "Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2609.10922",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.10922"
+  },
+  {
+    "id": "arxiv:2609.10248",
+    "name": "A-JIT",
+    "title": "A-JIT: Agentic Just-In-Time Software Construction",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2609.10248",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.10248"
+  },
+  {
+    "id": "arxiv:2609.10121",
+    "name": "ADMET-EvO",
+    "title": "ADMET-EvO: a self-evolving scientific agent for sustained research across heterogeneous tasks",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2609.10121",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.10121"
+  },
+  {
+    "id": "arxiv:2609.09153",
+    "name": "Procedural Graphs",
+    "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2609.09153",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.09153"
+  },
+  {
+    "id": "arxiv:2609.08919",
+    "name": "Experience Funnel",
+    "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2609.08919",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.08919"
+  },
+  {
+    "id": "arxiv:2609.08832",
+    "name": "Closing the Consistency Gap",
+    "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2609.08832",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.08832"
+  },
+  {
+    "id": "arxiv:2609.08404",
+    "name": "Environments as Scaffold",
+    "title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "environment",
+    "paper_url": "https://arxiv.org/abs/2609.08404",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.08404"
+  },
+  {
+    "id": "arxiv:2609.08228",
+    "name": "SE-GoS",
+    "title": "SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2609.08228",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.08228"
+  },
+  {
+    "id": "arxiv:2609.08183",
+    "name": "NeoHorse-1",
+    "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2609.08183",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.08183"
+  },
+  {
+    "id": "arxiv:2609.06396",
+    "name": "MetaRSI / RSI2",
+    "title": "MetaRSI / RSI2: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2609.06396",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.06396"
+  },
+  {
+    "id": "arxiv:2609.05677",
+    "name": "Who Maintains Agent Skills? A Longitudinal Study of Human-Governed, AI-Assisted Skill Maintenance",
+    "title": "Who Maintains Agent Skills? A Longitudinal Study of Human-Governed, AI-Assisted Skill Maintenance",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2609.05677",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.05677"
+  },
+  {
+    "id": "arxiv:2609.04697",
+    "name": "SQL-Zero",
+    "title": "SQL-Zero: Self-Evolving Text-to-SQL",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2609.04697",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.04697"
+  },
+  {
+    "id": "arxiv:2609.04665",
+    "name": "Harness-agnostic detection and immunization of reward hacking in self-evolving language models",
+    "title": "Harness-agnostic detection and immunization of reward hacking in self-evolving language models",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2609.04665",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.04665"
+  },
+  {
+    "id": "arxiv:2609.11911",
+    "name": "Artificial Id",
+    "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "safety",
+    "paper_url": "https://arxiv.org/abs/2609.11911",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.11911"
+  },
+  {
+    "id": "arxiv:2609.11682",
+    "name": "COBRA-Skills",
+    "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2609.11682",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.11682"
+  },
+  {
+    "id": "arxiv:2609.09646",
+    "name": "RobustSGPO",
+    "title": "RobustSGPO: Search-Space Control for Agent Harness Evolution",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2609.09646",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.09646"
+  },
+  {
+    "id": "arxiv:2609.09134",
+    "name": "Co-Evolving Harnesses and Models",
+    "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2609.09134",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.09134"
+  },
+  {
+    "id": "arxiv:2609.08944",
+    "name": "SkillAdam",
+    "title": "SkillAdam: Stable and Efficient Skill Evolution for Agents",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2609.08944",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.08944"
+  },
+  {
+    "id": "arxiv:2609.08599",
+    "name": "Graph-Based Personalized Memory for LLM Agents",
+    "title": "Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2609.08599",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.08599"
+  },
+  {
+    "id": "arxiv:2609.05019",
+    "name": "TROVE",
+    "title": "TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2609.05019",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.05019"
+  },
+  {
+    "id": "arxiv:2609.04869",
+    "name": "From Interaction Traces to Persistent Skills",
+    "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "skills",
+    "paper_url": "https://arxiv.org/abs/2609.04869",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.04869"
+  },
+  {
+    "id": "arxiv:2609.04865",
+    "name": "CoSkill",
+    "title": "CoSkill: Joint Reinforcement Learning of Reasoning and Meta-Skill Agents for Hierarchical Skill Evolution",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-09-11",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2609.04865",
+    "code_url": "",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.04865"
   }
 ]
