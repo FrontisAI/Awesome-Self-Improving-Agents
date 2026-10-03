@@ -6606,5 +6606,37 @@
       "arxiv"
     ],
     "arxiv_id": "2609.04865"
+  },
+  {
+    "id": "lee2026llmagents",
+    "name": "lee2026llmagents",
+    "title": "LLM Agents: A Survey",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-10-04",
+    "chapter": "foundations",
+    "paper_url": "https://www.preprints.org/manuscript/202608.0265/v1",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
+  },
+  {
+    "id": "lee2026agentloop",
+    "name": "lee2026agentloop",
+    "title": "The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-10-04",
+    "chapter": "harness",
+    "paper_url": "https://ssrn.com/abstract=7186738",
+    "code_url": "",
+    "sources": [
+      "other"
+    ],
+    "arxiv_id": null
   }
 ]
