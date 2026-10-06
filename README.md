@@ -103,7 +103,9 @@ The complete collection contains **415 papers** organized around the survey's ni
 | [Measuring Self-Improvement](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=evaluation#papers) | Benchmarks and protocols for gain, retention, attribution, and efficiency. | 55 |
 | [Safety: Self-Improvement as a Moving Attack Surface](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=safety#papers) | Threats, controls, and governance for agents that change after deployment. | 60 |
 
+
 **[Search and filter all 415 papers on the project website →](https://frontisai.github.io/Awesome-Self-Improving-Agents/#papers)**
+
 
 Paper metadata is maintained in [`data/papers.json`](data/papers.json). To suggest a missing work, open a pull request with its public paper link and the most relevant survey chapter.
 <!-- catalog:end -->
