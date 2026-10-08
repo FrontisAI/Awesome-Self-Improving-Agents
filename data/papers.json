@@ -6638,5 +6638,21 @@
       "other"
     ],
     "arxiv_id": null
+  },
+  {
+    "id": "arxiv:2609.33439",
+    "name": "Raven",
+    "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-10-05",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2609.33439",
+    "code_url": "https://github.com/EverMind-AI/Raven",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.33439"
   }
 ]
