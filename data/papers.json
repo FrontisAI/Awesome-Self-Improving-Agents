@@ -6655,4 +6655,32 @@
     ],
     "arxiv_id": "2609.33439"
   }
+  {
+  "id": "arxiv:2601.11100",
+  "name": "ReCreate",
+  "title": "ReCreate: Reasoning and Creating Domain Agents Driven by Experience",
+  "authors": [],
+  "published_at": "2026-01",
+  "updated_at": null,
+  "added_at": "2026-10-15",
+  "chapter": "meta-agents",
+  "paper_url": "https://arxiv.org/abs/2601.11100",
+  "code_url": "https://github.com/zz-haooo/ReCreate",
+  "sources": ["arxiv"],
+  "arxiv_id": "2601.11100"
+  },
+  {
+    "id": "arxiv:2605.29790",
+    "name": "Meta-Team",
+    "title": "Evolve as a Team: Collaborative Self-Evolution for LLM-based Multi-Agent Systems",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-10-15",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2605.29790",
+    "code_url": "https://github.com/zz-haooo/Meta-Team",
+    "sources": ["arxiv"],
+    "arxiv_id": "2605.29790"
+  }
 ]
