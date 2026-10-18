@@ -288,6 +288,22 @@
     "arxiv_id": "2204.01691"
   },
   {
+    "id": "arxiv:2609.32423",
+    "name": "PluginRSI",
+    "title": "PluginRSI: Recursive Improvement of Agent Harnesses with Reusable Plugins",
+    "authors": [],
+    "published_at": "2026-09",
+    "updated_at": null,
+    "added_at": "2026-10-18",
+    "chapter": "harness",
+    "paper_url": "https://arxiv.org/abs/2609.32423",
+    "code_url": "https://github.com/syr-cn/PluginRSI",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2609.32423"
+  },
+  {
     "id": "arxiv:2608.08311",
     "name": "Ouroboros",
     "title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
