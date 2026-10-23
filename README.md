@@ -66,25 +66,26 @@ The catalog snapshot is **2026-10-23**. This section shows up to 20 papers added
 
 | Added | Paper | Survey chapter | Links |
 |:-:|:-|:-|:-:|
+| 2026-10-23 | Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair | [Memory: Experience Becomes Persistent State](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=memory#papers) | [Paper](https://arxiv.org/abs/2605.30105) · [Code](https://github.com/iSEngLab/Learn-from-Repair-Experience) |
 | 2026-10-18 | PluginRSI: Recursive Improvement of Agent Harnesses with Reusable Plugins | [Harness as Experience Infrastructure](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=harness#papers) | [Paper](https://arxiv.org/abs/2609.32423) · [Code](https://github.com/syr-cn/PluginRSI) |
 
 ## Browse the collection
 
-The complete collection contains **419 papers** organized around the survey's nine chapters.
+The complete collection contains **420 papers** organized around the survey's nine chapters.
 
 | Survey chapter | Scope | Papers |
 |:-|:-|--:|
 | [Introduction](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=foundations#papers) | Foundations, definitions, and surveys that frame self-improving agents. | 22 |
 | [Harness as Experience Infrastructure](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=harness#papers) | Runtime architectures that capture experience and expose mutable agent surfaces. | 37 |
 | [Skills: Experience Becomes Reusable Procedure](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=skills#papers) | Skill creation, retrieval, composition, execution, and evolution. | 50 |
-| [Memory: Experience Becomes Persistent State](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=memory#papers) | Representing, retrieving, consolidating, and evolving agent memory. | 50 |
+| [Memory: Experience Becomes Persistent State](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=memory#papers) | Representing, retrieving, consolidating, and evolving agent memory. | 51 |
 | [Environment: The Boundary of What Agents Can Experience](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=environment#papers) | Tools, executable environments, protocols, and verifiable runtime feedback. | 48 |
 | [RL and Continual Learning](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=agent-rl#papers) | Consolidating stable experience into model parameters and durable behavior. | 35 |
 | [Meta-Evolving Agents](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=meta-agents#papers) | Systems that decide what, when, and how an agent should evolve. | 62 |
 | [Measuring Self-Improvement](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=evaluation#papers) | Benchmarks and protocols for gain, retention, attribution, and efficiency. | 55 |
 | [Safety: Self-Improvement as a Moving Attack Surface](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=safety#papers) | Threats, controls, and governance for agents that change after deployment. | 60 |
 
-**[Search and filter all 419 papers on the project website →](https://frontisai.github.io/Awesome-Self-Improving-Agents/#papers)**
+**[Search and filter all 420 papers on the project website →](https://frontisai.github.io/Awesome-Self-Improving-Agents/#papers)**
 
 Paper metadata is maintained in [`data/papers.json`](data/papers.json). To suggest a missing work, open a pull request with its public paper link and the most relevant survey chapter.
 <!-- catalog:end -->
