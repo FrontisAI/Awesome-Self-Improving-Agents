@@ -6698,5 +6698,19 @@
     "code_url": "https://github.com/zz-haooo/Meta-Team",
     "sources": ["arxiv"],
     "arxiv_id": "2605.29790"
+  },
+  {
+    "id": "arxiv:2605.30105",
+    "name": "EvoRepair",
+    "title": "Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair",
+    "authors": [],
+    "published_at": "2026-05",
+    "updated_at": null,
+    "added_at": "2026-10-23",
+    "chapter": "memory",
+    "paper_url": "https://arxiv.org/abs/2605.30105",
+    "code_url": "https://github.com/iSEngLab/Learn-from-Repair-Experience",
+    "sources": ["arxiv"],
+    "arxiv_id": "2605.30105"
   }
 ]
