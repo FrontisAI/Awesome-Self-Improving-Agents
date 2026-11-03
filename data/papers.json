@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2610.21082",
+    "name": "SciPIvot",
+    "title": "SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
+    "authors": [],
+    "published_at": "2026-10",
+    "updated_at": null,
+    "added_at": "2026-11-03",
+    "chapter": "evaluation",
+    "paper_url": "https://arxiv.org/abs/2610.21082",
+    "code_url": "https://github.com/AutoResearch-Factory/SciPIvot",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2610.21082"
+  },
+  {
+    "id": "arxiv:2608.16876",
+    "name": "AutoSR",
+    "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-11-03",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2608.16876",
+    "code_url": "https://github.com/AutoResearch-Factory/AutoSR",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.16876"
+  },
+  {
+    "id": "arxiv:2608.11250",
+    "name": "AgonAlpha",
+    "title": "AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search",
+    "authors": [],
+    "published_at": "2026-08",
+    "updated_at": null,
+    "added_at": "2026-11-03",
+    "chapter": "meta-agents",
+    "paper_url": "https://arxiv.org/abs/2608.11250",
+    "code_url": "https://github.com/AutoResearch-Factory/AgonAlpha",
+    "sources": [
+      "arxiv"
+    ],
+    "arxiv_id": "2608.11250"
+  },
+  {
     "id": "arxiv:2606.06741",
     "name": "OpenSkill",
     "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
