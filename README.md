@@ -70,7 +70,7 @@ The catalog snapshot is **2026-10-23**. This section shows up to 20 papers added
 
 ## Browse the collection
 
-The complete collection contains **419 papers** organized around the survey's nine chapters.
+The complete collection contains **422 papers** organized around the survey's nine chapters.
 
 | Survey chapter | Scope | Papers |
 |:-|:-|--:|
@@ -80,11 +80,11 @@ The complete collection contains **419 papers** organized around the survey's ni
 | [Memory: Experience Becomes Persistent State](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=memory#papers) | Representing, retrieving, consolidating, and evolving agent memory. | 50 |
 | [Environment: The Boundary of What Agents Can Experience](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=environment#papers) | Tools, executable environments, protocols, and verifiable runtime feedback. | 48 |
 | [RL and Continual Learning](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=agent-rl#papers) | Consolidating stable experience into model parameters and durable behavior. | 35 |
-| [Meta-Evolving Agents](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=meta-agents#papers) | Systems that decide what, when, and how an agent should evolve. | 62 |
-| [Measuring Self-Improvement](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=evaluation#papers) | Benchmarks and protocols for gain, retention, attribution, and efficiency. | 55 |
+| [Meta-Evolving Agents](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=meta-agents#papers) | Systems that decide what, when, and how an agent should evolve. | 64 |
+| [Measuring Self-Improvement](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=evaluation#papers) | Benchmarks and protocols for gain, retention, attribution, and efficiency. | 56 |
 | [Safety: Self-Improvement as a Moving Attack Surface](https://frontisai.github.io/Awesome-Self-Improving-Agents/?chapter=safety#papers) | Threats, controls, and governance for agents that change after deployment. | 60 |
 
-**[Search and filter all 419 papers on the project website →](https://frontisai.github.io/Awesome-Self-Improving-Agents/#papers)**
+**[Search and filter all 422 papers on the project website →](https://frontisai.github.io/Awesome-Self-Improving-Agents/#papers)**
 
 Paper metadata is maintained in [`data/papers.json`](data/papers.json). To suggest a missing work, open a pull request with its public paper link and the most relevant survey chapter.
 <!-- catalog:end -->
