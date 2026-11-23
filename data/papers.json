@@ -6760,5 +6760,19 @@
     "code_url": "https://github.com/iSEngLab/Learn-from-Repair-Experience",
     "sources": ["arxiv"],
     "arxiv_id": "2605.30105"
+  },
+  {
+    "id": "arxiv:2601.12310",
+    "name": "NSL",
+    "title": "Survival is the Only Reward: Sustainable Self-Training Through Environment-Mediated Selection",
+    "authors": [],
+    "published_at": "2026-01",
+    "updated_at": null,
+    "added_at": "2026-11-23",
+    "chapter": "agent-rl",
+    "paper_url": "https://arxiv.org/abs/2601.12310",
+    "code_url": "https://github.com/EigenformAI/Negative-Space-Learning",
+    "sources": ["arxiv"],
+    "arxiv_id": "2601.12310"
   }
 ]
